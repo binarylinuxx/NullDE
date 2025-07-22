@@ -1,0 +1,8 @@
+2025-07-16 16:15:51.580 [info] [extension] Activating theqtcompany.qt-core
+2025-07-16 16:15:51.580 [info] [project] Creating project:"/home/blx/hyprbar"
+2025-07-16 16:15:51.580 [info] [vcpkg] vcpkg is not installed
+2025-07-16 16:15:51.580 [info] [project] Setting Qt installation root for /home/blx/hyprbar to: 
+2025-07-16 16:15:51.580 [info] [project] Setting additional Qt paths for /home/blx/hyprbar to: 
+2025-07-16 16:15:51.580 [info] [project] Config values initialized for:/home/blx/hyprbar
+2025-07-16 16:19:16.755 [info] [extension] Deactivating qt-core
+2025-07-16 16:19:16.755 [info] [project] Disposing project:/home/blx/hyprbar

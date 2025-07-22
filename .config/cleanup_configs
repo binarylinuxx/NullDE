@@ -1,5 +1,5 @@
 #!/bin/bash
-keep=("hypr" "wlogout" "fastfetch" "cleanup_configs" "waybar" "rofi" "alacritty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
+keep=("gtk-3.0" "gtk-4.0" "hypr" "wlogout" "fastfetch" "cleanup_configs" "waybar" "rofi" "alacritty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
 
 deleted_count=0
 for item in *; do

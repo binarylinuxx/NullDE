@@ -1,0 +1,96 @@
+@import 'colors';
+$round_ratio: 15px;
+
+* {
+    all: unset;
+    font-weight: 900;
+    font-family: jetbrains mono;
+}
+
+.bar {
+    padding: 0.3rem 4px;
+    background-color: $background;
+}
+
+.corner-top_left {
+    background: radial-gradient(circle at bottom right, transparent $round_ratio, $background $round_ratio);
+}
+
+.corner-top_right {
+    background: radial-gradient(circle at bottom left, transparent $round_ratio, $background $round_ratio);
+}
+
+.corner-bottom_left {
+    background: radial-gradient(circle at top right, transparent $round_ratio, $background $round_ratio);
+}
+
+.corner-bottom_right {
+    background: radial-gradient(circle at top left, transparent $round_ratio, $background $round_ratio);
+}
+
+.workspace {
+    border-radius: 1rem;
+    min-width: 6px;
+    padding: 0px 0px;
+    transition: 0.3s;
+    font-size: 0;
+    margin: 0px 1px;
+    background: $on_surface;
+}
+
+.workspaces {
+	background: $on_secondary_fixed;
+	padding: 8px;
+	margin: 1px;
+	border-radius: 1rem;
+	border: 0px solid lighten($inverse_primary, 10%);
+}
+
+.workspace:hover {
+    background-color: lighten($inverse_primary, 10%);
+    min-width: 30px;
+}
+
+.workspace.active {
+    background-color: $on_primary;
+    min-width: 25px;
+}
+
+.tray-item {
+    all: unset;
+}
+
+.clock {
+    font-size: 1.1rem;
+    margin-right: 0rem;
+    padding: 0px 5px;
+    background: $on_primary_fixed;
+    border-radius: 7px;
+}
+
+.volume {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+    padding: 0px 5px;
+    background: $on_primary_fixed;
+    border-radius: 7px;
+}
+
+.lang {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+    padding: 0px 7px;
+    background: $on_primary_fixed;
+    border-radius: 7px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.fw {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+    padding: 0px 5px;
+    background: $on_primary_fixed;
+    border-radius: 7px;
+    border-radius: 1rem;
+}

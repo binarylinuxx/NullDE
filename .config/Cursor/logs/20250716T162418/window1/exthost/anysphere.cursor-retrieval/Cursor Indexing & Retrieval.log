@@ -1,0 +1,176 @@
+2025-07-16 16:24:25.997 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:24:25.997 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:24:25.997 [info] Using existing keys for an index
+2025-07-16 16:24:25.997 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:24:25.997 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/hyprsettings/.gitmodules')
+2025-07-16 16:24:26.024 [info] Using existing keys for an index
+2025-07-16 16:24:26.024 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:24:26.038 [info] Setting global status from status tracker: synced
+2025-07-16 16:24:26.038 [info] Doing a startup handshake.
+2025-07-16 16:24:26.198 [info] Finished computing merkle tree in 137.826548 ms.
+2025-07-16 16:24:26.569 [info] Doing the initial handshake with hash: cc1da11132447bcdea9cbf12e9f01d4442d86bd9a804eb639acadfef71cf3375
+2025-07-16 16:24:26.621 [info] Computed simhash vector of length: 256
+2025-07-16 16:24:26.621 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:24:26.621 [info] Handshake start
+2025-07-16 16:24:27.226 [info] Handshake timing: 607.9499540000006, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:24:27.226 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:24:27.226 [info] Starting fast remote sync.
+2025-07-16 16:24:27.227 [info] Total num embeddable files: 12
+2025-07-16 16:24:27.229 [info] Root hash: cc1da11132447bcdea9cbf12e9f01d4442d86bd9a804eb639acadfef71cf3375
+2025-07-16 16:24:27.229 [info] In the out of sync case.
+2025-07-16 16:24:27.230 [info] Waiting on semaphore to be released 1
+2025-07-16 16:24:27.429 [info] setting numJobsToGo to 1
+2025-07-16 16:24:27.431 [info] [startSync]: numJobs: 1
+2025-07-16 16:24:27.893 [info] Uploading 1 files.
+2025-07-16 16:24:27.893 [info] Total number of files to embed: 12
+2025-07-16 16:24:27.893 [info] Not aborted
+2025-07-16 16:24:27.893 [info] Starting while loop.
+2025-07-16 16:24:29.879 [info] Completed job successfully: 54ae4380-a2d6-41eb-9ae7-4a4eee19620b ./hyprsettings.py
+2025-07-16 16:24:30.058 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:24:30.908 [info] Finished indexing repository.
+2025-07-16 16:24:30.908 [info] Indexing job successfully done or aborted.
+2025-07-16 16:29:44.031 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:29:44.031 [info] Aborting indexing job.
+2025-07-16 16:29:44.031 [info] Setting global status from status tracker: synced
+2025-07-16 16:29:44.031 [info] Doing a startup handshake.
+2025-07-16 16:29:44.041 [info] Finished computing merkle tree in 5.007034000009298 ms.
+2025-07-16 16:29:44.043 [info] Doing the initial handshake with hash: c5a9197379f206a420b867d565fc5518b87263a8d0c52906e4230ddbfc6b032a
+2025-07-16 16:29:44.051 [info] Computed simhash vector of length: 256
+2025-07-16 16:29:44.051 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:29:44.051 [info] Handshake start
+2025-07-16 16:29:44.218 [info] Handshake timing: 170.80799500003923, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:29:44.218 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:29:44.219 [info] Starting fast remote sync.
+2025-07-16 16:29:44.219 [info] Total num embeddable files: 12
+2025-07-16 16:29:44.221 [info] Root hash: c5a9197379f206a420b867d565fc5518b87263a8d0c52906e4230ddbfc6b032a
+2025-07-16 16:29:44.221 [info] In the out of sync case.
+2025-07-16 16:29:44.224 [info] Waiting on semaphore to be released 1
+2025-07-16 16:29:44.423 [info] setting numJobsToGo to 1
+2025-07-16 16:29:44.423 [info] [startSync]: numJobs: 1
+2025-07-16 16:29:44.423 [info] Uploading 1 files.
+2025-07-16 16:29:44.426 [info] Total number of files to embed: 12
+2025-07-16 16:29:44.426 [info] Not aborted
+2025-07-16 16:29:44.426 [info] Starting while loop.
+2025-07-16 16:29:46.876 [info] Completed job successfully: 54ae4380-a2d6-41eb-9ae7-4a4eee19620b ./hyprsettings.py
+2025-07-16 16:29:47.049 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:29:47.463 [info] Finished indexing repository.
+2025-07-16 16:29:47.463 [info] Indexing job successfully done or aborted.
+2025-07-16 16:34:21.382 [info] Get user commits took 13.533272000029683ms for 10 commits
+2025-07-16 16:35:02.032 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:35:02.032 [info] Aborting indexing job.
+2025-07-16 16:35:02.032 [info] Setting global status from status tracker: synced
+2025-07-16 16:35:02.032 [info] Doing a startup handshake.
+2025-07-16 16:35:02.041 [info] Finished computing merkle tree in 3.3304700000444427 ms.
+2025-07-16 16:35:02.042 [info] Doing the initial handshake with hash: c28e31be63df35c5d2e0ae2476955145cc0f601d65fb53969fd6908e87525e21
+2025-07-16 16:35:02.045 [info] Computed simhash vector of length: 256
+2025-07-16 16:35:02.045 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:35:02.045 [info] Handshake start
+2025-07-16 16:35:02.214 [info] Handshake timing: 170.80394099990372, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:35:02.215 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:35:02.215 [info] Starting fast remote sync.
+2025-07-16 16:35:02.215 [info] Total num embeddable files: 12
+2025-07-16 16:35:02.216 [info] Root hash: c28e31be63df35c5d2e0ae2476955145cc0f601d65fb53969fd6908e87525e21
+2025-07-16 16:35:02.216 [info] In the out of sync case.
+2025-07-16 16:35:02.218 [info] Waiting on semaphore to be released 1
+2025-07-16 16:35:02.417 [info] setting numJobsToGo to 1
+2025-07-16 16:35:02.418 [info] [startSync]: numJobs: 1
+2025-07-16 16:35:02.418 [info] Uploading 1 files.
+2025-07-16 16:35:02.419 [info] Total number of files to embed: 12
+2025-07-16 16:35:02.419 [info] Not aborted
+2025-07-16 16:35:02.419 [info] Starting while loop.
+2025-07-16 16:35:03.929 [info] Completed job successfully: 54ae4380-a2d6-41eb-9ae7-4a4eee19620b ./hyprsettings.py
+2025-07-16 16:35:04.100 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:35:04.570 [info] Finished indexing repository.
+2025-07-16 16:35:04.570 [info] Indexing job successfully done or aborted.
+2025-07-16 16:35:20.513 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:35:20.513 [info] Aborting indexing job.
+2025-07-16 16:35:24.632 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-16 16:35:24.632 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-16 16:35:24.632 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-16 16:35:24.632 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:35:24.632 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:35:24.632 [info] Making keys for a new index
+2025-07-16 16:35:24.633 [info] Using the default key from the server for a new index
+2025-07-16 16:35:24.633 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:35:24.895 [info] Using existing keys for an index
+2025-07-16 16:35:24.895 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:35:24.915 [info] Doing a startup handshake.
+2025-07-16 16:35:25.031 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:35:25.271 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:35:25.279 [info] Finished computing merkle tree in 3.6129990000004 ms.
+2025-07-16 16:35:25.280 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-07-16 16:35:25.284 [info] Computed simhash vector of length: 0
+2025-07-16 16:35:25.284 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:35:25.284 [info] Handshake start
+2025-07-16 16:35:25.285 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/blx/.config/Cursor/User/workspaceStorage/3208d6d681e3f1c3d511e57187e72236/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-07-16 16:35:25.790 [info] Handshake timing: 507.75039400000014, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"51604d3d-8810-4fe7-a1a1-0ba4420d6df3","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:35:25.791 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"51604d3d-8810-4fe7-a1a1-0ba4420d6df3","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:35:25.792 [info] Starting fast remote sync.
+2025-07-16 16:35:25.792 [info] Total num embeddable files: 0
+2025-07-16 16:35:25.794 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-07-16 16:35:25.794 [info] Starting repository upload from scratch.
+2025-07-16 16:35:25.796 [info] Uploading 0 files.
+2025-07-16 16:35:25.799 [info] Total number of files to embed: 0
+2025-07-16 16:35:25.799 [info] Not aborted
+2025-07-16 16:35:25.799 [info] Starting while loop.
+2025-07-16 16:35:25.969 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:35:26.141 [info] Finished indexing repository.
+2025-07-16 16:35:26.141 [info] Indexing job successfully done or aborted.
+2025-07-16 16:36:01.065 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-16 16:36:01.065 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/blx/msg/.git/HEAD')
+2025-07-16 16:36:01.115 [warning] Failed to get branches from remote: Failed to execute git
+2025-07-16 16:36:01.136 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-16 16:36:01.145 [error] Error getting git status: Failed to execute git
+2025-07-16 16:36:02.064 [error] Error getting git status: Failed to execute git
+2025-07-16 16:36:30.236 [error] Error getting git status: Failed to execute git
+2025-07-16 16:37:18.658 [error] Error getting git status: Failed to execute git
+2025-07-16 16:38:06.049 [error] Error getting git status: Failed to execute git
+2025-07-16 16:38:06.050 [error] Error getting git status: Failed to execute git
+2025-07-16 16:39:06.068 [error] Error getting git status: Failed to execute git
+2025-07-16 16:39:18.216 [error] Error getting git status: Failed to execute git
+2025-07-16 16:39:44.533 [error] Error getting git status: Failed to execute git
+2025-07-16 16:39:45.446 [error] Error getting git status: Failed to execute git
+2025-07-16 16:39:49.123 [error] Error getting git status: Failed to execute git
+2025-07-16 16:40:01.333 [error] Error getting git status: Failed to execute git
+2025-07-16 16:40:22.947 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:40:42.915 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:40:42.915 [info] Aborting indexing job.
+2025-07-16 16:40:42.915 [info] Setting global status from status tracker: synced
+2025-07-16 16:40:42.915 [info] Doing a startup handshake.
+2025-07-16 16:40:42.924 [info] Finished computing merkle tree in 5.720166999963112 ms.
+2025-07-16 16:40:42.925 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-07-16 16:40:42.929 [info] Computed simhash vector of length: 0
+2025-07-16 16:40:42.929 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:40:42.929 [info] Handshake start
+2025-07-16 16:40:43.098 [info] Handshake timing: 170.9833600000129, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"51604d3d-8810-4fe7-a1a1-0ba4420d6df3","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:40:43.098 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"51604d3d-8810-4fe7-a1a1-0ba4420d6df3","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:40:43.098 [info] Starting fast remote sync.
+2025-07-16 16:40:43.098 [info] Total num embeddable files: 0
+2025-07-16 16:40:43.099 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-07-16 16:40:43.099 [info] Starting repository upload from scratch.
+2025-07-16 16:40:43.099 [info] Uploading 0 files.
+2025-07-16 16:40:43.099 [info] Total number of files to embed: 0
+2025-07-16 16:40:43.099 [info] Not aborted
+2025-07-16 16:40:43.099 [info] Starting while loop.
+2025-07-16 16:40:43.262 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:40:43.424 [info] Finished indexing repository.
+2025-07-16 16:40:43.424 [info] Indexing job successfully done or aborted.
+2025-07-16 16:41:05.687 [error] Error getting git status: Failed to execute git
+2025-07-16 16:41:05.688 [error] Error getting git status: Failed to execute git

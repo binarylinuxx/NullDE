@@ -1,0 +1,255 @@
+2025-07-16 16:10:22.250 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-16 16:10:22.250 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-16 16:10:22.250 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-16 16:10:22.250 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:10:22.250 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:10:22.250 [info] Using existing keys for an index
+2025-07-16 16:10:22.250 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:10:22.251 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/grs/.gitmodules')
+2025-07-16 16:10:22.252 [error] Git command failed: git ls-files --others --exclude-standard Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:10:22.252 [error] Error getting untracked files: Command failed: git ls-files --others --exclude-standard
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:10:22.407 [info] Using existing keys for an index
+2025-07-16 16:10:22.407 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:10:22.527 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:10:22.527 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-16 16:10:22.530 [info] Setting global status from status tracker: synced
+2025-07-16 16:10:22.530 [info] Doing a startup handshake.
+2025-07-16 16:10:22.534 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/grs/.git/HEAD')
+2025-07-16 16:10:22.723 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:10:22.845 [warning] Failed to get branches from remote: Failed to execute git
+2025-07-16 16:10:22.868 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-16 16:10:22.869 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:10:22.912 [info] Finished computing merkle tree in 30.989650999999867 ms.
+2025-07-16 16:10:22.912 [info] Doing the initial handshake with hash: f807a77dedc194fc04c2908ee902fd0f64d2014b2ba31df48f1525da05ef70af
+2025-07-16 16:10:22.917 [info] Computed simhash vector of length: 256
+2025-07-16 16:10:22.917 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:10:22.917 [info] Handshake start
+2025-07-16 16:10:23.401 [info] Handshake timing: 486.236723, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"cde6eae6-b8ba-4ee5-a893-4aeb33998d25","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-16 16:10:23.401 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"cde6eae6-b8ba-4ee5-a893-4aeb33998d25","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-16 16:10:23.401 [info] Starting fast remote sync.
+2025-07-16 16:10:23.401 [info] Total num embeddable files: 4
+2025-07-16 16:10:23.402 [info] Root hash: f807a77dedc194fc04c2908ee902fd0f64d2014b2ba31df48f1525da05ef70af
+2025-07-16 16:10:23.403 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-16 16:10:23.571 [info] Finished indexing repository.
+2025-07-16 16:10:23.571 [info] Indexing job successfully done or aborted.
+2025-07-16 16:10:30.681 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:10:30.681 [info] Aborting indexing job.
+2025-07-16 16:10:34.332 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-16 16:10:34.332 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-16 16:10:34.332 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-16 16:10:34.332 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:10:34.332 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:10:34.332 [info] Making keys for a new index
+2025-07-16 16:10:34.334 [info] Using the default key from the server for a new index
+2025-07-16 16:10:34.334 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:10:34.570 [info] Using existing keys for an index
+2025-07-16 16:10:34.570 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:10:34.610 [info] Doing a startup handshake.
+2025-07-16 16:10:35.047 [info] Finished computing merkle tree in 19.61207000000013 ms.
+2025-07-16 16:10:35.047 [info] Doing the initial handshake with hash: 81155e8b1a9acaabf2ba0a993eca85afeaa2b8b4b15b1f327df321f00b8fd2d9
+2025-07-16 16:10:35.051 [info] Computed simhash vector of length: 256
+2025-07-16 16:10:35.051 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:10:35.051 [info] Handshake start
+2025-07-16 16:10:35.053 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/blx/.config/Cursor/User/workspaceStorage/06fbcd211b12f7a8a3754224c5c5d1f1/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-07-16 16:10:35.644 [info] Handshake timing: 596.065799, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"28ef0bcb-079a-44de-a7dc-a138ec0f6b71","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:10:35.645 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"28ef0bcb-079a-44de-a7dc-a138ec0f6b71","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:10:35.645 [info] Starting fast remote sync.
+2025-07-16 16:10:35.646 [info] Total num embeddable files: 1
+2025-07-16 16:10:35.666 [info] Root hash: 81155e8b1a9acaabf2ba0a993eca85afeaa2b8b4b15b1f327df321f00b8fd2d9
+2025-07-16 16:10:35.666 [info] Starting repository upload from scratch.
+2025-07-16 16:10:35.668 [info] Uploading 1 files.
+2025-07-16 16:10:35.675 [info] Total number of files to embed: 1
+2025-07-16 16:10:35.675 [info] Not aborted
+2025-07-16 16:10:35.675 [info] Starting while loop.
+2025-07-16 16:10:37.692 [info] Completed job successfully: 28ef0bcb-079a-44de-a7dc-a138ec0f6b71 ./.gitignore
+2025-07-16 16:10:37.870 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:10:38.301 [info] Finished indexing repository.
+2025-07-16 16:10:38.301 [info] Indexing job successfully done or aborted.
+2025-07-16 16:10:54.086 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-16 16:10:54.088 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:10:54.172 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-16 16:11:38.079 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:11:38.097 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:01.850 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:01.863 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:06.949 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:06.965 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:12.012 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:12.022 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:17.072 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:17.082 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:22.155 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:22.164 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:12:27.231 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/zwm/.gitmodules')
+2025-07-16 16:12:27.245 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-16 16:14:32.103 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:14:32.103 [info] Aborting indexing job.
+2025-07-16 16:14:35.936 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-16 16:14:35.936 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-16 16:14:35.936 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-16 16:14:35.936 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:14:35.936 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:14:35.940 [info] Making keys for a new index
+2025-07-16 16:14:35.948 [info] Using the default key from the server for a new index
+2025-07-16 16:14:35.948 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:14:35.950 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:14:36.228 [info] Using existing keys for an index
+2025-07-16 16:14:36.228 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:14:36.264 [info] Doing a startup handshake.
+2025-07-16 16:14:36.538 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+2025-07-16 16:14:36.617 [info] Finished computing merkle tree in 3.1472090000002026 ms.
+2025-07-16 16:14:36.618 [info] Doing the initial handshake with hash: a4bfbd7aaf55a2bb5059c4e6a4eb6bfb2a62b79ab3447e13de1301c7ea317394
+2025-07-16 16:14:36.622 [info] Computed simhash vector of length: 256
+2025-07-16 16:14:36.622 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:14:36.622 [info] Handshake start
+2025-07-16 16:14:36.625 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/blx/.config/Cursor/User/workspaceStorage/919ba055584d81356e7c172880ec816e/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-07-16 16:14:37.191 [info] Handshake timing: 571.6883680000001, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"49e279f3-9ad0-4764-9bdd-02bc75c7a9c6","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:14:37.191 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"49e279f3-9ad0-4764-9bdd-02bc75c7a9c6","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-16 16:14:37.192 [info] Starting fast remote sync.
+2025-07-16 16:14:37.192 [info] Total num embeddable files: 1
+2025-07-16 16:14:37.193 [info] Root hash: a4bfbd7aaf55a2bb5059c4e6a4eb6bfb2a62b79ab3447e13de1301c7ea317394
+2025-07-16 16:14:37.193 [info] Starting repository upload from scratch.
+2025-07-16 16:14:37.206 [info] Uploading 1 files.
+2025-07-16 16:14:37.208 [info] Total number of files to embed: 1
+2025-07-16 16:14:37.208 [info] Not aborted
+2025-07-16 16:14:37.208 [info] Starting while loop.
+2025-07-16 16:14:37.797 [info] Completed job successfully: 49e279f3-9ad0-4764-9bdd-02bc75c7a9c6 ./hyprbar.c
+2025-07-16 16:14:37.968 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:14:38.413 [info] Finished indexing repository.
+2025-07-16 16:14:38.413 [info] Indexing job successfully done or aborted.
+2025-07-16 16:15:32.992 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-16 16:15:32.992 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/blx/hyprbar/.git/HEAD')
+2025-07-16 16:15:33.042 [warning] Failed to get branches from remote: Failed to execute git
+2025-07-16 16:15:33.064 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-16 16:15:33.073 [error] Error getting git status: Failed to execute git
+2025-07-16 16:15:33.960 [error] Error getting git status: Failed to execute git
+2025-07-16 16:15:59.810 [error] Error getting git status: Failed to execute git
+2025-07-16 16:16:45.038 [error] Error getting git status: Failed to execute git
+2025-07-16 16:17:04.646 [error] Error getting git status: Failed to execute git
+2025-07-16 16:17:12.068 [error] Error getting git status: Failed to execute git
+2025-07-16 16:17:13.073 [error] Error getting git status: Failed to execute git
+2025-07-16 16:17:43.853 [error] Error getting git status: Failed to execute git
+2025-07-16 16:17:43.854 [error] Error getting git status: Failed to execute git
+2025-07-16 16:18:24.606 [error] Error getting git status: Failed to execute git
+2025-07-16 16:19:04.526 [error] Error getting git status: Failed to execute git
+2025-07-16 16:19:04.527 [error] Error getting git status: Failed to execute git
+2025-07-16 16:19:16.755 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:19:16.755 [info] Aborting indexing job.
+2025-07-16 16:19:21.690 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:19:21.690 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:19:21.736 [info] Using existing keys for an index
+2025-07-16 16:19:21.736 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:19:21.744 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/hyprsettings/.gitmodules')
+2025-07-16 16:19:21.760 [info] Using existing keys for an index
+2025-07-16 16:19:21.760 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:19:21.817 [info] Using existing keys for an index
+2025-07-16 16:19:21.817 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-16 16:19:21.905 [info] Setting global status from status tracker: synced
+2025-07-16 16:19:21.905 [info] Doing a startup handshake.
+2025-07-16 16:19:21.949 [info] Finished computing merkle tree in 4.768148999999994 ms.
+2025-07-16 16:19:21.950 [info] Doing the initial handshake with hash: 5b664d02d7b9b2dc586899f3398eac1aaa6c42dd5a046fbe5e939b3a7cffbcd3
+2025-07-16 16:19:21.954 [info] Computed simhash vector of length: 256
+2025-07-16 16:19:21.954 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-16 16:19:21.954 [info] Handshake start
+2025-07-16 16:19:22.727 [info] Handshake timing: 775.2807049999997, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:19:22.728 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"54ae4380-a2d6-41eb-9ae7-4a4eee19620b","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-16 16:19:22.728 [info] Starting fast remote sync.
+2025-07-16 16:19:22.729 [info] Total num embeddable files: 14
+2025-07-16 16:19:22.733 [info] Root hash: 5b664d02d7b9b2dc586899f3398eac1aaa6c42dd5a046fbe5e939b3a7cffbcd3
+2025-07-16 16:19:22.733 [info] In the out of sync case.
+2025-07-16 16:19:22.736 [info] Waiting on semaphore to be released 1
+2025-07-16 16:19:22.937 [info] Waiting on semaphore to be released 1
+2025-07-16 16:19:23.135 [info] setting numJobsToGo to 1
+2025-07-16 16:19:23.136 [info] [startSync]: numJobs: 1
+2025-07-16 16:19:23.137 [info] Uploading 1 files.
+2025-07-16 16:19:23.138 [info] Total number of files to embed: 14
+2025-07-16 16:19:23.138 [info] Not aborted
+2025-07-16 16:19:23.138 [info] Starting while loop.
+2025-07-16 16:19:27.027 [info] Completed job successfully: 54ae4380-a2d6-41eb-9ae7-4a4eee19620b ./hyprsettings-rust/Cargo.toml
+2025-07-16 16:19:27.154 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/hyprsettings/.gitmodules')
+2025-07-16 16:19:27.196 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-16 16:19:27.628 [info] Finished indexing repository.
+2025-07-16 16:19:27.628 [info] Indexing job successfully done or aborted.
+2025-07-16 16:20:30.951 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/hyprsettings/.gitmodules')
+2025-07-16 16:20:54.210 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/projects/hyprsettings/.gitmodules')
+2025-07-16 16:24:10.442 [info] multiCodebaseIndexingJob dispose
+2025-07-16 16:24:10.442 [info] Aborting indexing job.

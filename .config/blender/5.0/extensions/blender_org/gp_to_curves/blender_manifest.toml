@@ -1,0 +1,31 @@
+schema_version = "1.0.0"
+
+# Blender version
+blender_version_min = "4.3.0"
+
+# General information about the add-on
+name = "Grease Pencil to Curves"
+version = "0.4.4"
+maintainer = "DadsCastle <bruce@dadscastle.com>"
+tagline = "Quickly convert Grease Pencil strokes to simple curves and hair"
+type = "add-on"
+
+# Unique identifier for the add-on
+id = "gp_to_curves"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# Optional link to documentation, support, source files, etc
+website = "https://dadscastle.gumroad.com/l/pkrsc"
+
+# Optional list defined by Blender and server, see:
+# https://docs.blender.org/manual/en/dev/extensions/tags.html
+tags = ["Grease Pencil", "Add Curve", "Modeling"]
+
+# Optional: required by some licenses.
+copyright = [
+  "2025 Bruce Matthews",
+  "2025 Just Ducky Artworks, LLC",
+]

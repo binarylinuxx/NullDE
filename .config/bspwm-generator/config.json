@@ -1,0 +1,44 @@
+{
+  "autostart": [
+    "sxhkd &",
+    "picom &",
+    "nitrogen --restore &",
+    "polybar main &"
+  ],
+  "gaps": {
+    "top": 0,
+    "left": 0,
+    "right": 0,
+    "bottom": 0,
+    "window": 10
+  },
+  "rules": [
+    {
+      "class": "firefox",
+      "desktop": "^2",
+      "follow": true
+    },
+    {
+      "class": "Gimp",
+      "desktop": "^8",
+      "state": "floating",
+      "follow": true
+    }
+  ],
+  "colors": {
+    "normal_border": "#44475a",
+    "active_border": "#bd93f9",
+    "focused_border": "#ff79c6",
+    "presel_feedback": "#6272a4"
+  },
+  "settings": {
+    "border_width": 2,
+    "window_gap": 12,
+    "split_ratio": 0.52,
+    "borderless_monocle": true,
+    "gapless_monocle": true,
+    "focus_follows_pointer": true,
+    "pointer_follows_focus": true,
+    "pointer_follows_monitor": true
+  }
+}

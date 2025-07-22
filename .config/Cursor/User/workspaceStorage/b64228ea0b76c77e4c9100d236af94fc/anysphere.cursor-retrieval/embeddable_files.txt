@@ -1,0 +1,12 @@
+colors.qml
+Colors.qml
+qmldir
+shell.qml
+popup_menu/ControlPanel.qml
+bar/Bar.qml
+bar/widgets/ActiveWindow.qml
+bar/widgets/Workspaces.qml
+bar/widgets/Audio.qml
+notifs/Notifs.qml
+bar/widgets/Osd.qml
+bar/widgets/Clock.qml

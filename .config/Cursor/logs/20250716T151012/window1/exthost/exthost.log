@@ -1,0 +1,412 @@
+2025-07-16 15:10:17.110 [info] Extension host with pid 12868 started
+2025-07-16 15:10:17.122 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:10:17.147 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 15:10:17.157 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 15:10:17.209 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-16 15:10:17.471 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:10:17.475 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:10:17.519 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:10:17.597 [info] Eager extensions activated
+2025-07-16 15:10:17.632 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:17.852 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:17.902 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:18.382 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:18.456 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:18.620 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:10:18.622 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:16.703 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:13:16.731 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 1)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 15:13:16.733 [info] Extension host with pid 12868 exiting with code 0
+2025-07-16 15:13:19.307 [info] Extension host with pid 13146 started
+2025-07-16 15:13:19.307 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/3aec5a3ed808c27f5cdeb73e5d3b8805.
+2025-07-16 15:13:19.320 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:13:19.325 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:13:19.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:13:19.439 [info] Eager extensions activated
+2025-07-16 15:13:19.455 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:19.652 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:19.698 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:19.890 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:19.956 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:20.100 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:20.103 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:13:20.208 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:13:20.301 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:13:48.095 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-07-16 15:13:48.281 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:13:48.902 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:15:48.289 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:15:48.311 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at OV.N [as value] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:515468)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 15:15:48.312 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at set hasGitHubRepositories (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:217805)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:218764
+	at OV.value (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:640601)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 15:15:48.312 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 15:15:48.313 [info] Extension host with pid 13146 exiting with code 0
+2025-07-16 15:15:51.056 [info] Extension host with pid 13874 started
+2025-07-16 15:15:51.056 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/2c67c8b96123d7775d32b78fa4f7c27a.
+2025-07-16 15:15:51.065 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:15:51.073 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:15:51.112 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:15:51.186 [info] Eager extensions activated
+2025-07-16 15:15:51.205 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.396 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.443 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.635 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.713 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.885 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:51.888 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:15:52.250 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:16:04.958 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:16:05.012 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-07-16 15:16:05.336 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:16:49.683 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-07-16 15:17:17.400 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:22:51.167 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:22:51.193 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 15:22:51.194 [info] Extension host with pid 13874 exiting with code 0
+2025-07-16 15:22:54.493 [info] Extension host with pid 14662 started
+2025-07-16 15:22:54.493 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/b64228ea0b76c77e4c9100d236af94fc.
+2025-07-16 15:22:54.503 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:22:54.509 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:22:54.550 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:22:54.622 [info] Eager extensions activated
+2025-07-16 15:22:54.641 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:54.827 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:54.872 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:55.064 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:55.129 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:55.276 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:55.279 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:22:55.338 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:23:19.000 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:23:49.770 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'workspaceContains:*.qml,*.qmldir', root cause: theqtcompany.qt-qml
+2025-07-16 15:23:49.859 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'workspaceContains:*.qml,*.qmldir'
+2025-07-16 15:23:54.965 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2025-07-16 15:44:36.608 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:44:36.636 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 15:44:36.636 [info] Extension host with pid 14662 exiting with code 0
+2025-07-16 15:44:40.608 [info] Extension host with pid 21385 started
+2025-07-16 15:44:40.608 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/3aec5a3ed808c27f5cdeb73e5d3b8805.
+2025-07-16 15:44:40.647 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:44:40.669 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:44:40.715 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-07-16 15:44:41.045 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 15:44:41.135 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:44:41.157 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:44:41.198 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:44:41.272 [info] Eager extensions activated
+2025-07-16 15:44:41.292 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:41.480 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:41.529 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:41.788 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:41.855 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:42.039 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:42.043 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:44:42.163 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:45:27.900 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-16 15:45:27.915 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-16 15:48:21.250 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-07-16 16:01:31.700 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-16 16:02:30.017 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 16:02:30.046 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at OV.N [as value] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:515468)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 16:02:30.046 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at set hasGitHubRepositories (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:217805)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:218764
+	at OV.value (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:640601)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 16:02:30.047 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 16:02:30.049 [info] Extension host with pid 21385 exiting with code 0
+2025-07-16 16:02:35.917 [info] Extension host with pid 27656 started
+2025-07-16 16:02:35.917 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/66d12fcff7b31b99a59131b9af6a282c.
+2025-07-16 16:02:35.926 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 16:02:35.941 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 16:02:35.982 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 16:02:36.054 [info] Eager extensions activated
+2025-07-16 16:02:36.077 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.270 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.317 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.508 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.572 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.721 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:36.724 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 16:02:38.642 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 16:04:38.977 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 16:05:01.487 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-16 16:05:01.503 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-16 16:05:24.807 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-07-16 16:07:11.372 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-16 16:09:34.439 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 16:09:34.460 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at OV.N [as value] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:515468)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 16:09:34.460 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at set hasGitHubRepositories (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:217805)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:218764
+	at OV.value (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:640601)
+	at x.B (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-16 16:09:34.460 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-16 16:09:34.461 [info] Extension host with pid 27656 exiting with code 0

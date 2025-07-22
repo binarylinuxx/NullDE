@@ -1,0 +1,307 @@
+2025-07-16 15:10:18.698 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 15:10:18.698 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:10:18.698 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:10:18.944 [info] [registerEventListeners] Registering event listeners
+2025-07-16 15:10:20.226 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"Error","code":16,"metadata":{},"details":[{"type":"aiserver.v1.ErrorDetails","value":{"0":8,"1":2,"2":18,"3":85,"4":10,"5":14,"6":78,"7":111,"8":116,"9":32,"10":108,"11":111,"12":103,"13":103,"14":101,"15":100,"16":32,"17":105,"18":110,"19":46,"20":18,"21":65,"22":78,"23":111,"24":116,"25":32,"26":108,"27":111,"28":103,"29":103,"30":101,"31":100,"32":32,"33":105,"34":110,"35":46,"36":32,"37":73,"38":102,"39":32,"40":121,"41":111,"42":117,"43":32,"44":97,"45":114,"46":101,"47":32,"48":108,"49":111,"50":103,"51":103,"52":101,"53":100,"54":32,"55":105,"56":110,"57":44,"58":32,"59":116,"60":114,"61":121,"62":32,"63":108,"64":111,"65":103,"66":103,"67":105,"68":110,"69":103,"70":32,"71":111,"72":117,"73":116,"74":32,"75":97,"76":110,"77":100,"78":32,"79":98,"80":97,"81":99,"82":107,"83":32,"84":105,"85":110,"86":46,"87":32,"88":0,"89":24,"90":1},"debug":{"error":"ERROR_NOT_LOGGED_IN","details":{"title":"Not logged in.","detail":"Not logged in. If you are logged in, try logging out and back in.","isRetryable":false},"isExpected":true}}]}
+2025-07-16 15:10:20.227 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:10:20.227 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:13:20.223 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 15:13:20.223 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:13:20.223 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:13:20.475 [info] [registerEventListeners] Registering event listeners
+2025-07-16 15:13:21.677 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"Error","code":16,"metadata":{},"details":[{"type":"aiserver.v1.ErrorDetails","value":{"0":8,"1":2,"2":18,"3":85,"4":10,"5":14,"6":78,"7":111,"8":116,"9":32,"10":108,"11":111,"12":103,"13":103,"14":101,"15":100,"16":32,"17":105,"18":110,"19":46,"20":18,"21":65,"22":78,"23":111,"24":116,"25":32,"26":108,"27":111,"28":103,"29":103,"30":101,"31":100,"32":32,"33":105,"34":110,"35":46,"36":32,"37":73,"38":102,"39":32,"40":121,"41":111,"42":117,"43":32,"44":97,"45":114,"46":101,"47":32,"48":108,"49":111,"50":103,"51":103,"52":101,"53":100,"54":32,"55":105,"56":110,"57":44,"58":32,"59":116,"60":114,"61":121,"62":32,"63":108,"64":111,"65":103,"66":103,"67":105,"68":110,"69":103,"70":32,"71":111,"72":117,"73":116,"74":32,"75":97,"76":110,"77":100,"78":32,"79":98,"80":97,"81":99,"82":107,"83":32,"84":105,"85":110,"86":46,"87":32,"88":0,"89":24,"90":1},"debug":{"error":"ERROR_NOT_LOGGED_IN","details":{"title":"Not logged in.","detail":"Not logged in. If you are logged in, try logging out and back in.","isRetryable":false},"isExpected":true}}]}
+2025-07-16 15:13:21.677 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:13:21.677 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:14:07.927 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:14:07.928 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:14:07.928 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:14:08.106 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:14:08.106 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:14:08.107 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:14:08.107 [info] File sync enabled status: false
+2025-07-16 15:14:09.296 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:14:09.313 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:14:09.519 [info] Fetched fsConfig in 221.72646199999872ms
+2025-07-16 15:14:09.519 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:14:09.519 [info] File sync enabled status: true
+2025-07-16 15:14:09.519 [info] Starting sync of visible tabs
+2025-07-16 15:14:09.519 [info] Synced all visible tabs in 0.08459900000161724ms
+2025-07-16 15:14:09.533 [info] Fetched fsConfig in 220.6800330000042ms
+2025-07-16 15:14:09.534 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:14:09.534 [info] File sync enabled status: true
+2025-07-16 15:14:09.534 [info] Starting sync of visible tabs
+2025-07-16 15:14:09.534 [info] Synced all visible tabs in 0.036058999998203944ms
+2025-07-16 15:14:09.730 [info] Starting sync of visible tabs
+2025-07-16 15:14:09.730 [info] Synced all visible tabs in 0.09014200000092387ms
+2025-07-16 15:14:09.943 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:14:10.256 [info] Fetched fsConfig in 313.1181499999948ms
+2025-07-16 15:14:10.256 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:14:12.487 [info] Uploaded file hyprsettings.py modelVersion=1 in 213.5655009999973ms
+2025-07-16 15:14:12.487 [info] Handled visible editors change in 323.9112169999935ms
+2025-07-16 15:15:52.287 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 15:15:52.287 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:15:52.287 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:15:52.287 [info] [registerEventListeners] Registering event listeners
+2025-07-16 15:15:53.505 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:15:53.720 [info] Fetched fsConfig in 213.4255979999998ms
+2025-07-16 15:15:53.720 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:15:54.139 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:15:54.747 [info] Fetched fsConfig in 607.2640070000007ms
+2025-07-16 15:15:54.747 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:15:54.751 [info] File sync enabled status: true
+2025-07-16 15:15:54.751 [info] Starting sync of visible tabs
+2025-07-16 15:15:54.894 [info] Starting sync of visible tabs
+2025-07-16 15:15:54.978 [info] Uploaded file bxl_interpreter.cpp modelVersion=1 in 221.98952700000063ms
+2025-07-16 15:15:54.979 [info] Synced all visible tabs in 231.31619599999976ms
+2025-07-16 15:15:55.112 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:15:55.132 [info] Uploaded file bxl_interpreter.cpp modelVersion=1 in 235.6200370000006ms
+2025-07-16 15:15:55.133 [info] Synced all visible tabs in 240.02263700000003ms
+2025-07-16 15:15:55.340 [info] Fetched fsConfig in 227.3042429999996ms
+2025-07-16 15:15:55.340 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:16:49.590 [info] Handled visible editors change in 0.9382130000012694ms
+2025-07-16 15:16:49.983 [info] Uploaded file Документация языка.html modelVersion=1 in 248.50994000000355ms
+2025-07-16 15:16:49.983 [info] Handled visible editors change in 349.6653510000033ms
+2025-07-16 15:18:32.472 [info] Handled visible editors change in 0.6300610000034794ms
+2025-07-16 15:18:32.508 [info] Handled visible editors change in 0.6842739999992773ms
+2025-07-16 15:18:53.108 [info] Synced file bxl_interpreter.cpp modelVersion=3 in 260.73906399999396ms
+2025-07-16 15:18:53.119 [info] Synced file bxl_interpreter.cpp modelVersion=2 in 599.0760609999998ms
+2025-07-16 15:18:53.497 [info] Synced file bxl_interpreter.cpp modelVersion=3 in 201.78212899999926ms
+2025-07-16 15:20:44.562 [info] Synced file bxl_interpreter.cpp modelVersion=4 in 356.9792690000031ms
+2025-07-16 15:20:44.685 [info] Synced file bxl_interpreter.cpp modelVersion=4 in 204.65677299996605ms
+2025-07-16 15:20:45.251 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:20:45.496 [info] Fetched fsConfig in 245.23057600000175ms
+2025-07-16 15:20:45.496 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:20:45.497 [info] File sync enabled status: true
+2025-07-16 15:20:45.497 [info] Starting sync of visible tabs
+2025-07-16 15:20:45.497 [info] Synced all visible tabs in 0.38069399999221787ms
+2025-07-16 15:21:38.775 [info] Synced file bxl_interpreter.cpp modelVersion=5 in 205.08995300001698ms
+2025-07-16 15:21:39.506 [info] Synced file bxl_interpreter.cpp modelVersion=6 in 204.91802199999802ms
+2025-07-16 15:22:55.408 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 15:22:55.408 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:22:55.408 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:22:55.606 [info] [registerEventListeners] Registering event listeners
+2025-07-16 15:22:56.920 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:22:57.134 [info] Fetched fsConfig in 211.98701399999982ms
+2025-07-16 15:22:57.134 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:22:57.314 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:22:57.917 [info] Fetched fsConfig in 602.7238859999998ms
+2025-07-16 15:22:57.917 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:22:57.917 [info] File sync enabled status: true
+2025-07-16 15:22:57.917 [info] Starting sync of visible tabs
+2025-07-16 15:22:57.917 [info] Synced all visible tabs in 0.12357799999972485ms
+2025-07-16 15:22:58.103 [info] Starting sync of visible tabs
+2025-07-16 15:22:58.103 [info] Synced all visible tabs in 0.35044199999993ms
+2025-07-16 15:22:58.311 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:22:58.519 [info] Fetched fsConfig in 207.41744300000028ms
+2025-07-16 15:22:58.519 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:23:18.960 [info] Handled visible editors change in 1.279500000000553ms
+2025-07-16 15:23:39.661 [info] Handled visible editors change in 0.8336100000014994ms
+2025-07-16 15:24:01.430 [info] Uploaded file colors.qml modelVersion=1 in 633.0901670000021ms
+2025-07-16 15:24:01.431 [info] Handled visible editors change in 676.0943049999914ms
+2025-07-16 15:24:02.807 [info] Handled visible editors change in 1.4011869999958435ms
+2025-07-16 15:24:03.075 [info] Uploaded file shell.qml modelVersion=1 in 213.75647199999366ms
+2025-07-16 15:24:03.075 [info] Handled visible editors change in 238.07389699999476ms
+2025-07-16 15:24:47.140 [info] Handled visible editors change in 0.8946850000065751ms
+2025-07-16 15:24:51.584 [info] Handled visible editors change in 0.5517930000060005ms
+2025-07-16 15:28:01.690 [info] Uploaded file bar/Bar.qml modelVersion=2 in 576.1158849999774ms
+2025-07-16 15:28:01.695 [info] Uploaded file bar/Bar.qml modelVersion=2 in 602.1022910000174ms
+2025-07-16 15:28:07.834 [info] Uploaded file bar/widgets/Clock.qml modelVersion=2 in 225.24181599996518ms
+2025-07-16 15:28:07.834 [info] Uploaded file bar/widgets/Clock.qml modelVersion=2 in 227.49234600004274ms
+2025-07-16 15:28:13.920 [info] Uploaded file bar/widgets/Audio.qml modelVersion=2 in 206.82735699997284ms
+2025-07-16 15:28:13.941 [info] Uploaded file bar/widgets/Audio.qml modelVersion=2 in 228.9367579999962ms
+2025-07-16 15:28:22.923 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 208.96735200000694ms
+2025-07-16 15:28:22.947 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 235.95455199998105ms
+2025-07-16 15:28:23.138 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=3 in 216.74157700000796ms
+2025-07-16 15:29:04.443 [info] Synced file bar/Bar.qml modelVersion=4 in 211.40564700000687ms
+2025-07-16 15:29:05.372 [info] Synced file bar/Bar.qml modelVersion=7 in 209.36740699998336ms
+2025-07-16 15:29:07.534 [info] Synced file bar/widgets/Clock.qml modelVersion=4 in 208.90205899998546ms
+2025-07-16 15:29:08.747 [info] Synced file bar/widgets/Clock.qml modelVersion=7 in 206.25828899996122ms
+2025-07-16 15:29:11.560 [info] Synced file bar/widgets/Audio.qml modelVersion=4 in 218.42245000001276ms
+2025-07-16 15:29:14.080 [info] Synced file bar/widgets/Audio.qml modelVersion=8 in 209.65980999998283ms
+2025-07-16 15:29:16.343 [info] Synced file bar/widgets/Workspaces.qml modelVersion=5 in 206.43992000003345ms
+2025-07-16 15:29:18.554 [info] Synced file bar/widgets/Workspaces.qml modelVersion=8 in 263.7803239999921ms
+2025-07-16 15:32:31.128 [info] Handled visible editors change in 0.7487899999832734ms
+2025-07-16 15:32:37.818 [info] Uploaded file shell.qml modelVersion=1 in 3654.862767999992ms
+2025-07-16 15:32:37.818 [info] Handled visible editors change in 3733.1849619999994ms
+2025-07-16 15:33:02.858 [info] Handled visible editors change in 0.4291110000340268ms
+2025-07-16 15:33:02.902 [info] Handled visible editors change in 0.09315600001718849ms
+2025-07-16 15:33:02.904 [info] Handled visible editors change in 0.2675370000069961ms
+2025-07-16 15:34:40.103 [info] Uploaded file notifs/Notifs.qml modelVersion=3 in 571.9182659999933ms
+2025-07-16 15:34:40.105 [info] Uploaded file notifs/Notifs.qml modelVersion=3 in 597.0267860000022ms
+2025-07-16 15:34:40.126 [info] Uploaded file notifs/Notifs.qml modelVersion=3 in 619.7145160000073ms
+2025-07-16 15:34:47.900 [info] Uploaded file bar/widgets/Audio.qml modelVersion=8 in 218.32841199997347ms
+2025-07-16 15:34:47.900 [info] Handled visible editors change in 552.5423439999577ms
+2025-07-16 15:36:26.910 [info] Handled visible editors change in 0.39519000006839633ms
+2025-07-16 15:37:01.966 [info] Synced file notifs/Notifs.qml modelVersion=4 in 595.3242580000078ms
+2025-07-16 15:37:45.510 [info] Handled visible editors change in 0.4140790000092238ms
+2025-07-16 15:37:46.808 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:37:47.019 [info] Fetched fsConfig in 210.5521009999793ms
+2025-07-16 15:37:47.019 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:37:47.020 [info] File sync enabled status: true
+2025-07-16 15:37:47.020 [info] Starting sync of visible tabs
+2025-07-16 15:37:47.021 [info] Synced all visible tabs in 0.9093049999792129ms
+2025-07-16 15:38:51.523 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 591.9873260000022ms
+2025-07-16 15:38:51.525 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 565.7743020000635ms
+2025-07-16 15:38:51.534 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=4 in 571.1104770000093ms
+2025-07-16 15:38:51.536 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=4 in 572.2888739999617ms
+2025-07-16 15:38:57.569 [info] Uploaded file shell.qml modelVersion=2 in 210.15171600005124ms
+2025-07-16 15:38:57.569 [info] Uploaded file shell.qml modelVersion=2 in 209.41844899998978ms
+2025-07-16 15:38:57.682 [info] Uploaded file shell.qml modelVersion=2 in 208.00292300002184ms
+2025-07-16 15:38:57.684 [info] Uploaded file shell.qml modelVersion=2 in 208.954636999988ms
+2025-07-16 15:39:59.857 [info] Uploaded file bar/widgets/Audio.qml modelVersion=8 in 569.6577109999489ms
+2025-07-16 15:39:59.857 [info] Handled visible editors change in 636.4881560000358ms
+2025-07-16 15:39:59.889 [info] Uploaded file bar/widgets/Audio.qml modelVersion=8 in 621.0890190000646ms
+2025-07-16 15:39:59.890 [info] Handled visible editors change in 692.1057859999128ms
+2025-07-16 15:40:28.145 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:40:28.373 [info] Fetched fsConfig in 228.66699399985373ms
+2025-07-16 15:40:28.374 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:40:28.374 [info] File sync enabled status: true
+2025-07-16 15:40:28.374 [info] Starting sync of visible tabs
+2025-07-16 15:40:28.374 [info] Synced all visible tabs in 0.10955199995078146ms
+2025-07-16 15:40:33.468 [info] Synced file shell.qml modelVersion=3 in 206.35844799992628ms
+2025-07-16 15:40:34.173 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:40:34.383 [info] Fetched fsConfig in 209.80517200008035ms
+2025-07-16 15:40:34.384 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:40:34.384 [info] File sync enabled status: true
+2025-07-16 15:40:34.384 [info] Starting sync of visible tabs
+2025-07-16 15:40:34.384 [info] Synced all visible tabs in 0.4100530000869185ms
+2025-07-16 15:40:38.918 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 206.23045199993066ms
+2025-07-16 15:40:38.929 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 217.75757799996063ms
+2025-07-16 15:40:39.044 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 206.24597900011577ms
+2025-07-16 15:40:39.046 [info] Uploaded file bar/widgets/Workspaces.qml modelVersion=2 in 208.19951900001615ms
+2025-07-16 15:41:15.591 [info] Synced file shell.qml modelVersion=4 in 205.36465699994005ms
+2025-07-16 15:41:28.016 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 205.94518100004643ms
+2025-07-16 15:41:28.017 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 207.7701840000227ms
+2025-07-16 15:41:28.027 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 205.96564999991097ms
+2025-07-16 15:41:28.029 [info] Uploaded file notifs/NotificationDaemon.qml modelVersion=2 in 206.43363699992187ms
+2025-07-16 15:42:18.152 [info] Synced file shell.qml modelVersion=5 in 249.44925300008617ms
+2025-07-16 15:42:18.995 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:42:19.209 [info] Fetched fsConfig in 213.62403899990022ms
+2025-07-16 15:42:19.209 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:42:19.210 [info] File sync enabled status: true
+2025-07-16 15:42:19.210 [info] Starting sync of visible tabs
+2025-07-16 15:42:19.210 [info] Synced all visible tabs in 0.3874959999229759ms
+2025-07-16 15:42:30.909 [info] Handled visible editors change in 0.6198899999726564ms
+2025-07-16 15:42:31.261 [info] Uploaded file bar/widgets/Osd.qml modelVersion=1 in 214.63227599998936ms
+2025-07-16 15:42:31.261 [info] Handled visible editors change in 311.74824600014836ms
+2025-07-16 15:44:42.287 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 15:44:42.287 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:44:42.287 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 15:44:42.399 [info] [registerEventListeners] Registering event listeners
+2025-07-16 15:44:43.775 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:44:43.981 [info] Fetched fsConfig in 205.6367110000001ms
+2025-07-16 15:44:43.981 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:44:49.118 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:44:49.719 [info] Fetched fsConfig in 601.3487129999994ms
+2025-07-16 15:44:49.720 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:44:49.723 [info] File sync enabled status: true
+2025-07-16 15:44:49.723 [info] Starting sync of visible tabs
+2025-07-16 15:44:49.914 [info] Starting sync of visible tabs
+2025-07-16 15:44:49.962 [info] Uploaded file hyprsettings.py modelVersion=1 in 232.00495000000046ms
+2025-07-16 15:44:49.964 [info] Synced all visible tabs in 244.0943100000004ms
+2025-07-16 15:44:50.135 [info] Uploaded file hyprsettings.py modelVersion=1 in 217.700374ms
+2025-07-16 15:44:50.135 [info] Synced all visible tabs in 222.42936100000043ms
+2025-07-16 15:44:50.137 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:44:50.354 [info] Fetched fsConfig in 216.73682999999983ms
+2025-07-16 15:44:50.354 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:47:37.750 [info] Synced file hyprsettings.py modelVersion=3 in 225.44956999999704ms
+2025-07-16 15:47:37.755 [info] Synced file hyprsettings.py modelVersion=2 in 582.5253009999869ms
+2025-07-16 15:47:38.524 [info] Synced file hyprsettings.py modelVersion=3 in 221.6429309999803ms
+2025-07-16 15:48:49.550 [info] Uploaded file hyprsettings modelVersion=2 in 733.0961360000074ms
+2025-07-16 15:48:49.553 [info] Uploaded file hyprsettings modelVersion=2 in 734.3255660000141ms
+2025-07-16 15:48:49.557 [info] Uploaded file hyprsettings modelVersion=3 in 227.35216599999694ms
+2025-07-16 15:52:27.388 [info] Handled visible editors change in 1.6744900000048801ms
+2025-07-16 15:52:27.419 [info] Handled visible editors change in 1.3954679999733344ms
+2025-07-16 15:55:33.480 [info] Handled visible editors change in 1.2110950000351295ms
+2025-07-16 15:55:34.162 [info] Uploaded file hyprsettings-rust/src/main.rs modelVersion=1 in 591.2924019999336ms
+2025-07-16 15:55:34.162 [info] Handled visible editors change in 634.9914209999843ms
+2025-07-16 15:55:38.502 [info] Handled visible editors change in 1.9853400000138208ms
+2025-07-16 15:55:38.529 [info] Handled visible editors change in 1.0509629999287426ms
+2025-07-16 15:55:50.785 [info] Handled visible editors change in 0.9963520000455901ms
+2025-07-16 15:55:50.815 [info] Handled visible editors change in 0.634072000044398ms
+2025-07-16 15:55:52.280 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 15:55:52.497 [info] Fetched fsConfig in 216.8246110000182ms
+2025-07-16 15:55:52.497 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 15:55:52.497 [info] File sync enabled status: true
+2025-07-16 15:55:52.497 [info] Starting sync of visible tabs
+2025-07-16 15:55:52.497 [info] Synced all visible tabs in 0.3184480000054464ms
+2025-07-16 15:55:54.448 [info] Synced file hyprsettings-rust/src/main.rs modelVersion=3 in 230.9201109999558ms
+2025-07-16 15:57:05.136 [info] Synced file hyprsettings-rust/src/main.rs modelVersion=5 in 589.1996980000986ms
+2025-07-16 15:57:06.063 [info] Synced file hyprsettings-rust/src/main.rs modelVersion=11 in 215.45149600005243ms
+2025-07-16 15:59:44.920 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=4 in 542.3959419999737ms
+2025-07-16 15:59:44.921 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=4 in 544.4744680000003ms
+2025-07-16 15:59:44.932 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 578.4031409999589ms
+2025-07-16 15:59:44.954 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 581.296595999971ms
+2025-07-16 15:59:45.628 [warning] Failed to sync changes for hyprsettings-rust/src/config.rs, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-07-16 15:59:45.869 [warning] Failed to sync changes for hyprsettings-rust/src/config.rs, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-07-16 15:59:46.115 [warning] Failed to sync changes for hyprsettings-rust/src/config.rs, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-07-16 15:59:46.116 [error] Failed to sync changes for hyprsettings-rust/src/config.rs, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-07-16 15:59:46.322 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=4 in 206.0801930000307ms
+2025-07-16 15:59:48.294 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 202.15552899998147ms
+2025-07-16 15:59:48.297 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 206.90082800004166ms
+2025-07-16 15:59:48.318 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=4 in 200.3742520000087ms
+2025-07-16 15:59:48.323 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=4 in 205.98540699994192ms
+2025-07-16 15:59:52.188 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 200.52261800004635ms
+2025-07-16 15:59:52.198 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 211.9465720000444ms
+2025-07-16 15:59:52.240 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=4 in 201.58150000008754ms
+2025-07-16 15:59:52.268 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=4 in 227.5117470000405ms
+2025-07-16 15:59:55.984 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 202.41245699999854ms
+2025-07-16 15:59:55.988 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 203.33292299997993ms
+2025-07-16 15:59:56.006 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=4 in 201.80914000002667ms
+2025-07-16 15:59:56.007 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=4 in 201.9002989999717ms
+2025-07-16 16:00:27.007 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 204.01255599991418ms
+2025-07-16 16:00:27.010 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 207.450976000051ms
+2025-07-16 16:00:27.031 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 202.08233700005803ms
+2025-07-16 16:00:27.125 [info] Uploaded file hyprsettings-rust/src/config.rs modelVersion=2 in 301.54000199993607ms
+2025-07-16 16:00:27.150 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 219.17731299996376ms
+2025-07-16 16:00:27.150 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 220.17928899999242ms
+2025-07-16 16:00:27.168 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 215.50715000007767ms
+2025-07-16 16:00:27.171 [info] Uploaded file hyprsettings-rust/src/wallpaper.rs modelVersion=2 in 232.65117800002918ms
+2025-07-16 16:00:27.176 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 204.07863400003407ms
+2025-07-16 16:00:27.178 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 205.62202200002503ms
+2025-07-16 16:00:27.187 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 202.1839939999627ms
+2025-07-16 16:00:27.192 [info] Uploaded file hyprsettings-rust/src/screen.rs modelVersion=2 in 208.2983280000044ms
+2025-07-16 16:00:27.213 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 202.1428180000512ms
+2025-07-16 16:00:27.218 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 207.2090400001034ms
+2025-07-16 16:00:27.223 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 203.2752970000729ms
+2025-07-16 16:00:27.279 [info] Uploaded file hyprsettings-rust/src/audio.rs modelVersion=2 in 258.0303839999251ms
+2025-07-16 16:00:27.684 [info] Synced file hyprsettings-rust/src/main.rs modelVersion=13 in 209.72248300001957ms
+2025-07-16 16:00:28.434 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 16:00:28.646 [info] Fetched fsConfig in 212.49431199999526ms
+2025-07-16 16:00:28.646 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 16:00:28.647 [info] File sync enabled status: true
+2025-07-16 16:00:28.647 [info] Starting sync of visible tabs
+2025-07-16 16:00:28.647 [info] Synced all visible tabs in 0.42585300002247095ms
+2025-07-16 16:02:36.797 [error] Failed to check if file sync is enabled for user {}
+2025-07-16 16:02:36.797 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 16:02:36.797 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-16 16:02:37.106 [info] [registerEventListeners] Registering event listeners
+2025-07-16 16:02:38.392 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 16:02:38.619 [info] Fetched fsConfig in 225.5163789999997ms
+2025-07-16 16:02:38.619 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 16:02:38.709 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 16:02:39.285 [info] Fetched fsConfig in 575.2100070000001ms
+2025-07-16 16:02:39.285 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 16:02:39.285 [info] File sync enabled status: true
+2025-07-16 16:02:39.285 [info] Starting sync of visible tabs
+2025-07-16 16:02:39.285 [info] Synced all visible tabs in 0.12253999999938969ms
+2025-07-16 16:02:39.495 [info] Starting sync of visible tabs
+2025-07-16 16:02:39.495 [info] Synced all visible tabs in 0.349130999999943ms
+2025-07-16 16:02:39.702 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 16:02:39.912 [info] Fetched fsConfig in 210.23612200000025ms
+2025-07-16 16:02:39.912 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 16:04:45.212 [info] Handled visible editors change in 0.49502899999788497ms
+2025-07-16 16:04:55.051 [info] Handled visible editors change in 0.46446700001251884ms
+2025-07-16 16:04:55.708 [info] Uploaded file grs/src/main.rs modelVersion=1 in 592.2057799999893ms
+2025-07-16 16:04:55.710 [info] Handled visible editors change in 633.9010429999908ms
+2025-07-16 16:04:58.929 [info] Synced file grs/src/main.rs modelVersion=3 in 226.22449799999595ms
+2025-07-16 16:04:59.658 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-16 16:04:59.875 [info] Fetched fsConfig in 216.5010970000003ms
+2025-07-16 16:04:59.875 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-16 16:04:59.875 [info] File sync enabled status: true
+2025-07-16 16:04:59.875 [info] Starting sync of visible tabs
+2025-07-16 16:04:59.875 [info] Synced all visible tabs in 0.5399669999897014ms
+2025-07-16 16:05:24.528 [info] Handled visible editors change in 1.1520849999797065ms
+2025-07-16 16:05:24.561 [info] Handled visible editors change in 0.9101919999811798ms
+2025-07-16 16:06:38.467 [info] Synced file grs/src/main.rs modelVersion=5 in 600.2091209999926ms
+2025-07-16 16:06:39.159 [info] Synced file grs/src/main.rs modelVersion=9 in 214.23778799999855ms

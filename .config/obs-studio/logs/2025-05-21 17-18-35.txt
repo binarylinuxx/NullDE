@@ -1,0 +1,121 @@
+17:18:35.217: [Safe Mode] Unclean shutdown detected!
+17:18:37.544: [Safe Mode] User elected to launch normally.
+17:18:37.544: Platform: Wayland
+17:18:37.545: CPU Name: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+17:18:37.545: CPU Speed: 800.110MHz
+17:18:37.547: Physical Cores: 6, Logical Cores: 12
+17:18:37.547: Physical Memory: 40033MB Total, 34115MB Free
+17:18:37.547: Kernel Version: Linux 6.12.28_1
+17:18:37.547: Distribution: "Void" Unknown
+17:18:37.547: Desktop Environment: Hyprland
+17:18:37.547: Session Type: wayland
+17:18:37.549: Qt Version: 6.8.2 (runtime), 6.8.2 (compiled)
+17:18:37.549: Portable mode: false
+17:18:37.571: OBS 31.0.2 (linux)
+17:18:37.571: ---------------------------------
+17:18:37.572: ---------------------------------
+17:18:37.572: audio settings reset:
+17:18:37.572: 	samples per sec: 48000
+17:18:37.572: 	speakers:        2
+17:18:37.572: 	max buffering:   960 milliseconds
+17:18:37.572: 	buffering type:  dynamically increasing
+17:18:37.581: ---------------------------------
+17:18:37.581: Initializing OpenGL...
+17:18:37.581: Using EGL/Wayland
+17:18:37.616: Initialized EGL 1.5
+17:18:37.631: Loading up OpenGL on adapter AMD AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.28_1)
+17:18:37.631: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.4, shading language 4.60
+17:18:37.672: ---------------------------------
+17:18:37.672: video settings reset:
+17:18:37.672: 	base resolution:   1920x1080
+17:18:37.672: 	output resolution: 1920x1080
+17:18:37.672: 	downscale filter:  Bicubic
+17:18:37.672: 	fps:               60/1
+17:18:37.672: 	format:            NV12
+17:18:37.672: 	YUV mode:          Rec. 709/Partial
+17:18:37.672: NV12 texture support enabled
+17:18:37.672: P010 texture support not available
+17:18:37.675: Audio monitoring device:
+17:18:37.675: 	name: Default
+17:18:37.675: 	id: default
+17:18:37.676: ---------------------------------
+17:18:37.684: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:18:37.696: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:18:37.704: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:18:37.704: Failed to initialize module 'decklink.so'
+17:18:37.989: [pipewire] Available capture sources:
+17:18:37.989: [pipewire]     - Monitor source
+17:18:37.989: [pipewire]     - Window source
+17:18:38.008: v4l2loopback not installed, virtual camera not registered
+17:18:38.033: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+17:18:38.034: FFmpeg VAAPI H264 encoding not supported
+17:18:38.034: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+17:18:38.034: FFmpeg VAAPI AV1 encoding not supported
+17:18:38.034: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+17:18:38.034: FFmpeg VAAPI HEVC encoding not supported
+17:18:38.314: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+17:18:38.314: 
+17:18:38.314: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+17:18:38.314: ---------------------------------
+17:18:38.314:   Loaded Modules:
+17:18:38.314:     vlc-video.so
+17:18:38.314:     text-freetype2.so
+17:18:38.314:     rtmp-services.so
+17:18:38.314:     obs-x264.so
+17:18:38.314:     obs-webrtc.so
+17:18:38.314:     obs-transitions.so
+17:18:38.314:     obs-outputs.so
+17:18:38.314:     obs-filters.so
+17:18:38.314:     obs-ffmpeg.so
+17:18:38.314:     linux-v4l2.so
+17:18:38.314:     linux-pulseaudio.so
+17:18:38.314:     linux-pipewire.so
+17:18:38.314:     linux-jack.so
+17:18:38.314:     linux-capture.so
+17:18:38.314:     linux-alsa.so
+17:18:38.314:     image-source.so
+17:18:38.314:     frontend-tools.so
+17:18:38.314:     decklink-output-ui.so
+17:18:38.314:     decklink-captions.so
+17:18:38.314: ---------------------------------
+17:18:38.314: ---------------------------------
+17:18:38.314: Available Encoders:
+17:18:38.314:   Video Encoders:
+17:18:38.314: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:18:38.314: 	- ffmpeg_aom_av1 (AOM AV1)
+17:18:38.314: 	- obs_x264 (x264)
+17:18:38.314:   Audio Encoders:
+17:18:38.314: 	- ffmpeg_aac (FFmpeg AAC)
+17:18:38.314: 	- ffmpeg_opus (FFmpeg Opus)
+17:18:38.314: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+17:18:38.314: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+17:18:38.315: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+17:18:38.315: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+17:18:38.315: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+17:18:38.315: ==== Startup complete ===============================================
+17:18:38.364: All scene data cleared
+17:18:38.364: ------------------------------------------------
+17:18:38.370: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+17:18:38.370: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:18:38.370: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+17:18:38.370: [Loaded global audio device]: 'Desktop Audio'
+17:18:38.370: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.2) 15.0.0'
+17:18:38.371: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+17:18:38.371: pulse-input: Started recording from 'alsa_input.usb-Microsoft_Microsoft___LifeCam_HD-3000-02.mono-fallback' (default)
+17:18:38.371: [Loaded global audio device]: 'Mic/Aux'
+17:18:38.371: PipeWire initialized
+17:18:38.372: Switched to scene 'Scene'
+17:18:38.372: ------------------------------------------------
+17:18:38.372: Loaded scenes:
+17:18:38.372: - scene 'Scene':
+17:18:38.372:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+17:18:38.372: ------------------------------------------------
+17:18:38.552: [pipewire] Screencast session created
+17:18:39.130: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+17:18:39.130: 
+17:18:39.386: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:18:39.386: 
+17:18:42.183: PipeWire initialized
+17:18:43.360: PipeWire initialized
+17:18:51.144: PipeWire initialized
+17:18:59.137: [pipewire] Asking for monitor and window

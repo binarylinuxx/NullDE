@@ -1,0 +1,720 @@
+2025-07-16 15:10:17.600 [info] [main] Log level: Info
+2025-07-16 15:10:17.600 [info] [main] Validating found git in: "git"
+2025-07-16 15:10:17.600 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 15:10:17.600 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 15:10:17.600 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 15:10:27.615 [info] > git config --global user.name [5ms]
+2025-07-16 15:10:27.629 [info] > git config --global user.email [4ms]
+2025-07-16 15:10:27.630 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 15:13:20.148 [info] [main] Log level: Info
+2025-07-16 15:13:20.148 [info] [main] Validating found git in: "git"
+2025-07-16 15:13:20.148 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 15:13:20.148 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 15:13:20.148 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-16 15:13:20.165 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-07-16 15:13:20.173 [info] [Model][openRepository] Opened repository: /home/blx/projects/hyprsettings
+2025-07-16 15:13:20.205 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-16 15:13:20.206 [info] > git config --get commit.template [18ms]
+2025-07-16 15:13:20.246 [info] > git rev-parse --show-toplevel [17ms]
+2025-07-16 15:13:20.248 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 15:13:20.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-07-16 15:13:20.265 [info] > git status -z -uall [7ms]
+2025-07-16 15:13:20.268 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 15:13:20.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-07-16 15:13:20.301 [info] > git config --get commit.template [7ms]
+2025-07-16 15:13:20.325 [info] > git config --get --local branch.main.vscode-merge-base [25ms]
+2025-07-16 15:13:20.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-07-16 15:13:20.350 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-07-16 15:13:20.352 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-07-16 15:13:20.365 [info] > git diff --name-status -z --diff-filter=ADMR f582f09d6f56a11278f6421ef444d82a6b082696...refs/remotes/origin/main [7ms]
+2025-07-16 15:13:20.378 [info] > git status -z -uall [7ms]
+2025-07-16 15:13:20.379 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:13:20.801 [info] > git check-ignore -v -z --stdin [13ms]
+2025-07-16 15:13:29.459 [info] > git config --global user.name [5ms]
+2025-07-16 15:13:29.472 [info] > git config --global user.email [3ms]
+2025-07-16 15:13:29.472 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 15:13:29.894 [info] > git show --textconv :hyprsettings.py [7ms]
+2025-07-16 15:13:29.895 [info] > git ls-files --stage -- hyprsettings.py [1ms]
+2025-07-16 15:13:29.904 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [3ms]
+2025-07-16 15:14:12.144 [info] > git fetch --all [648ms]
+2025-07-16 15:14:12.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:14:12.166 [info] > git config --get commit.template [11ms]
+2025-07-16 15:14:12.185 [info] > git status -z -uall [9ms]
+2025-07-16 15:14:12.186 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:14:12.380 [info] > git show --textconv :hyprsettings.py [10ms]
+2025-07-16 15:14:12.381 [info] > git ls-files --stage -- hyprsettings.py [2ms]
+2025-07-16 15:14:12.391 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [2ms]
+2025-07-16 15:14:13.301 [info] > git config --get commit.template [15ms]
+2025-07-16 15:14:13.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-16 15:14:13.323 [info] > git status -z -uall [9ms]
+2025-07-16 15:14:13.325 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:14:13.369 [info] > git ls-files --stage -- hyprsettings.py [5ms]
+2025-07-16 15:14:13.380 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [3ms]
+2025-07-16 15:14:13.392 [info] > git show --textconv :hyprsettings.py [2ms]
+2025-07-16 15:14:39.088 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [48ms]
+2025-07-16 15:15:51.926 [info] [main] Log level: Info
+2025-07-16 15:15:51.926 [info] [main] Validating found git in: "git"
+2025-07-16 15:15:51.926 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 15:15:51.926 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 15:15:51.926 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-16 15:15:51.926 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:15:51.926 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 15:15:51.944 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-16 15:15:51.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:15:52.402 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-16 15:15:52.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:16:01.203 [info] > git config --global user.name [5ms]
+2025-07-16 15:16:01.216 [info] > git config --global user.email [3ms]
+2025-07-16 15:16:01.216 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 15:16:05.423 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:16:05.423 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:16:49.644 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:16:49.644 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:17.447 [info] > git status [2ms]
+2025-07-16 15:17:17.447 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.741 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [19ms]
+2025-07-16 15:17:38.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.750 [info] > git rev-parse --verify origin/main [1ms]
+2025-07-16 15:17:38.751 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.759 [info] > git rev-parse --verify origin/master [1ms]
+2025-07-16 15:17:38.759 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.767 [info] > git rev-parse --verify origin/develop [2ms]
+2025-07-16 15:17:38.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.788 [info] > git branch -r [14ms]
+2025-07-16 15:17:38.788 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:38.813 [info] > git config --get init.defaultBranch [17ms]
+2025-07-16 15:17:38.823 [info] > git status [2ms]
+2025-07-16 15:17:38.823 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:17:39.721 [info] > git status [2ms]
+2025-07-16 15:17:39.721 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:18:09.870 [info] > git status [2ms]
+2025-07-16 15:18:09.870 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:18:21.175 [info] > git status [2ms]
+2025-07-16 15:18:21.175 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:18:32.517 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:18:32.517 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:18:57.074 [info] > git status [8ms]
+2025-07-16 15:18:57.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:18:57.075 [info] > git status [1ms]
+2025-07-16 15:18:57.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:19:52.544 [info] > git status [2ms]
+2025-07-16 15:19:52.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:21:56.890 [info] > git status [8ms]
+2025-07-16 15:21:56.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:21:56.891 [info] > git status [3ms]
+2025-07-16 15:21:56.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:22:55.327 [info] [main] Log level: Info
+2025-07-16 15:22:55.327 [info] [main] Validating found git in: "git"
+2025-07-16 15:22:55.327 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 15:22:55.327 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 15:22:55.327 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-16 15:22:55.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:22:55.387 [info] > git rev-parse --show-toplevel [25ms]
+2025-07-16 15:22:55.387 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:22:55.442 [info] > git rev-parse --show-toplevel [36ms]
+2025-07-16 15:22:55.442 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:22:55.455 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:22:55.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:22:55.457 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 15:22:55.972 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:22:55.972 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:23:04.645 [info] > git config --global user.name [7ms]
+2025-07-16 15:23:04.668 [info] > git config --global user.email [5ms]
+2025-07-16 15:23:04.668 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 15:23:18.970 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:23:18.970 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:23:49.673 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:23:49.673 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:23:49.764 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:23:49.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:23:55.189 [info] > git status [4ms]
+2025-07-16 15:23:55.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:00.766 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:24:00.766 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:02.848 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:24:02.848 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.403 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [20ms]
+2025-07-16 15:24:07.403 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.414 [info] > git rev-parse --verify origin/main [1ms]
+2025-07-16 15:24:07.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.423 [info] > git rev-parse --verify origin/master [1ms]
+2025-07-16 15:24:07.423 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.432 [info] > git rev-parse --verify origin/develop [1ms]
+2025-07-16 15:24:07.432 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.451 [info] > git branch -r [12ms]
+2025-07-16 15:24:07.451 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:07.474 [info] > git config --get init.defaultBranch [14ms]
+2025-07-16 15:24:07.483 [info] > git status [2ms]
+2025-07-16 15:24:07.483 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:08.406 [info] > git status [6ms]
+2025-07-16 15:24:08.406 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:23.296 [info] > git status [20ms]
+2025-07-16 15:24:23.296 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:24:51.593 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:24:51.593 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:25:04.514 [info] > git status [2ms]
+2025-07-16 15:25:04.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:25:49.573 [info] > git status [7ms]
+2025-07-16 15:25:49.573 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:25:49.574 [info] > git status [2ms]
+2025-07-16 15:25:49.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:26:08.662 [info] > git status [3ms]
+2025-07-16 15:26:08.662 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:26:21.554 [info] > git status [8ms]
+2025-07-16 15:26:21.554 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:26:21.555 [info] > git status [2ms]
+2025-07-16 15:26:21.555 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:26:56.016 [info] > git status [2ms]
+2025-07-16 15:26:56.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:27:01.415 [info] > git status [2ms]
+2025-07-16 15:27:01.415 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:27:02.328 [info] > git status [1ms]
+2025-07-16 15:27:02.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:27:27.690 [info] > git status [7ms]
+2025-07-16 15:27:27.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:27:27.691 [info] > git status [2ms]
+2025-07-16 15:27:27.691 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:27:56.699 [info] > git status [2ms]
+2025-07-16 15:27:56.699 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:28:32.237 [info] > git status [1ms]
+2025-07-16 15:28:32.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:28:54.703 [info] > git status [1ms]
+2025-07-16 15:28:54.703 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:29:22.779 [info] > git status [7ms]
+2025-07-16 15:29:22.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:29:22.780 [info] > git status [2ms]
+2025-07-16 15:29:22.780 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:32:34.095 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:32:34.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:32:37.015 [info] > git status [2ms]
+2025-07-16 15:32:37.015 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:32:56.557 [info] > git status [1ms]
+2025-07-16 15:32:56.557 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:00.205 [info] > git status [8ms]
+2025-07-16 15:33:00.205 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:00.206 [info] > git status [2ms]
+2025-07-16 15:33:00.206 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:02.914 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:33:02.914 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:16.113 [info] > git status [2ms]
+2025-07-16 15:33:16.113 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:18.456 [info] > git status [2ms]
+2025-07-16 15:33:18.456 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:18.935 [info] > git status [2ms]
+2025-07-16 15:33:18.935 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:19.779 [info] > git status [1ms]
+2025-07-16 15:33:19.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:40.794 [info] > git status [8ms]
+2025-07-16 15:33:40.794 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:33:40.794 [info] > git status [1ms]
+2025-07-16 15:33:40.794 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:34:29.421 [info] > git status [1ms]
+2025-07-16 15:34:29.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:34:47.358 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:34:47.358 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:34:47.368 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:34:47.368 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:34:52.808 [info] > git status [8ms]
+2025-07-16 15:34:52.808 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:34:52.809 [info] > git status [2ms]
+2025-07-16 15:34:52.809 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:36:26.919 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:36:26.919 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:36:41.455 [info] > git status [2ms]
+2025-07-16 15:36:41.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:01.341 [info] > git status [2ms]
+2025-07-16 15:37:01.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:02.210 [info] > git status [1ms]
+2025-07-16 15:37:02.210 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:20.871 [info] > git status [9ms]
+2025-07-16 15:37:20.871 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:20.872 [info] > git status [2ms]
+2025-07-16 15:37:20.872 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:22.862 [info] > git status [1ms]
+2025-07-16 15:37:22.862 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:38.453 [info] > git status [1ms]
+2025-07-16 15:37:38.453 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:39.660 [info] > git status [2ms]
+2025-07-16 15:37:39.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:40.419 [info] > git status [2ms]
+2025-07-16 15:37:40.419 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:45.518 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:37:45.518 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:45.527 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:37:45.527 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:56.149 [info] > git status [8ms]
+2025-07-16 15:37:56.149 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:37:56.150 [info] > git status [1ms]
+2025-07-16 15:37:56.150 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:03.630 [info] > git status [2ms]
+2025-07-16 15:38:03.630 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:19.689 [info] > git status [2ms]
+2025-07-16 15:38:19.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:20.598 [info] > git status [2ms]
+2025-07-16 15:38:20.598 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:34.777 [info] > git status [9ms]
+2025-07-16 15:38:34.777 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:34.777 [info] > git status [1ms]
+2025-07-16 15:38:34.778 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:38:40.985 [info] > git status [1ms]
+2025-07-16 15:38:40.985 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:32.865 [info] > git status [7ms]
+2025-07-16 15:39:32.865 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:32.867 [info] > git status [2ms]
+2025-07-16 15:39:32.867 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:47.680 [info] > git status [2ms]
+2025-07-16 15:39:47.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:59.212 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:39:59.212 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:59.231 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:39:59.231 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:39:59.240 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:39:59.240 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:40:04.727 [info] > git status [9ms]
+2025-07-16 15:40:04.727 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:40:04.728 [info] > git status [2ms]
+2025-07-16 15:40:04.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:40:26.049 [info] > git status [1ms]
+2025-07-16 15:40:26.049 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:40:43.446 [info] > git status [9ms]
+2025-07-16 15:40:43.446 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:40:43.447 [info] > git status [2ms]
+2025-07-16 15:40:43.447 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:41:10.625 [info] > git status [2ms]
+2025-07-16 15:41:10.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:41:30.648 [info] > git status [9ms]
+2025-07-16 15:41:30.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:41:30.649 [info] > git status [2ms]
+2025-07-16 15:41:30.649 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:18.745 [info] > git status [2ms]
+2025-07-16 15:42:18.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:30.920 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 15:42:30.920 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:30.960 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:42:30.960 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:30.969 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 15:42:30.969 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:37.480 [info] > git status [1ms]
+2025-07-16 15:42:37.480 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:49.326 [info] > git status [2ms]
+2025-07-16 15:42:49.326 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:42:49.815 [info] > git status [1ms]
+2025-07-16 15:42:49.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:43:09.815 [info] > git status [8ms]
+2025-07-16 15:43:09.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:43:09.816 [info] > git status [1ms]
+2025-07-16 15:43:09.816 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 15:44:41.285 [info] [main] Log level: Info
+2025-07-16 15:44:41.285 [info] [main] Validating found git in: "git"
+2025-07-16 15:44:41.285 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 15:44:41.285 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 15:44:41.285 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 15:44:42.083 [info] > git rev-parse --git-dir --git-common-dir [793ms]
+2025-07-16 15:44:42.091 [info] [Model][openRepository] Opened repository: /home/blx/projects/hyprsettings
+2025-07-16 15:44:42.203 [info] > git rev-parse --show-toplevel [57ms]
+2025-07-16 15:44:42.203 [info] > git config --get commit.template [64ms]
+2025-07-16 15:44:42.267 [info] > git rev-parse --show-toplevel [35ms]
+2025-07-16 15:44:42.268 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 15:44:42.295 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [20ms]
+2025-07-16 15:44:42.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-07-16 15:44:42.331 [info] > git status -z -uall [12ms]
+2025-07-16 15:44:42.334 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-07-16 15:44:42.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-07-16 15:44:42.374 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-07-16 15:44:42.381 [info] > git config --get commit.template [27ms]
+2025-07-16 15:44:42.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-07-16 15:44:42.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-07-16 15:44:42.401 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-07-16 15:44:42.425 [info] > git status -z -uall [9ms]
+2025-07-16 15:44:42.425 [info] > git diff --name-status -z --diff-filter=ADMR f582f09d6f56a11278f6421ef444d82a6b082696...refs/remotes/origin/main [18ms]
+2025-07-16 15:44:42.427 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 15:44:42.457 [info] > git show --textconv :hyprsettings.py [7ms]
+2025-07-16 15:44:42.460 [info] > git ls-files --stage -- hyprsettings.py [3ms]
+2025-07-16 15:44:42.470 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [3ms]
+2025-07-16 15:44:42.891 [info] > git check-ignore -v -z --stdin [38ms]
+2025-07-16 15:44:43.017 [info] > git fetch --all [579ms]
+2025-07-16 15:44:43.032 [info] > git config --get commit.template [8ms]
+2025-07-16 15:44:43.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:44:43.052 [info] > git status -z -uall [11ms]
+2025-07-16 15:44:43.052 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 15:44:43.732 [info] > git ls-files --stage -- hyprsettings.py [2ms]
+2025-07-16 15:44:43.740 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [2ms]
+2025-07-16 15:44:43.750 [info] > git show --textconv :hyprsettings.py [2ms]
+2025-07-16 15:44:46.268 [info] > git config --get commit.template [27ms]
+2025-07-16 15:44:46.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-07-16 15:44:46.317 [info] > git status -z -uall [23ms]
+2025-07-16 15:44:46.336 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-07-16 15:44:46.343 [info] > git ls-files --stage -- hyprsettings.py [8ms]
+2025-07-16 15:44:46.357 [info] > git cat-file -s ffda4421f1dcd833e23325243c0ea4471d79b2bd [3ms]
+2025-07-16 15:44:46.417 [info] > git show --textconv :hyprsettings.py [10ms]
+2025-07-16 15:44:47.389 [info] > git status [6ms]
+2025-07-16 15:44:51.297 [info] > git config --global user.name [9ms]
+2025-07-16 15:44:51.332 [info] > git config --global user.email [8ms]
+2025-07-16 15:44:51.333 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 15:44:52.562 [info] > git status [4ms]
+2025-07-16 15:44:54.004 [info] > git status [3ms]
+2025-07-16 15:45:17.847 [info] > git status [3ms]
+2025-07-16 15:47:39.128 [info] > git config --get commit.template [9ms]
+2025-07-16 15:47:39.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:47:39.146 [info] > git status -z -uall [9ms]
+2025-07-16 15:47:39.147 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:47:39.180 [info] > git diff --no-color [11ms]
+2025-07-16 15:48:51.180 [info] > git config --get commit.template [13ms]
+2025-07-16 15:48:51.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-16 15:48:51.207 [info] > git status -z -uall [13ms]
+2025-07-16 15:48:51.209 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 15:48:51.251 [info] > git diff --no-color [15ms]
+2025-07-16 15:52:07.720 [info] > git config --get commit.template [23ms]
+2025-07-16 15:52:07.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-07-16 15:52:07.765 [info] > git status -z -uall [20ms]
+2025-07-16 15:52:07.769 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-07-16 15:52:07.807 [info] > git diff --no-color [15ms]
+2025-07-16 15:52:27.722 [info] > git show --textconv :README.md [9ms]
+2025-07-16 15:52:27.723 [info] > git ls-files --stage -- README.md [2ms]
+2025-07-16 15:52:27.734 [info] > git cat-file -s 217e5a46f544e1d801dc204f9461ebace7a8dd89 [2ms]
+2025-07-16 15:53:36.838 [info] > git config --get commit.template [17ms]
+2025-07-16 15:53:36.841 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-16 15:53:36.865 [info] > git status -z -uall [12ms]
+2025-07-16 15:53:36.867 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 15:53:36.900 [info] > git diff --no-color [8ms]
+2025-07-16 15:53:38.107 [info] > git ls-files --stage -- README.md [3ms]
+2025-07-16 15:53:38.122 [info] > git cat-file -s 217e5a46f544e1d801dc204f9461ebace7a8dd89 [3ms]
+2025-07-16 15:53:38.134 [info] > git show --textconv :README.md [3ms]
+2025-07-16 15:53:41.925 [info] > git config --get commit.template [22ms]
+2025-07-16 15:53:41.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-16 15:53:41.955 [info] > git status -z -uall [11ms]
+2025-07-16 15:53:41.958 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:55:24.077 [info] > git check-ignore -v -z --stdin [6ms]
+2025-07-16 15:55:24.647 [info] > git config --get commit.template [9ms]
+2025-07-16 15:55:24.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:55:24.666 [info] > git status -z -uall [9ms]
+2025-07-16 15:55:24.668 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 15:55:24.700 [info] > git diff --no-color [17ms]
+2025-07-16 15:55:27.438 [info] > git check-ignore -v -z --stdin [26ms]
+2025-07-16 15:55:29.263 [info] > git check-ignore -v -z --stdin [5ms]
+2025-07-16 15:55:42.619 [info] > git config --get commit.template [12ms]
+2025-07-16 15:55:42.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-16 15:55:42.646 [info] > git status -z -uall [13ms]
+2025-07-16 15:55:42.648 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 15:55:55.060 [info] > git config --get commit.template [24ms]
+2025-07-16 15:55:55.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-07-16 15:55:55.111 [info] > git status -z -uall [21ms]
+2025-07-16 15:55:55.114 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 15:57:06.659 [info] > git config --get commit.template [29ms]
+2025-07-16 15:57:06.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-16 15:57:06.685 [info] > git status -z -uall [10ms]
+2025-07-16 15:57:06.687 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 15:59:43.684 [info] > git check-ignore -v -z --stdin [4ms]
+2025-07-16 15:59:44.268 [info] > git config --get commit.template [18ms]
+2025-07-16 15:59:44.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-16 15:59:44.308 [info] > git status -z -uall [19ms]
+2025-07-16 15:59:44.312 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-07-16 15:59:44.374 [info] > git diff --no-color [31ms]
+2025-07-16 15:59:47.849 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-16 15:59:49.360 [info] > git config --get commit.template [18ms]
+2025-07-16 15:59:49.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-16 15:59:49.395 [info] > git status -z -uall [17ms]
+2025-07-16 15:59:49.397 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-07-16 15:59:49.434 [info] > git diff --no-color [10ms]
+2025-07-16 15:59:51.625 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-16 15:59:54.433 [info] > git config --get commit.template [13ms]
+2025-07-16 15:59:54.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:59:54.452 [info] > git status -z -uall [9ms]
+2025-07-16 15:59:54.454 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:59:54.481 [info] > git diff --no-color [9ms]
+2025-07-16 15:59:55.498 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-16 15:59:59.484 [info] > git config --get commit.template [12ms]
+2025-07-16 15:59:59.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 15:59:59.502 [info] > git status -z -uall [8ms]
+2025-07-16 15:59:59.504 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 15:59:59.531 [info] > git diff --no-color [15ms]
+2025-07-16 16:00:41.707 [info] > git check-ignore -v -z --stdin [1ms]
+2025-07-16 16:00:43.204 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-16 16:00:45.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-07-16 16:00:45.130 [info] > git config --get commit.template [26ms]
+2025-07-16 16:00:45.169 [info] > git status -z -uall [19ms]
+2025-07-16 16:00:45.173 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-07-16 16:00:45.234 [info] > git diff --no-color [16ms]
+2025-07-16 16:00:50.199 [info] > git config --get commit.template [11ms]
+2025-07-16 16:00:50.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 16:00:50.222 [info] > git status -z -uall [11ms]
+2025-07-16 16:00:50.225 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:01:07.770 [info] > git config --get commit.template [10ms]
+2025-07-16 16:01:07.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 16:01:07.789 [info] > git status -z -uall [9ms]
+2025-07-16 16:01:07.791 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 16:01:10.548 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-16 16:01:48.746 [info] > git config --get commit.template [46ms]
+2025-07-16 16:01:48.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 16:01:48.772 [info] > git status -z -uall [8ms]
+2025-07-16 16:01:48.774 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 16:02:36.771 [info] [main] Log level: Info
+2025-07-16 16:02:36.771 [info] [main] Validating found git in: "git"
+2025-07-16 16:02:36.771 [info] [main] Using git "2.50.0" from "git"
+2025-07-16 16:02:36.771 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 16:02:36.771 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-16 16:02:36.771 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:02:36.771 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 16:02:37.479 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-16 16:02:37.479 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:02:38.707 [info] > git status [2ms]
+2025-07-16 16:02:38.707 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:02:46.078 [info] > git config --global user.name [8ms]
+2025-07-16 16:02:46.107 [info] > git config --global user.email [6ms]
+2025-07-16 16:02:46.107 [info] [main] Stored git author name in global state: binarylinuxx <aar58384@gmail.com>
+2025-07-16 16:03:38.678 [info] > git status [3ms]
+2025-07-16 16:03:38.678 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.238 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms]
+2025-07-16 16:03:56.238 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.250 [info] > git rev-parse --verify origin/main [2ms]
+2025-07-16 16:03:56.250 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.260 [info] > git rev-parse --verify origin/master [2ms]
+2025-07-16 16:03:56.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.269 [info] > git rev-parse --verify origin/develop [1ms]
+2025-07-16 16:03:56.269 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.290 [info] > git branch -r [13ms]
+2025-07-16 16:03:56.290 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:56.322 [info] > git config --get init.defaultBranch [22ms]
+2025-07-16 16:03:56.333 [info] > git status [2ms]
+2025-07-16 16:03:56.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:03:57.221 [info] > git status [3ms]
+2025-07-16 16:03:57.221 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:04:15.629 [info] > git status [12ms]
+2025-07-16 16:04:15.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:04:37.179 [info] > git status [2ms]
+2025-07-16 16:04:37.179 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:04:39.111 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-16 16:04:39.111 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:04:40.336 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-16 16:04:40.353 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-07-16 16:04:40.364 [info] [Model][openRepository] Opened repository: /home/blx/projects/grs/grs
+2025-07-16 16:04:40.377 [info] > git config --get commit.template [3ms]
+2025-07-16 16:04:40.378 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:04:40.386 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:04:40.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:04:40.387 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:04:40.403 [info] > git status -z -uall [8ms]
+2025-07-16 16:04:40.404 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-16 16:04:40.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-07-16 16:04:40.425 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:04:40.425 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-07-16 16:04:40.428 [info] > git config --get commit.template [4ms]
+2025-07-16 16:04:40.436 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:04:40.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:04:40.438 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:04:40.452 [info] > git status -z -uall [8ms]
+2025-07-16 16:04:40.453 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-16 16:04:40.925 [info] > git check-ignore -v -z --stdin [20ms]
+2025-07-16 16:04:45.779 [info] > git check-ignore -v -z --stdin [5ms]
+2025-07-16 16:04:46.408 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:04:46.409 [info] > git config --get commit.template [16ms]
+2025-07-16 16:04:46.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-07-16 16:04:46.413 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:04:46.442 [info] > git status -z -uall [15ms]
+2025-07-16 16:04:46.445 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:04:54.567 [info] > git check-ignore -v -z --stdin [5ms]
+2025-07-16 16:04:59.563 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:04:59.564 [info] > git config --get commit.template [19ms]
+2025-07-16 16:04:59.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-07-16 16:04:59.567 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:04:59.600 [info] > git status -z -uall [18ms]
+2025-07-16 16:04:59.602 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:05:05.441 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-16 16:05:06.024 [info] > git config --get commit.template [5ms]
+2025-07-16 16:05:06.039 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:05:06.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-07-16 16:05:06.042 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:05:06.062 [info] > git status -z -uall [10ms]
+2025-07-16 16:05:06.064 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 16:05:06.086 [info] > git diff --no-color [9ms]
+2025-07-16 16:05:06.086 [info] warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1>,<param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1>,<param2>...]
+                          synonym for --dirstat=files,<param1>,<param2>...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+2025-07-16 16:05:11.086 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:05:11.087 [info] > git config --get commit.template [10ms]
+2025-07-16 16:05:11.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:05:11.088 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:05:11.107 [info] > git status -z -uall [10ms]
+2025-07-16 16:05:11.110 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:05:12.004 [info] > git status [7ms]
+2025-07-16 16:05:12.004 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:05:12.005 [info] > git status [1ms]
+2025-07-16 16:05:12.005 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:06.725 [info] > git status [2ms]
+2025-07-16 16:06:06.725 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:16.890 [info] > git status [8ms]
+2025-07-16 16:06:16.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:16.891 [info] > git status [1ms]
+2025-07-16 16:06:16.891 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:26.975 [info] > git status [2ms]
+2025-07-16 16:06:26.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:28.670 [info] > git status [2ms]
+2025-07-16 16:06:28.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:29.569 [info] > git status [2ms]
+2025-07-16 16:06:29.569 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:36.551 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:06:36.552 [info] > git config --get commit.template [11ms]
+2025-07-16 16:06:36.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:06:36.553 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:06:36.568 [info] > git status -z -uall [8ms]
+2025-07-16 16:06:36.570 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-16 16:06:41.581 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:06:41.588 [info] > git config --get commit.template [8ms]
+2025-07-16 16:06:41.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:06:41.590 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:06:41.606 [info] > git status -z -uall [9ms]
+2025-07-16 16:06:41.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-16 16:06:46.624 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:06:46.634 [info] > git config --get commit.template [11ms]
+2025-07-16 16:06:46.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-07-16 16:06:46.635 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:06:46.652 [info] > git status -z -uall [9ms]
+2025-07-16 16:06:46.653 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-16 16:06:51.698 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:06:51.699 [info] > git config --get commit.template [22ms]
+2025-07-16 16:06:51.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-07-16 16:06:51.703 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:06:51.730 [info] > git status -z -uall [14ms]
+2025-07-16 16:06:51.733 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:06:52.591 [info] > git status [7ms]
+2025-07-16 16:06:52.591 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:06:52.591 [info] > git status [1ms]
+2025-07-16 16:06:52.591 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:07:09.597 [info] > git status [1ms]
+2025-07-16 16:07:09.597 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:07:21.609 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 16:07:21.610 [info] > git config --get commit.template [21ms]
+2025-07-16 16:07:21.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-07-16 16:07:21.614 [warning] [Git][getBranch] No such branch: master
+2025-07-16 16:07:21.646 [info] > git status -z -uall [17ms]
+2025-07-16 16:07:21.649 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-16 16:07:30.882 [info] > git status [10ms]
+2025-07-16 16:07:30.882 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-16 16:07:30.884 [info] > git status [2ms]
+2025-07-16 16:07:30.884 [info] fatal: not a git repository (or any of the parent directories): .git

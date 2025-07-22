@@ -1,0 +1,1 @@
+{"timestamp":1752154525289,"paths":["./hyprland_dock.py"]}

@@ -1,0 +1,48 @@
+/* Waybar template for pmaterial */
+
+/* Define color variables */
+@define-color loop-(11) <primary light hex>
+@define-color loop-(11) <secondary light hex>
+@define-color loop-(11) <tertiary light hex>
+@define-color loop-(11) <neutral light hex>
+@define-color loop-(11) <error light hex>
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @neutral-0;
+    color: @neutral-9;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: @primary-1;
+    color: @primary-9;
+}
+
+#workspaces button.active {
+    background: @primary-5;
+    color: @neutral-0;
+}
+
+#clock {
+    background-color: @tertiary-3;
+    color: @tertiary-9;
+    padding: 0 10px;
+}
+
+#battery {
+    background-color: @secondary-2;
+    color: @secondary-9;
+    padding: 0 10px;
+}
+
+#network {
+    background-color: @primary-2;
+    color: @primary-9;
+    padding: 0 10px;
+}

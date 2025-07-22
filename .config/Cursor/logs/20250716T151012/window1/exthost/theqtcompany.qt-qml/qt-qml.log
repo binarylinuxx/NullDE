@@ -1,0 +1,6 @@
+2025-07-16 15:23:49.983 [info] [project] Creating project:/home/blx/.config/quickshell
+2025-07-16 15:23:49.983 [info] [qmlls] Fetching release information
+2025-07-16 15:23:50.419 [info] [qmlls] Status Check: Not Installed
+2025-07-16 15:44:36.635 [info] [extension] Deactivating qt-qml
+2025-07-16 15:44:36.635 [info] [project] Disposing project:/home/blx/.config/quickshell
+2025-07-16 15:44:36.635 [warning] [qmlls] Canceled

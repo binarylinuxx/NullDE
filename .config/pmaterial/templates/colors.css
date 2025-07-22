@@ -1,0 +1,21 @@
+/* Material Design 3 color variables */
+
+:root {
+    /* Primary colors */
+    @define-color primary primary-40 hex
+    @define-color primary-container primary-90 hex
+    @define-color on-primary primary-100 hex
+    @define-color on-primary-container primary-10 hex
+
+    /* Secondary colors */
+    @define-color secondary secondary-40 hex
+    @define-color secondary-container secondary-90 hex
+    @define-color on-secondary secondary-100 hex
+    @define-color on-secondary-container secondary-10 hex
+
+    /* Surface colors */
+    @define-color surface neutral-98 hex
+    @define-color surface-variant neutral-variant-90 hex
+    @define-color on-surface neutral-10 hex
+    @define-color on-surface-variant neutral-variant-30 hex
+}

@@ -1,0 +1,30 @@
+
+#notification {
+    background: transparent;
+}
+#frame {
+    background-color: #d4ded8;
+    padding: 3px;
+    border-radius: 5px;
+}
+#hs {
+    background-color: black;
+}
+#critical {
+    background-color: #ffaeae;
+}
+#normal {
+    background-color: #f0ffec;
+}
+#low {
+    background-color: #bee3c6;
+}
+#summary {
+    padding-left: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#body {
+    font-size: 1em;
+    padding: 5px;
+}

@@ -1,0 +1,108 @@
+configuration {
+    font: "JetBrainsMono Bold 14";
+    show-icons: true;
+    icon-theme: "Tela-circle-black";
+    disable-history: false;
+    sidebar-mode: false;
+    hover-select: true;
+    click-to-exit: true;
+    threads: 5;
+    spacing: 2;
+    margin: 0;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+@import "~/.config/rofi/colors.rasi"
+@import "~/.config/cached/current_wall.rasi"
+
+* {
+    color11: @primary;
+    color5: @on-primary-fixed;
+    foreground: @on-surface;
+    background: @surface;
+}
+
+window {
+    height: 35em;
+    width: 56em;
+    transparency: "real";
+    fullscreen: false;
+    border: 3px;
+    border-color: @secondary;
+    border-radius: 35px;
+    background-color: transparent;
+    background-image: @current-image;
+    background-blur: 10px;
+    children: [ mainbox ];
+}
+
+mainbox {
+    spacing: 0em;
+    padding: 0em;
+    orientation: vertical;
+    children: [ inputbar, listview ];  // Removed mode-switcher
+    background-color: transparent;
+}
+
+inputbar {
+    spacing: 0em;
+    padding: 4em;
+    children: [ prompt, entry ];
+    background-color: transparent;
+}
+
+prompt {
+    expand: false;
+    str: "  ";  // Changed icon to wallpaper symbol
+    padding: 1em 0.1em 0em 0.5em;
+    text-color: @foreground;
+    border-radius: 2em 0em 0em 2em;
+    background-color: @color5;
+}
+
+entry {
+    border-radius: 0em 2em 2em 0em;
+    spacing: 1em;
+    padding: 1em;
+    background-color: @color5;
+    text-color: @foreground;
+    placeholder: "Search wallpapers...";
+    placeholder-color: inherit;
+}
+
+listview {
+    padding: 1.5em;
+    spacing: 0.5em;
+    columns: 3;
+    lines: 10;  // Increased lines for more wallpapers
+    layout: vertical;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element {
+    spacing: 0em;
+    padding: 0.3em;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected.normal {
+    background-color: @color5;
+    text-color: @foreground;
+    border-radius: 0.4em;
+}
+
+element-icon {
+    size: 3em;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+    background-color: transparent;
+    text-color: inherit;
+}
