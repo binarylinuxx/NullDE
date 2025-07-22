@@ -1,16 +1,30 @@
 #!/bin/bash
-keep=("gtk-3.0" "gtk-4.0" "hypr" "wlogout" "fastfetch" "cleanup_configs" "waybar" "rofi" "alacritty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
+
+# Ensure we're in the .config directory
+if [[ "$(basename $(pwd))" != ".config" ]]; then
+    echo "Error: This script must run in the .config directory"
+    exit 1
+fi
+
+# List of folders to keep
+keep=("gtk-3.0" "gtk-4.0" "hypr" "wlogout" "fastfetch" "waybar" "rofi" "alacritty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
 
 deleted_count=0
+# Loop through all files and directories (excluding . and ..)
 for item in *; do
+    # Skip the script itself
+    if [[ "$item" == "cleanup_configs" ]]; then
+        continue
+    fi
+    # Check if item is not in keep list
     if [[ ! " ${keep[@]} " =~ " $item " ]]; then
+        echo "Deleting: $item"
         rm -rf "$item"
-        echo "Deleted: $item"
         ((deleted_count++))
     fi
 done
 
-if [ $deleted_count -eq 0 ]; then
+if [[ $deleted_count -eq 0 ]]; then
     echo "Nothing to clean - all files are in keep list"
 else
     echo "Cleanup completed! Removed $deleted_count items"
