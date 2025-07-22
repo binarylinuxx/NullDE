@@ -1,1 +1,0 @@
-{"timestamp":1752150176028,"paths":["./shell.qml","./qmldir","./colors.qml","./Colors.qml","./popup_menu/ControlPanel.qml","./bar/Bar.qml","./bar/widgets/Workspaces.qml","./bar/widgets/Audio.qml","./bar/widgets/Clock.qml","./bar/widgets/ActiveWindow.qml","./bar/widgets/Osd.qml","./notifs/Notifs.qml"]}

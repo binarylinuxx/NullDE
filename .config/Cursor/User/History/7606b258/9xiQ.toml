@@ -1,8 +1,0 @@
-[package]
-name = "grs"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-gtk4 = "0.7"
-gtk4-layer-shell = "0.6"

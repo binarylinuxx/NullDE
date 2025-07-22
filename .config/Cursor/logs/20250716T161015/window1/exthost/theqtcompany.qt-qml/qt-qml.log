@@ -1,6 +1,0 @@
-2025-07-16 16:15:51.580 [info] [project] Creating project:/home/blx/hyprbar
-2025-07-16 16:15:51.580 [info] [qmlls] Fetching release information
-2025-07-16 16:15:51.842 [info] [qmlls] Status Check: Not Installed
-2025-07-16 16:19:16.755 [info] [extension] Deactivating qt-qml
-2025-07-16 16:19:16.755 [info] [project] Disposing project:/home/blx/hyprbar
-2025-07-16 16:19:16.755 [warning] [qmlls] Canceled
