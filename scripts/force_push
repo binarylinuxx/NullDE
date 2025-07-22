@@ -21,7 +21,7 @@ git config user.email "github-actions[bot]@users.noreply.github.com"
 # Add and commit changes
 echo "[+] Adding and committing changes"
 git add .
-git commit -m "Upload latest packages to repository" || echo "No changes to commit"
+git commit -m "Files Clean UP" || echo "No changes to commit"
 
 # Force push to main
 echo "[+] Force pushing to main"
