@@ -27,6 +27,7 @@ jobs:
         env:
           ACCESS_GIT: ${{ secrets.ACCESS_GIT }}
           REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: NullDE
         run: |
           chmod +x scripts/force_push
           ./scripts/force_push
