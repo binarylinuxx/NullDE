@@ -1,0 +1,14 @@
+/* Simple Volume Rectangle Styles */
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.volume-rect {
+  background-color: #ff4757;
+  border-radius: 5px;
+  transition: width 0.1s ease-out;
+}

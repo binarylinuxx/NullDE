@@ -1,0 +1,36 @@
+{
+    "label": "lock",
+    "action": "loginctl lock-session",
+    "text": "Lock",
+    "keybind": "l",
+    "width": 0.15,
+    "height": 0.15,
+    "circular": false
+}
+{
+    "label": "shutdown",
+    "action": "systemctl poweroff",
+    "text": "Shutdown",
+    "keybind": "s",
+    "width": 0.15,
+    "height": 0.15,
+    "circular": false
+}
+{
+    "label": "suspend",
+    "action": "systemctl suspend",
+    "text": "Suspend",
+    "keybind": "u",
+    "width": 0.15,
+    "height": 0.15,
+    "circular": false
+}
+{
+    "label": "reboot",
+    "action": "systemctl reboot",
+    "text": "Reboot",
+    "keybind": "r",
+    "width": 0.15,
+    "height": 0.15,
+    "circular": false
+}

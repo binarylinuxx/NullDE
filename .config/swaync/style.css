@@ -1,0 +1,221 @@
+/* ~/.config/swaync/style.css */
+@import "../waybar/colors.css";
+
+/* ===== Base Styles ===== */
+* {
+  all: unset;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+/* ===== Control Center ===== */
+.control-center {
+  background-color: @surface_container;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid @surface_container_high;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Notification Cards ===== */
+.notification {
+  background-color: rgba(256,256,256,0.1);
+  border-radius: 8px;
+  margin: 8px 0;
+  padding: 12px;
+  border-left: 4px solid @primary;
+}
+
+.notification.critical {
+  border-left-color: @error;
+  background-color: @error_container;
+}
+
+.notification.low {
+  border-left-color: @outline;
+}
+
+.notification:hover {
+  background-color: @surface_container_highest;
+}
+
+/* ===== Notification Content ===== */
+.notification-content {
+  margin: 4px 0;
+}
+
+.notification-app-name {
+  color: @primary;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+.notification-summary {
+  color: @on_surface;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.notification-body {
+  color: @on_surface_variant;
+  margin-top: 6px;
+}
+
+.notification-icon {
+  min-width: 40px;
+  min-height: 40px;
+  margin-right: 12px;
+}
+
+/* ===== Widgets ===== */
+.widget-title {
+  color: @primary;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.widget-title button {
+  background-color: @surface_container_high;
+  color: @primary;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-left: 12px;
+}
+
+.widget-title button:hover {
+  background-color: @primary;
+  color: @on_primary;
+}
+
+.widget-dnd {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: @surface_container_high;
+  border-radius: 6px;
+}
+
+.widget-dnd switch {
+  background-color: @surface_container_highest;
+  border-radius: 12px;
+  padding: 2px;
+}
+
+.widget-dnd switch:checked {
+  background-color: @primary;
+}
+
+.widget-dnd slider {
+  background-color: @on_surface;
+  border-radius: 20px;
+}
+
+/* ===== Button Grid Widget ===== */
+.widget-buttons-grid {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: @surface_container_high;
+  border-radius: 8px;
+}
+
+.buttons-grid button {
+  background-color: @on_primary;
+  color: @primary;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 900;
+  font-size: 14px;
+  min-height: 44px;
+  transition: all 0.2s ease;
+}
+
+.buttons-grid button:hover {
+  background-color: @primary;
+  color: @on_primary;
+/*  transform: translateY(-1px); */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-grid button:active {
+  /*transform: translateY(0); */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: @background;
+  color: @primary;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin: 2px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: @primary;
+  color: @on_primary;
+}
+
+.close-button {
+  background-color: transparent;
+  color: @outline;
+  border-radius: 100%;
+  padding: 0px;
+  margin: 10px;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.close-button:hover {
+  background-color: @error;
+  color: @on_error;
+}
+
+/* ===== Progress Bars ===== */
+progressbar {
+  background-color: @surface_container_highest;
+  border-radius: 3px;
+  min-height: 6px;
+}
+
+progressbar trough {
+  background-color: @surface_container_highest;
+  border-radius: 3px;
+}
+
+progressbar progress {
+  background-color: @primary;
+  border-radius: 3px;
+}
+
+/* ===== Media Player ===== */
+.mpris {
+  background-color: @surface_container_high;
+  border-radius: 13px;
+  padding: 12px;
+  margin: 8px 8px;
+}
+
+.mpris-player {
+  padding: 0;
+}
+
+.mpris-title {
+  color: @on_surface;
+  font-weight: 900;
+}
+
+.mpris-artist {
+  color: @on_surface_variant;
+}
+
+.mpris-button {
+  background-color: transparent;
+  color: @outline;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.mpris-button:hover {
+  color: @primary;
+}

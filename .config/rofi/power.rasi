@@ -1,0 +1,46 @@
+configuration {
+    font: "Fira Code 12";
+}
+
+* {
+    background-color:   #1e1e2e;
+    text-color:         #cdd6f4;
+}
+
+window {
+    transparency:      "real";
+    location:          center;
+    anchor:            center;
+    fullscreen:        false;
+    width:             250px;
+    x-offset:          0;
+    y-offset:          0;
+}
+
+mainbox {
+    children:          [ listview ];
+}
+
+listview {
+    lines:             6;
+    columns:           1;
+    spacing:           10px;
+    cycle:             true;
+    dynamic:           true;
+    layout:            vertical;
+}
+
+element {
+    padding:           8px;
+    vertical-align:    0.5;
+    text-color:        #cdd6f4;
+}
+
+element selected {
+    text-color:        #89b4fa;
+    background-color:  #585b70;
+}
+
+element-text {
+    vertical-align:    0.5;
+}

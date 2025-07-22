@@ -1,0 +1,65 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "layer-shell": true,
+  "cssPriority": "user",
+  "control-center-margin-top": 20,
+  "control-center-margin-bottom": 20,
+  "control-center-margin-right": 20,
+  "control-center-margin-left": 0,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-icon-size": 40,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "timeout": 10,
+  "timeout-low": 5,
+  "timeout-critical": 0,
+  "widgets": [
+    "title",
+    "mpris",
+    "dnd",
+    "buttons-grid",
+    "notifications"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "mpris": {
+      "image-size": 64,
+      "max-text-length": 64
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": " Settings",
+          "command": "hyprsettings"
+        },
+        {
+          "label": "󰃭 Calendar",
+          "command": "gnome-calendar"
+        },
+        {
+          "label": " World Clock",
+          "command": "gnome-clocks"
+        },
+        {
+          "label": "󰌾 Lock Screen",
+          "command": "hyprlock"
+        }
+      ]
+    },
+    "notifications": {
+      "collapsible": true
+    }
+  }
+}

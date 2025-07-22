@@ -1,0 +1,157 @@
+configuration {
+    font: "JetBrainsMono Bold 14";
+    font-weight: 900;
+    show-icons: true;
+    icon-theme: "Tela-circle-black";
+    drun-display-format: "{name}";
+    disable-history: false;
+    sidebar-mode: false;
+    yoffset: 0;
+    location: 0;
+    hover-select: true;
+    click-to-exit: true;
+    threads: 5;
+    spacing: 2;
+    margin: 0;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+@import "~/.config/rofi/colors.rasi"
+@import "~/.config/cached/current_wall.rasi"
+
+* {
+    color11: @primary;
+    color5: @on-primary-fixed;
+    foreground: @on-surface;
+    background: @surface;  /* Added this line to define background */
+}
+
+window {
+    height: 35em;
+    width: 56em;
+    transparency: "real";
+    fullscreen: false;
+    cursor: "default";
+    border: 3px;
+    border-color: @secondary;
+    border-radius: 35px;
+    background-color: transparent;
+    background-image: @current-image;
+    background-blur: 10px;
+    children: [ mainbox ];
+}
+
+mainbox {
+    spacing: 0em;
+    padding: 0em;
+    orientation: vertical;
+    children: [ inputbar, listbox ];
+    background-color: transparent;
+}
+
+inputbar {
+    spacing: 0em;
+    padding: 4em;
+    children: [ prompt, entry ];
+    background-color: transparent;
+}
+
+prompt {
+    expand: false;
+    str: "  ";
+    padding: 1em 0.1em 0em 0.5em;
+    text-color: @foreground;
+    border-radius: 2em 0em 0em 2em;
+    background-color: @color5;
+}
+
+entry {
+    border-radius: 0em 2em 2em 0em;
+    spacing: 1em;
+    padding: 1em;
+    background-color: @color5;
+    text-color: @foreground;
+    placeholder: "Search";
+    placeholder-color: inherit;
+}
+
+listbox {
+    padding: 0em;
+    spacing: 0em;
+    orientation: horizontal;
+    children: [ listview, mode-switcher ];
+    background-color: @surface;  /* Changed from @background to @surface */
+}
+
+listview {
+    padding: 1.5em;
+    spacing: 0.5em;
+    columns: 3;
+    lines: 3;
+    layout: vertical;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+mode-switcher {
+    orientation: vertical;
+    width: 7.9em;
+    padding:  2.5em 1.5em;
+    spacing: 1.5em;
+    height: 1em;
+    background-color: transparent;
+}
+
+button {
+    border-radius: 2em;
+    background-color: @surface;  /* Changed from @background to @surface */
+    text-color: @foreground;
+}
+
+button selected {
+    background-color: @color5;
+    text-color: @foreground;
+    border-radius: 20em;
+}
+
+element {
+    spacing: 0em;
+    padding: 0.3em;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected.normal {
+    background-color: @color5;
+    text-color: @foreground;
+    border-radius: 5em;
+}
+
+element-icon {
+    size: 3em;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element-text {
+    vertical-align: 0.5;
+    horizontal-align: 0.1;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+error-message {
+    text-color: @foreground;
+    background-color: @surface;  /* Changed from @background to @surface */
+    children: [ textbox ];
+}
+
+textbox {
+    text-color: inherit;
+    background-color: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+

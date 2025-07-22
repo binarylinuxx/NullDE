@@ -1,0 +1,16 @@
+{
+  "clientToken": "72c0ce0d-5820-47f5-ae02-092f8bd6866a",
+  "accounts": {
+    "08d965747f4b419eb880d8bc43633047": {
+      "username": "enderman14",
+      "userID": "enderman14",
+      "displayName": "enderman14",
+      "uuid": "08d965747f4b419eb880d8bc43633047",
+      "type": "free",
+      "skinType": "tlauncher",
+      "premiumAccount": false
+    }
+  },
+  "selectedAccountUUID": "08d965747f4b419eb880d8bc43633047",
+  "freeAccountUUID": "08d965747f4b419eb880d8bc43633047"
+}

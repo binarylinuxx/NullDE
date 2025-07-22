@@ -1,0 +1,19 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Tela-circle-black";
+    display-drun: " 󰵆 Apps";
+    display-run: " Run";
+    display-window: " Windows";
+    drun-display-format: "{name}";
+    sidebar-mode: false;
+    location: 0;
+    disable-history: false;
+    yoffset: 0;
+    hover-select: true;
+    click-to-exit: true;
+    font: "JetBrainsMono Bold 14";
+    background: #1e1e2e;
+    threads: 4;
+}
+@theme "custom_theme"
