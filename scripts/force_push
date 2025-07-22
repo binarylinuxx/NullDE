@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # scripts/force_push
-
+REPO_NAME=NullDE
 set -e
 
 # Fail early if not set
