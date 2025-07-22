@@ -11,7 +11,7 @@ echo "[+] REPO_NAME: $REPO_NAME"
 # Fail early if variables are not set
 [ -z "$REPO_OWNER" ] && { echo "REPO_OWNER not set"; exit 1; }
 [ -z "$REPO_NAME" ] && { echo "REPO_NAME not set"; exit 1; }
-[ -z "$GITHUB_TOKEN" ] && { echo "GITHUB_TOKEN not set"; exit 1; }
+[ -z "$ACCESS_GIT" ] && { echo "ACCESS_GIT not set"; exit 1; }
 
 # Configure Git
 echo "[+] Authorizing Git"
@@ -25,4 +25,4 @@ git commit -m "Upload latest packages to repository" || echo "No changes to comm
 
 # Force push to main
 echo "[+] Force pushing to main"
-git push -f "https://x-access-token:$GITHUB_TOKEN@github.com/$REPO_OWNER/$REPO_NAME.git" main
+git push -f "https://$REPO_OWNER:$ACCESS_GIT@github.com/$REPO_OWNER/$REPO_NAME.git" main

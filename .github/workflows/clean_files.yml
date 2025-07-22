@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACCESS_GIT }}  # Use PAT for checkout
 
       - name: Run cleanup script
         run: |
@@ -25,7 +25,7 @@ jobs:
 
       - name: Force push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_GIT: ${{ secrets.ACCESS_GIT }}  # Use PAT here
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: NullDE
         run: |
