@@ -1,11 +1,11 @@
 name: Auto-sync Hyprland Configs
 
 on:
-  push:                # <-- runs on every push
+  push:
     branches:
-      - '**'           # all branches
-  workflow_dispatch:    # manual trigger button
-  repository_dispatch:  # external trigger
+      - main
+  workflow_dispatch:
+  repository_dispatch:
     types: [sync-configs]
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Force push
         env:
-          ACCESS_GIT: ${{ secrets.ACCESS_GIT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: NullDE
         run: |
