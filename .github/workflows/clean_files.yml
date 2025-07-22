@@ -1,0 +1,30 @@
+# .github/workflows/sync-configs.yml
+name: Auto-sync Hyprland Configs
+
+on:
+  workflow_dispatch:  # Manual trigger button
+  repository_dispatch:  # For triggering from external scripts
+    types: [sync-configs]
+
+jobs:
+  sync-configs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Run cleanup script
+        run: |
+          cd .config
+          chmod +x cleanup_configs
+          ./cleanup_configs
+          
+      - name: Force push
+        env:
+        ACCESS_GIT: ${{ secrets.ACCESS_GIT }}
+        REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          chmod +x scripts/force_push
+          ./scripts/force_push
