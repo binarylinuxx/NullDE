@@ -18,13 +18,13 @@ check_root() {
 # Установка через xbps
 install_packages() {
     echo -e "${CYAN}[+] Updating package database...${NC}"
-    xbps-install -Suy || {
+    sudo xbps-install -Suy || {
         echo -e "${RED}[-] Failed to update packages${NC}"
         exit 1
     }
 
     echo -e "${CYAN}[+] Installing base packages...${NC}"
-    xbps-install -y git make gcc pkg-config || {
+    sudo xbps-install -y git make gcc pkg-config || {
         echo -e "${RED}[-] Failed to install base packages${NC}"
         exit 1
     }

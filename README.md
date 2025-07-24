@@ -37,7 +37,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/binarylinuxx/NullDE/main
 
 *avilable pkgs:*
 ```
-libinput mesa-dri wayland-protocols xorg-server-xwayland xdg-utils xdg-user-dirs polkit pulseaudio pulseaudio-devel hyprlock nerd-fonts-symbols-ttf gtk4-layer-shell gtk4-layer-shell-devel hyprland xdg-desktop-portal-hyprland rofi Waybar swaybg kitty libadwita hyprpaper wlogout fish-shell gtk4-devel gtk4 gtk3
+libinput mesa-dri wayland-protocols 
+xorg-server-xwayland xdg-utils xdg-user-dirs polkit 
+pulseaudio pulseaudio-devel hyprlock nerd-fonts-symbols-ttf 
+gtk4-layer-shell gtk4-layer-shell-devel hyprland 
+xdg-desktop-portal-hyprland rofi Waybar swaybg kitty libadwita 
+hyprpaper wlogout fish-shell gtk4-devel gtk4 gtk3
 ```
 
 *binary builden by myself from BIN/ folder:*
