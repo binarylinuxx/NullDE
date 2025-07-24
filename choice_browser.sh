@@ -18,7 +18,7 @@ check_root() {
 # Установка через xbps
 install_packages() {
     echo -e "${CYAN}[+] Updating package database...${NC}"
-    sudo xbps-install -Suy || {
+    sudo xbps-install -Sy || {
         echo -e "${RED}[-] Failed to update packages${NC}"
         exit 1
     }
