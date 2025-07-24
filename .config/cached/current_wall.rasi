@@ -1,0 +1,3 @@
+* {
+	current-image: url("/home/blx/Downloads/Untitled.png",height);
+}
