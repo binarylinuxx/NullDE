@@ -1,133 +1,127 @@
 #!/bin/bash
 
-DIR_TO_CLONE_THE_REPO="$HOME/.dots"
-NULLDE_REPO="https://github.com/binarylinuxx/NullDE.git"
+# Configuration
+REPO_DIR="$HOME/.dots"           # Only clone into ~/.dots/NullDE (not ~/.dots/NullDE/NullDE)
+REPO_URL="https://github.com/binarylinuxx/NullDE.git"
 REPO_NAME="NullDE"
 
+# Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
-NC='\033[0m'
+NC='\033[0m' # No Color
 
-ask_user_confirmation() {
-    echo -e "${BLUE}Hello $USER! Welcome to ${CYAN}NullDE Dotfiles Hyprland installer${NC}"
-    echo -ne "${YELLOW}Do you want to proceed? [Yy/Nn]${NC} "
+# --- Functions ---
+
+# Ask for user confirmation
+confirm_install() {
+    echo -e "${BLUE}Welcome to ${CYAN}NullDE Dotfiles Installer${NC}"
+    echo -ne "${YELLOW}Proceed with installation? [Y/n] ${NC}"
     read -r answer
 
-    if [[ "$answer" =~ ^[Yy]$ ]]; then
-        echo -e "${GREEN}[+] Starting installation...${NC}"
-        clone_repo
-    elif [[ "$answer" =~ ^[Nn]$ ]]; then
-        echo -e "${RED}[-] Installation aborted.${NC}"
-        exit 130
-    else
-        echo -e "${CYAN}[!] Failed to parse your choice${NC}"
-        echo -e "${CYAN}[!] Please enter Yy/Nn${NC}"
-        ask_user_confirmation
+    case "$answer" in
+        [Yy]|"") 
+            echo -e "${GREEN}[+] Starting installation...${NC}"
+            ;;
+        [Nn])
+            echo -e "${RED}[-] Installation aborted.${NC}"
+            exit 1
+            ;;
+        *)
+            echo -e "${RED}[!] Invalid choice. Please enter Y/n.${NC}"
+            confirm_install
+            ;;
+    esac
+}
+
+# Install Git if missing
+install_git() {
+    if ! command -v git &> /dev/null; then
+        echo -e "${CYAN}[+] Installing Git...${NC}"
+        sudo xbps-install -Sy git || {
+            echo -e "${RED}[-] Failed to install Git!${NC}"
+            exit 1
+        }
     fi
 }
 
-clone_repo() {
-    echo -e "${CYAN}[!] Preparing installation directory...${NC}"
-    
-    # Полный путь к папке репозитория
-    FULL_REPO_PATH="$DIR_TO_CLONE_THE_REPO/$REPO_NAME"
-    
-    # Если папка уже существует, предложить варианты
-    if [ -d "$FULL_REPO_PATH" ]; then
-        echo -e "${YELLOW}[!] Directory $FULL_REPO_PATH already exists.${NC}"
-        echo -e "${CYAN}Choose action:${NC}"
-        echo -e "${YELLOW}[1] Remove and clone fresh${NC}"
-        echo -e "${YELLOW}[2] Update existing (git pull)${NC}"
-        echo -e "${YELLOW}[3] Abort installation${NC}"
+# Clone or update the repository
+setup_repo() {
+    echo -e "${CYAN}[+] Setting up repository...${NC}"
+
+    # If folder exists, ask what to do
+    if [ -d "$REPO_DIR/$REPO_NAME" ]; then
+        echo -e "${YELLOW}[!] '$REPO_DIR/$REPO_NAME' already exists!${NC}"
+        echo -e "${CYAN}Choose an option:${NC}"
+        echo -e "  ${YELLOW}1) Delete and re-clone (clean install)${NC}"
+        echo -e "  ${YELLOW}2) Update existing (git pull)${NC}"
+        echo -e "  ${YELLOW}3) Abort${NC}"
         echo -ne "${YELLOW}Select [1-3]: ${NC}"
-        
         read -r choice
-        case $choice in
+
+        case "$choice" in
             1)
-                echo -e "${CYAN}[+] Removing old directory...${NC}"
-                rm -rf "$FULL_REPO_PATH" || {
-                    echo -e "${RED}[-] Failed to remove directory${NC}"
+                echo -e "${CYAN}[+] Removing old repository...${NC}"
+                rm -rf "$REPO_DIR/$REPO_NAME" || {
+                    echo -e "${RED}[-] Failed to delete folder!${NC}"
                     exit 1
                 }
                 ;;
             2)
-                echo -e "${CYAN}[+] Updating existing repository...${NC}"
-                cd "$FULL_REPO_PATH" || {
-                    echo -e "${RED}[-] Failed to enter directory${NC}"
+                echo -e "${CYAN}[+] Updating repository...${NC}"
+                cd "$REPO_DIR/$REPO_NAME" || exit 1
+                git pull || {
+                    echo -e "${RED}[-] Failed to update!${NC}"
                     exit 1
                 }
-                git pull origin main || {
-                    echo -e "${RED}[-] Failed to update repository${NC}"
-                    exit 1
-                }
-                echo -e "${GREEN}[+] Repository updated successfully${NC}"
+                echo -e "${GREEN}[+] Successfully updated.${NC}"
                 return 0
                 ;;
             3)
-                echo -e "${RED}[-] Installation aborted by user${NC}"
-                exit 130
+                echo -e "${RED}[-] Aborted by user.${NC}"
+                exit 1
                 ;;
             *)
-                echo -e "${RED}[-] Invalid choice${NC}"
+                echo -e "${RED}[-] Invalid choice!${NC}"
                 exit 1
                 ;;
         esac
     fi
-    
-    # Создаем базовую директорию
-    mkdir -p "$DIR_TO_CLONE_THE_REPO" || {
-        echo -e "${RED}[-] Failed to create directory${NC}"
-        exit 1
-    }
 
-    echo -e "${GREEN}[+] Directory prepared successfully.${NC}"
+    # Clone the repo
     echo -e "${CYAN}[+] Cloning repository...${NC}"
-    
-    git clone "$NULLDE_REPO" "$FULL_REPO_PATH" || {
-        echo -e "${RED}[-] Failed to clone repository${NC}"
-        echo -e "${YELLOW}[!] Check your internet connection and try again${NC}"
+    mkdir -p "$REPO_DIR" || exit 1
+    git clone "$REPO_URL" "$REPO_DIR/$REPO_NAME" || {
+        echo -e "${RED}[-] Clone failed! Check internet.${NC}"
         exit 1
     }
-    
-    echo -e "${GREEN}[+] Repository cloned successfully${NC}"
+    echo -e "${GREEN}[+] Repository cloned successfully.${NC}"
 }
 
-enter_repository_dir() {
-    echo -e "${CYAN}[+] Entering repository directory...${NC}"
-    cd "$DIR_TO_CLONE_THE_REPO/$REPO_NAME" || {
+# Run the installer script
+run_installer() {
+    echo -e "${CYAN}[+] Running installer...${NC}"
+    cd "$REPO_DIR/$REPO_NAME" || {
         echo -e "${RED}[-] Failed to enter directory!${NC}"
         exit 1
     }
 
-    echo -e "${GREEN}[+] Starting package installation...${NC}"
     if [ -f "install_pkgs.sh" ]; then
-        source install_pkgs.sh
+        ./install_pkgs.sh
     else
-        echo -e "${RED}[-] install_pkgs.sh not found!${NC}"
+        echo -e "${RED}[-] 'install_pkgs.sh' not found!${NC}"
         exit 1
     fi
 }
 
-install_git() {
-    echo -e "${CYAN}[+] Installing git...${NC}"
-    sudo xbps-install -Syu git || {
-        echo -e "${RED}[-] Failed to install git${NC}"
-        exit 1
-    }
-}
-
+# --- Main ---
 main() {
-    # Проверяем наличие git
-    if ! command -v git >/dev/null 2>&1; then
-        install_git
-    fi
-    
-    ask_user_confirmation
-    clone_repo
-    enter_repository_dir
+    install_git          # Ensure Git is installed
+    confirm_install     # Ask for confirmation
+    setup_repo          # Clone/update repo
+    run_installer       # Run the package installer
 }
 
 main
