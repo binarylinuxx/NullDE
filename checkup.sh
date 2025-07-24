@@ -1,12 +1,11 @@
 #!/bin/bash
 
-# Цвета
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 # Проверка пакетов через xbps-query
 check_packages() {
@@ -19,13 +18,19 @@ check_packages() {
 
     echo -e "${CYAN}[!] Checking installed packages...${NC}"
     
+    local missing_count=0
     for pkg in "${packages[@]}"; do
         if xbps-query "$pkg" >/dev/null 2>&1; then
             echo -e "${GREEN}[+] $pkg installed${NC}"
         else
             echo -e "${RED}[-] $pkg NOT installed${NC}"
+            ((missing_count++))
         fi
     done
+    
+    if [ $missing_count -gt 0 ]; then
+        echo -e "${YELLOW}[!] $missing_count packages are missing${NC}"
+    fi
 }
 
 # Проверка сервисов
@@ -62,17 +67,19 @@ check_hyprland_deps() {
 }
 
 ask_user_reboot_confirmation() {
-    echo -e "${BLUE}Dotfiles install finished! Would you like to reboot now? (not required but recommended)${NC}"
+    echo -e "${BLUE}Dotfiles installation finished! Would you like to reboot now?${NC}"
+    echo -e "${YELLOW}(Reboot is recommended to apply all changes)${NC}"
     echo -ne "${YELLOW}Do you want to proceed? [Yy/Nn]${NC} "
     read -r answer
 
     case "$answer" in
         [Yy]*) 
             echo -e "${GREEN}[+] Rebooting now...${NC}"
-            loginctl reboot
+            # ИСПРАВЛЕНО: используем более совместимую команду
+            sudo reboot || loginctl reboot
             ;;
         [Nn]*) 
-            echo -e "${RED}[-] Reboot cancelled.${NC}"
+            echo -e "${YELLOW}[!] Reboot cancelled. Please reboot manually later.${NC}"
             exit 0
             ;;
         *) 
@@ -85,11 +92,12 @@ ask_user_reboot_confirmation() {
 copy_configs() {
     echo -e "${CYAN}[!] Copying config files...${NC}"
     if [ -d ".config" ]; then
-        cp -vr .config/ ~/ && \
+        cp -r .config/ ~/ && \
         echo -e "${GREEN}[+] Configs copied successfully${NC}" || \
         echo -e "${RED}[-] Failed to copy configs${NC}"
     else
-        echo -e "${YELLOW}[!] No .config directory found${NC}"
+        echo -e "${YELLOW}[!] No .config directory found in current directory${NC}"
+        echo -e "${YELLOW}[!] Current directory: $(pwd)${NC}"
     fi
 }
 

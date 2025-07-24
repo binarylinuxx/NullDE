@@ -48,7 +48,12 @@ check_user_groups() {
 }
 
 next_script() {
-	source install_font_and_shell.sh
+    if [ -f "install_font_and_shell.sh" ]; then
+        source install_font_and_shell.sh
+    else
+        echo -e "${YELLOW}[!] install_font_and_shell.sh not found.${NC}"
+        exit 1
+    fi
 }
 
 main() {

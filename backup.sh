@@ -1,5 +1,3 @@
-#!/bin/bash
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -8,14 +6,14 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 items_to_find=(".bashrc" ".zshrc" ".config")
-backup_dir="$HOME/.backup"  # Исправлено: ~ не раскрывается в кавычках
+backup_dir="$HOME/.backup"
 
-found_items=()  # Массив для хранения найденных файлов/папок
+found_items=()
 
 check_shell_and_dot_config() {
     for item in "${items_to_find[@]}"; do
         if [ -e "$HOME/$item" ]; then
-            found_items+=("$item")  # Добавляем в массив найденных
+            found_items+=("$item")
         fi
     done
 
@@ -62,10 +60,12 @@ backuping() {
 }
 
 next_script() {
-    if [ -f "cope_and_setup_dotfiles.sh" ]; then
+    # ИСПРАВЛЕНО: проверяем тот файл, который подключаем
+    if [ -f "checksvs.sh" ]; then
         source checksvs.sh
     else
-        echo -e "${YELLOW}[!] Next script not found.${NC}"
+        echo -e "${YELLOW}[!] checksvs.sh not found.${NC}"
+        exit 1
     fi
 }
 
