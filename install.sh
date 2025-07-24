@@ -30,17 +30,65 @@ ask_user_confirmation() {
 }
 
 clone_repo() {
-    echo -e "${CYAN}[!] Creating directory...${NC}"
+    echo -e "${CYAN}[!] Preparing installation directory...${NC}"
+    
+    # Полный путь к папке репозитория
+    FULL_REPO_PATH="$DIR_TO_CLONE_THE_REPO/$REPO_NAME"
+    
+    # Если папка уже существует, предложить варианты
+    if [ -d "$FULL_REPO_PATH" ]; then
+        echo -e "${YELLOW}[!] Directory $FULL_REPO_PATH already exists.${NC}"
+        echo -e "${CYAN}Choose action:${NC}"
+        echo -e "${YELLOW}[1] Remove and clone fresh${NC}"
+        echo -e "${YELLOW}[2] Update existing (git pull)${NC}"
+        echo -e "${YELLOW}[3] Abort installation${NC}"
+        echo -ne "${YELLOW}Select [1-3]: ${NC}"
+        
+        read -r choice
+        case $choice in
+            1)
+                echo -e "${CYAN}[+] Removing old directory...${NC}"
+                rm -rf "$FULL_REPO_PATH" || {
+                    echo -e "${RED}[-] Failed to remove directory${NC}"
+                    exit 1
+                }
+                ;;
+            2)
+                echo -e "${CYAN}[+] Updating existing repository...${NC}"
+                cd "$FULL_REPO_PATH" || {
+                    echo -e "${RED}[-] Failed to enter directory${NC}"
+                    exit 1
+                }
+                git pull origin main || {
+                    echo -e "${RED}[-] Failed to update repository${NC}"
+                    exit 1
+                }
+                echo -e "${GREEN}[+] Repository updated successfully${NC}"
+                return 0
+                ;;
+            3)
+                echo -e "${RED}[-] Installation aborted by user${NC}"
+                exit 130
+                ;;
+            *)
+                echo -e "${RED}[-] Invalid choice${NC}"
+                exit 1
+                ;;
+        esac
+    fi
+    
+    # Создаем базовую директорию
     mkdir -p "$DIR_TO_CLONE_THE_REPO" || {
         echo -e "${RED}[-] Failed to create directory${NC}"
         exit 1
     }
 
-    echo -e "${GREEN}[+] Directory created successfully.${NC}"
+    echo -e "${GREEN}[+] Directory prepared successfully.${NC}"
     echo -e "${CYAN}[+] Cloning repository...${NC}"
     
-    git clone "$NULLDE_REPO" "$DIR_TO_CLONE_THE_REPO/$REPO_NAME" || {
+    git clone "$NULLDE_REPO" "$FULL_REPO_PATH" || {
         echo -e "${RED}[-] Failed to clone repository${NC}"
+        echo -e "${YELLOW}[!] Check your internet connection and try again${NC}"
         exit 1
     }
     
