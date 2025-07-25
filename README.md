@@ -24,6 +24,8 @@ implemented yet due to lack of support, testing, experience and knowledge.
 # INSTALL
 >[!NOTE]
 > the bash installer are on **pre-pre-pre-Alpha!** use on your own risk and free will.
+> script mostly stable but still have points needed to fix 
+> and still many things to change and improve because im solo developer of all this project
 
 - script as well guide you through a few interactive steps so you could say install process was going very customizable
 
@@ -63,6 +65,6 @@ loginctl reboot
 - <kbd>PRTSCN</kbd>: TAKE A SHOT(SCREENSHOT) OF SCREEN
 - <kbd>SUPER<kbd> + <kbd>SPACEBAR<kbd>: APP LAUNCHER ROFI
 - <kbd>SUPER<kbd> + <kbd>0 - 9<kbd>: MOVE THROUGHT WORKSPACES IN RANGE 0-9
-- <kbd>SUPER<kbd> + <kbd>W<kbd>: SPAWN CONTROL PANEL
+- <kbd>SUPER<kbd> + <kbd>W<kbd>: SPAWN CONTROL PANEL for more info about control panel [click there](https://github.com/binarylinuxx/hyprsettings.git)
 
 
