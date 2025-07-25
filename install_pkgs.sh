@@ -8,7 +8,7 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 # ИСПРАВЛЕНО: разбил на отдельные переменные для читаемости
-MAIN_PACKAGES="libinput mesa-dri wayland-protocols xorg-server-xwayland xdg-utils xdg-user-dirs polkit"
+MAIN_PACKAGES="wget libinput mesa-dri wayland-protocols xorg-server-xwayland xdg-utils xdg-user-dirs polkit"
 HYPRLAND_PACKAGES="pulseaudio pulseaudio-devel hyprlock nerd-fonts-symbols-ttf gtk4-layer-shell gtk4-layer-shell-devel hyprland xdg-desktop-portal-hyprland"
 UI_PACKAGES="rofi Waybar swaybg kitty libadwaita hyprpaper wlogout fish-shell gtk4-devel gtk4 gtk+3-devel gtk+3"
 
