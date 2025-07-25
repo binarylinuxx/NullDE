@@ -90,15 +90,9 @@ ask_user_reboot_confirmation() {
 }
 
 copy_configs() {
-    echo -e "${CYAN}[!] Copying config files...${NC}"
-    if [ -d ".config" ]; then
         cp -r .config/ ~/ && \
         echo -e "${GREEN}[+] Configs copied successfully${NC}" || \
         echo -e "${RED}[-] Failed to copy configs${NC}"
-    else
-        echo -e "${YELLOW}[!] No .config directory found in current directory${NC}"
-        echo -e "${YELLOW}[!] Current directory: $(pwd)${NC}"
-    fi
 }
 
 main() {

@@ -18,7 +18,7 @@ check_and_fix() {
     echo -e "${YELLOW}[!] $service not running, fixing...${NC}"
     
     # Install if missing
-    sudo xbps-install -y "$service" 2>/dev/null
+    sudo xbps-install -Sy "$service" 2>/dev/null
     
     # Enable and start
     sudo ln -sf /etc/sv/"$service" /var/service/ 2>/dev/null
