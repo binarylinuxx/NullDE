@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpy>
+  <Theme>
+    <name>Void Black</name>
+    <theme_area>USER_INTERFACE</theme_area>
+    
+    <!-- User Interface Colors -->
+    <user_interface>
+      <wcol_regular>
+        <outline>30, 30, 30, 255</outline>
+        <inner>10, 10, 10, 255</inner>
+        <inner_sel>25, 25, 25, 255</inner_sel>
+        <item>40, 40, 40, 255</item>
+        <text>200, 200, 200, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_regular>
+      
+      <wcol_tool>
+        <outline>15, 15, 15, 255</outline>
+        <inner>5, 5, 5, 255</inner>
+        <inner_sel>20, 20, 20, 255</inner_sel>
+        <item>35, 35, 35, 255</item>
+        <text>180, 180, 180, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_tool>
+      
+      <wcol_toolbar_item>
+        <outline>20, 20, 20, 255</outline>
+        <inner>8, 8, 8, 255</inner>
+        <inner_sel>30, 30, 30, 255</inner_sel>
+        <item>45, 45, 45, 255</item>
+        <text>190, 190, 190, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_toolbar_item>
+      
+      <wcol_radio>
+        <outline>25, 25, 25, 255</outline>
+        <inner>12, 12, 12, 255</inner>
+        <inner_sel>35, 35, 35, 255</inner_sel>
+        <item>50, 50, 50, 255</item>
+        <text>200, 200, 200, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_radio>
+      
+      <wcol_text>
+        <outline>18, 18, 18, 255</outline>
+        <inner>6, 6, 6, 255</inner>
+        <inner_sel>22, 22, 22, 255</inner_sel>
+        <item>38, 38, 38, 255</item>
+        <text>220, 220, 220, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_text>
+      
+      <wcol_option>
+        <outline>22, 22, 22, 255</outline>
+        <inner>9, 9, 9, 255</inner>
+        <inner_sel>28, 28, 28, 255</inner_sel>
+        <item>42, 42, 42, 255</item>
+        <text>190, 190, 190, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_option>
+      
+      <wcol_toggle>
+        <outline>28, 28, 28, 255</outline>
+        <inner>14, 14, 14, 255</inner>
+        <inner_sel>32, 32, 32, 255</inner_sel>
+        <item>48, 48, 48, 255</item>
+        <text>210, 210, 210, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_toggle>
+      
+      <wcol_num>
+        <outline>16, 16, 16, 255</outline>
+        <inner>4, 4, 4, 255</inner>
+        <inner_sel>18, 18, 18, 255</inner_sel>
+        <item>36, 36, 36, 255</item>
+        <text>240, 240, 240, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_num>
+      
+      <wcol_numslider>
+        <outline>24, 24, 24, 255</outline>
+        <inner>11, 11, 11, 255</inner>
+        <inner_sel>26, 26, 26, 255</inner_sel>
+        <item>44, 44, 44, 255</item>
+        <text>230, 230, 230, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_numslider>
+      
+      <wcol_tab>
+        <outline>26, 26, 26, 255</outline>
+        <inner>13, 13, 13, 255</inner>
+        <inner_sel>30, 30, 30, 255</inner_sel>
+        <item>46, 46, 46, 255</item>
+        <text>200, 200, 200, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_tab>
+      
+      <wcol_menu>
+        <outline>12, 12, 12, 255</outline>
+        <inner>2, 2, 2, 255</inner>
+        <inner_sel>15, 15, 15, 255</inner_sel>
+        <item>32, 32, 32, 255</item>
+        <text>220, 220, 220, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_menu>
+      
+      <wcol_pulldown>
+        <outline>14, 14, 14, 255</outline>
+        <inner>3, 3, 3, 255</inner>
+        <inner_sel>17, 17, 17, 255</inner_sel>
+        <item>34, 34, 34, 255</item>
+        <text>210, 210, 210, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_pulldown>
+      
+      <wcol_menu_back>
+        <outline>8, 8, 8, 255</outline>
+        <inner>1, 1, 1, 255</inner>
+        <inner_sel>10, 10, 10, 255</inner_sel>
+        <item>28, 28, 28, 255</item>
+        <text>180, 180, 180, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_menu_back>
+      
+      <wcol_pie_menu>
+        <outline>10, 10, 10, 255</outline>
+        <inner>0, 0, 0, 200</inner>
+        <inner_sel>12, 12, 12, 255</inner_sel>
+        <item>30, 30, 30, 255</item>
+        <text>200, 200, 200, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_pie_menu>
+      
+      <wcol_tooltip>
+        <outline>20, 20, 20, 255</outline>
+        <inner>5, 5, 5, 230</inner>
+        <inner_sel>25, 25, 25, 255</inner_sel>
+        <item>40, 40, 40, 255</item>
+        <text>240, 240, 240, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_tooltip>
+      
+      <wcol_box>
+        <outline>32, 32, 32, 255</outline>
+        <inner>16, 16, 16, 255</inner>
+        <inner_sel>35, 35, 35, 255</inner_sel>
+        <item>52, 52, 52, 255</item>
+        <text>190, 190, 190, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_box>
+      
+      <wcol_scroll>
+        <outline>40, 40, 40, 255</outline>
+        <inner>20, 20, 20, 255</inner>
+        <inner_sel>45, 45, 45, 255</inner_sel>
+        <item>60, 60, 60, 255</item>
+        <text>160, 160, 160, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_scroll>
+      
+      <wcol_progress>
+        <outline>35, 35, 35, 255</outline>
+        <inner>18, 18, 18, 255</inner>
+        <inner_sel>40, 40, 40, 255</inner_sel>
+        <item>55, 55, 55, 255</item>
+        <text>220, 220, 220, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_progress>
+      
+      <wcol_list_item>
+        <outline>22, 22, 22, 255</outline>
+        <inner>8, 8, 8, 255</inner>
+        <inner_sel>24, 24, 24, 255</inner_sel>
+        <item>38, 38, 38, 255</item>
+        <text>200, 200, 200, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_list_item>
+      
+      <wcol_state>
+        <outline>38, 38, 38, 255</outline>
+        <inner>19, 19, 19, 255</inner>
+        <inner_sel>42, 42, 42, 255</inner_sel>
+        <item>58, 58, 58, 255</item>
+        <text>180, 180, 180, 255</text>
+        <text_sel>255, 255, 255, 255</text_sel>
+        <shaded>0</shaded>
+        <shadetop>0</shadetop>
+        <shadedown>0</shadedown>
+        <alpha_check>0</alpha_check>
+      </wcol_state>
+      
+      <!-- Panel Colors -->
+      <panel_title>220, 220, 220, 255</panel_title>
+      <panel_back>8, 8, 8, 255</panel_back>
+      <panel_sub_back>6, 6, 6, 255</panel_sub_back>
+      
+      <!-- Widget Colors -->
+      <widget_emboss>80, 80, 80, 255</widget_emboss>
+      <widget_text_cursor>255, 255, 255, 255</widget_text_cursor>
+      
+      <!-- Menu Colors -->
+      <menu_shadow_fac>0.5</menu_shadow_fac>
+      <menu_shadow_width>12</menu_shadow_width>
+      
+      <!-- Editor Colors -->
+      <editor_outline>50, 50, 50, 255</editor_outline>
+      
+      <!-- Icon Colors -->
+      <icon_alpha>1.0</icon_alpha>
+      <icon_saturation>0.8</icon_saturation>
+      <icon_border_intensity>0.8</icon_border_intensity>
+      <icon_collection>200, 200, 200, 255</icon_collection>
+      <icon_object>180, 180, 180, 255</icon_object>
+      <icon_object_data>160, 160, 160, 255</icon_object_data>
+      <icon_modifier>140, 140, 140, 255</icon_modifier>
+      <icon_shading>120, 120, 120, 255</icon_shading>
+      <icon_folder>100, 100, 100, 255</icon_folder>
+      <icon_scene>200, 200, 200, 255</icon_scene>
+      
+      <!-- Axis Colors -->
+      <axis_x>100, 100, 100, 255</axis_x>
+      <axis_y>100, 100, 100, 255</axis_y>
+      <axis_z>100, 100, 100, 255</axis_z>
+      
+      <!-- Gizmo Colors -->
+      <gizmo_hi>150, 150, 150, 255</gizmo_hi>
+      <gizmo_primary>120, 120, 120, 255</gizmo_primary>
+      <gizmo_secondary>100, 100, 100, 255</gizmo_secondary>
+      <gizmo_view_align>80, 80, 80, 255</gizmo_view_align>
+      <gizmo_a>100, 100, 100, 255</gizmo_a>
+      <gizmo_b>120, 120, 120, 255</gizmo_b>
+      
+      <!-- Transparency -->
+      <transparent_checker_primary>15, 15, 15, 255</transparent_checker_primary>
+      <transparent_checker_secondary>25, 25, 25, 255</transparent_checker_secondary>
+      <transparent_checker_size>8</transparent_checker_size>
+    </user_interface>
+    
+    <!-- 3D Viewport -->
+    <view_3d>
+      <back>0, 0, 0, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>220, 220, 220, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>12, 12, 12, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>20, 20, 20, 255</tab_active>
+      <tab_inactive>8, 8, 8, 255</tab_inactive>
+      <tab_back>5, 5, 5, 255</tab_back>
+      <tab_outline>40, 40, 40, 255</tab_outline>
+      <button>25, 25, 25, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>10, 10, 10, 255</navigation_bar>
+      <execution_buts>15, 15, 15, 255</execution_buts>
+      <panelcolors>
+        <header>18, 18, 18, 255</header>
+        <back>10, 10, 10, 255</back>
+        <sub_back>8, 8, 8, 255</sub_back>
+      </panelcolors>
+      <space_list>
+        <back>6, 6, 6, 255</back>
+        <title>200, 200, 200, 255</title>
+        <text>180, 180, 180, 255</text>
+        <text_hi>255, 255, 255, 255</text_hi>
+      </space_list>
+      
+      <!-- Grid Colors -->
+      <grid>80, 80, 80, 255</grid>
+      <clipping_border_3d>120, 120, 120, 255</clipping_border_3d>
+      
+      <!-- Object Colors -->
+      <object_selected>200, 200, 200, 255</object_selected>
+      <object_active>255, 255, 255, 255</object_active>
+      <object_grouped>150, 150, 150, 255</object_grouped>
+      <object_grouped_active>180, 180, 180, 255</object_grouped_active>
+      
+      <!-- Transform Colors -->
+      <transform>255, 255, 255, 255</transform>
+      
+      <!-- Vertex Colors -->
+      <vertex>120, 120, 120, 255</vertex>
+      <vertex_select>200, 200, 200, 255</vertex_select>
+      <vertex_active>255, 255, 255, 255</vertex_active>
+      <vertex_bevel>140, 140, 140, 255</vertex_bevel>
+      <vertex_unreferenced>60, 60, 60, 255</vertex_unreferenced>
+      
+      <!-- Edge Colors -->
+      <edge>100, 100, 100, 255</edge>
+      <edge_select>180, 180, 180, 255</edge_select>
+      <edge_seam>160, 160, 160, 255</edge_seam>
+      <edge_sharp>140, 140, 140, 255</edge_sharp>
+      <edge_crease>120, 120, 120, 255</edge_crease>
+      <edge_bevel>130, 130, 130, 255</edge_bevel>
+      <edge_facesel>110, 110, 110, 255</edge_facesel>
+      
+      <!-- Face Colors -->
+      <face>80, 80, 80, 50</face>
+      <face_select>120, 120, 120, 80</face_select>
+      <face_back>40, 40, 40, 30</face_back>
+      <face_front>60, 60, 60, 30</face_front>
+      <face_dot>200, 200, 200, 255</face_dot>
+      
+      <!-- Freestyle Colors -->
+      <freestyle_edge_mark>100, 100, 100, 255</freestyle_edge_mark>
+      <freestyle_face_mark>80, 80, 80, 255</freestyle_face_mark>
+      
+      <!-- Extra Colors -->
+      <extra_edge_len>160, 160, 160, 255</extra_edge_len>
+      <extra_edge_angle>140, 140, 140, 255</extra_edge_angle>
+      <extra_face_area>120, 120, 120, 255</extra_face_area>
+      <extra_face_angle>100, 100, 100, 255</extra_face_angle>
+      
+      <!-- Normal Colors -->
+      <normal>100, 100, 100, 255</normal>
+      <vertex_normal>120, 120, 120, 255</vertex_normal>
+      <loop_normal>110, 110, 110, 255</loop_normal>
+      <bone_solid>80, 80, 80, 255</bone_solid>
+      <bone_pose>100, 100, 100, 255</bone_pose>
+      <bone_pose_active>140, 140, 140, 255</bone_pose_active>
+      <bone_locked_weight>60, 60, 60, 255</bone_locked_weight>
+      
+      <!-- Frame Colors -->
+      <frame_current>255, 255, 255, 255</frame_current>
+      
+      <!-- Outline Colors -->
+      <outline_width>1</outline_width>
+      
+      <!-- Bundle Colors -->
+      <bundle_solid>120, 120, 120, 255</bundle_solid>
+      
+      <!-- Camera Path -->
+      <camera_path>100, 100, 100, 255</camera_path>
+      
+      <!-- Skin Root -->
+      <skin_root>180, 180, 180, 255</skin_root>
+      
+      <!-- Gradient Colors -->
+      <gradient_high_color>60, 60, 60, 255</gradient_high_color>
+      <gradient_low_color>20, 20, 20, 255</gradient_low_color>
+      
+      <!-- Wire Colors -->
+      <wire>120, 120, 120, 255</wire>
+      <wire_edit>140, 140, 140, 255</wire_edit>
+      
+      <!-- Light Colors -->
+      <light>200, 200, 200, 40</light>
+      
+      <!-- Speaker Colors -->
+      <speaker>160, 160, 160, 255</speaker>
+      
+      <!-- Hair Colors -->
+      <hair>100, 100, 100, 255</hair>
+      
+      <!-- GP Vertex Colors -->
+      <gp_vertex>120, 120, 120, 255</gp_vertex>
+      <gp_vertex_select>180, 180, 180, 255</gp_vertex_select>
+      <gp_vertex_size>3</gp_vertex_size>
+      
+      <!-- Simulated Frames -->
+      <simulated_frames>80, 80, 80, 255</simulated_frames>
+    </view_3d>
+    
+    <!-- Properties Editor -->
+    <properties>
+      <back>8, 8, 8, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>15, 15, 15, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>25, 25, 25, 255</tab_active>
+      <tab_inactive>12, 12, 12, 255</tab_inactive>
+      <tab_back>8, 8, 8, 255</tab_back>
+      <tab_outline>40, 40, 40, 255</tab_outline>
+      <button>20, 20, 20, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>12, 12, 12, 255</navigation_bar>
+      <execution_buts>18, 18, 18, 255</execution_buts>
+      <panelcolors>
+        <header>20, 20, 20, 255</header>
+        <back>12, 12, 12, 255</back>
+        <sub_back>10, 10, 10, 255</sub_back>
+      </panelcolors>
+    </properties>
+    
+    <!-- Outliner -->
+    <outliner>
+      <back>6, 6, 6, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>12, 12, 12, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>18, 18, 18, 255</tab_active>
+      <tab_inactive>8, 8, 8, 255</tab_inactive>
+      <tab_back>5, 5, 5, 255</tab_back>
+      <tab_outline>35, 35, 35, 255</tab_outline>
+      <button>15, 15, 15, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>10, 10, 10, 255</navigation_bar>
+      <execution_buts>15, 15, 15, 255</execution_buts>
+      <panelcolors>
+        <header>15, 15, 15, 255</header>
+        <back>8, 8, 8, 255</back>
+        <sub_back>6, 6, 6, 255</sub_back>
+      </panelcolors>
+      <space_list>
+        <back>4, 4, 4, 255</back>
+        <title>200, 200, 200, 255</title>
+        <text>180, 180, 180, 255</text>
+        <text_hi>255, 255, 255, 255</text_hi>
+      </space_list>
+      
+      <!-- Outliner Specific -->
+      <match>120, 120, 120, 255</match>
+      <selected_highlight>40, 40, 40, 255</selected_highlight>
+      <selected_object>60, 60, 60, 255</selected_object>
+      <active_object>80, 80, 80, 255</active_object>
+      <edited_object>100, 100, 100, 255</edited_object>
+      <row_alternate>12, 12, 12, 255</row_alternate>
+    </outliner>
+    
+    <!-- Timeline -->
+    <timeline>
+      <back>5, 5, 5, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>10, 10, 10, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>15, 15, 15, 255</tab_active>
+      <tab_inactive>6, 6, 6, 255</tab_inactive>
+      <tab_back>3, 3, 3, 255</tab_back>
+      <tab_outline>30, 30, 30, 255</tab_outline>
+      <button>12, 12, 12, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>8, 8, 8, 255</navigation_bar>
+      <execution_buts>12, 12, 12, 255</execution_buts>
+      <panelcolors>
+        <header>12, 12, 12, 255</header>
+        <back>6, 6, 6, 255</back>
+        <sub_back>4, 4, 4, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Timeline Specific -->
+      <grid>60, 60, 60, 255</grid>
+      <frame_current>255, 255, 255, 255</frame_current>
+      <time_keyframe>180, 180, 180, 255</time_keyframe>
+      <time_gp_keyframe>160, 160, 160, 255</time_gp_keyframe>
+      <time_scrub_background>20, 20, 20, 255</time_scrub_background>
+      <time_marker_line>100, 100, 100, 255</time_marker_line>
+      <time_marker_line_selected>200, 200, 200, 255</time_marker_line_selected>
+    </timeline>
+    
+    <!-- Graph Editor -->
+    <graph_editor>
+      <back>4, 4, 4, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>9, 9, 9, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>14, 14, 14, 255</tab_active>
+      <tab_inactive>5, 5, 5, 255</tab_inactive>
+      <tab_back>2, 2, 2, 255</tab_back>
+      <tab_outline>28, 28, 28, 255</tab_outline>
+      <button>11, 11, 11, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>7, 7, 7, 255</navigation_bar>
+      <execution_buts>11, 11, 11, 255</execution_buts>
+      <panelcolors>
+        <header>11, 11, 11, 255</header>
+        <back>5, 5, 5, 255</back>
+        <sub_back>3, 3, 3, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Graph Editor Specific -->
+      <grid>50, 50, 50, 255</grid>
+      <frame_current>255, 255, 255, 255</frame_current>
+      <time_scrub_background>15, 15, 15, 255</time_scrub_background>
+      <window_sliders>25, 25, 25, 255</window_sliders>
+      <channels_region>8, 8, 8, 255</channels_region>
+      <dopesheet_channel>120, 120, 120, 255</dopesheet_channel>
+      <dopesheet_subchannel>100, 100, 100, 255</dopesheet_subchannel>
+      <channel_group>140, 140, 140, 255</channel_group>
+      <active_channels_group>160, 160, 160, 255</active_channels_group>
+      <long_key>180, 180, 180, 255</long_key>
+      <long_key_selected>220, 220, 220, 255</long_key_selected>
+      <keyframe>200, 200, 200, 255</keyframe>
+      <keyframe_selected>255, 255, 255, 255</keyframe_selected>
+      <keyframe_extreme>160, 160, 160, 255</keyframe_extreme>
+      <keyframe_extreme_selected>200, 200, 200, 255</keyframe_extreme_selected>
+      <keyframe_breakdown>140, 140, 140, 255</keyframe_breakdown>
+      <keyframe_breakdown_selected>180, 180, 180, 255</keyframe_breakdown_selected>
+      <keyframe_jitter>120, 120, 120, 255</keyframe_jitter>
+      <keyframe_jitter_selected>160, 160, 160, 255</keyframe_jitter_selected>
+      <keyframe_movehold>100, 100, 100, 255</keyframe_movehold>
+      <keyframe_movehold_selected>140, 140, 140, 255</keyframe_movehold_selected>
+      <keyframe_border>80, 80, 80, 255</keyframe_border>
+      <keyframe_border_selected>120, 120, 120, 255</keyframe_border_selected>
+      <keyframe_scale>1.0</keyframe_scale>
+      <summary>60, 60, 60, 255</summary>
+      <preview_range>40, 40, 40, 100</preview_range>
+      <interpolation_line>100, 100, 100, 255</interpolation_line>
+      <handle_free>140, 140, 140, 255</handle_free>
+      <handle_auto>120, 120, 120, 255</handle_auto>
+      <handle_auto_clamped>100, 100, 100, 255</handle_auto_clamped>
+      <handle_vector>80, 80, 80, 255</handle_vector>
+      <handle_align>110, 110, 110, 255</handle_align>
+      <handle_sel_free>200, 200, 200, 255</handle_sel_free>
+      <handle_sel_auto>180, 180, 180, 255</handle_sel_auto>
+      <handle_sel_auto_clamped>160, 160, 160, 255</handle_sel_auto_clamped>
+      <handle_sel_vector>140, 140, 140, 255</handle_sel_vector>
+      <handle_sel_align>170, 170, 170, 255</handle_sel_align>
+      <lastsel_point>255, 255, 255, 255</lastsel_point>
+      <vertex>120, 120, 120, 255</vertex>
+      <vertex_select>200, 200, 200, 255</vertex_select>
+      <vertex_size>3</vertex_size>
+      <vertex_unreferenced>60, 60, 60, 255</vertex_unreferenced>
+    </graph_editor>
+    
+    <!-- Shader Editor -->
+    <shader_editor>
+      <back>3, 3, 3, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>8, 8, 8, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>13, 13, 13, 255</tab_active>
+      <tab_inactive>4, 4, 4, 255</tab_inactive>
+      <tab_back>1, 1, 1, 255</tab_back>
+      <tab_outline>26, 26, 26, 255</tab_outline>
+      <button>10, 10, 10, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>6, 6, 6, 255</navigation_bar>
+      <execution_buts>10, 10, 10, 255</execution_buts>
+      <panelcolors>
+        <header>10, 10, 10, 255</header>
+        <back>4, 4, 4, 255</back>
+        <sub_back>2, 2, 2, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Node Editor Specific -->
+      <grid>40, 40, 40, 255</grid>
+      <node_backdrop>20, 20, 20, 180</node_backdrop>
+      <node_group>60, 60, 60, 255</node_group>
+      <node_group_active>80, 80, 80, 255</node_group_active>
+      <node_active>100, 100, 100, 255</node_active>
+      <node_selected>120, 120, 120, 255</node_selected>
+      <wire>100, 100, 100, 255</wire>
+      <wire_inner>80, 80, 80, 255</wire_inner>
+      <wire_select>180, 180, 180, 255</wire_select>
+      <selected_text>255, 255, 255, 255</selected_text>
+      <node_active_text>220, 220, 220, 255</node_active_text>
+      <node_selected_text>200, 200, 200, 255</node_selected_text>
+      <node_frame>140, 140, 140, 255</node_frame>
+      <node_frame_selected>180, 180, 180, 255</node_frame_selected>
+      <node_frame_active>200, 200, 200, 255</node_frame_active>
+      <node_frame_text>160, 160, 160, 255</node_frame_text>
+      <node_frame_text_selected>200, 200, 200, 255</node_frame_text_selected>
+      <node_frame_text_active>220, 220, 220, 255</node_frame_text_active>
+      <freestyle_edge_mark>120, 120, 120, 255</freestyle_edge_mark>
+      <freestyle_face_mark>100, 100, 100, 255</freestyle_face_mark>
+      <simulated_frames>80, 80, 80, 255</simulated_frames>
+    </shader_editor>
+    
+    <!-- Text Editor -->
+    <text_editor>
+      <back>2, 2, 2, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>220, 220, 220, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>7, 7, 7, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>12, 12, 12, 255</tab_active>
+      <tab_inactive>3, 3, 3, 255</tab_inactive>
+      <tab_back>0, 0, 0, 255</tab_back>
+      <tab_outline>24, 24, 24, 255</tab_outline>
+      <button>9, 9, 9, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>5, 5, 5, 255</navigation_bar>
+      <execution_buts>9, 9, 9, 255</execution_buts>
+      <panelcolors>
+        <header>9, 9, 9, 255</header>
+        <back>3, 3, 3, 255</back>
+        <sub_back>1, 1, 1, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Text Editor Specific -->
+      <line_numbers_background>8, 8, 8, 255</line_numbers_background>
+      <selected_text>50, 50, 50, 255</selected_text>
+      <cursor>255, 255, 255, 255</cursor>
+      <syntax_builtin>160, 160, 160, 255</syntax_builtin>
+      <syntax_symbols>140, 140, 140, 255</syntax_symbols>
+      <syntax_special>120, 120, 120, 255</syntax_special>
+      <syntax_preprocessor>100, 100, 100, 255</syntax_preprocessor>
+      <syntax_reserved>180, 180, 180, 255</syntax_reserved>
+      <syntax_comment>80, 80, 80, 255</syntax_comment>
+      <syntax_string>200, 200, 200, 255</syntax_string>
+      <syntax_numbers>220, 220, 220, 255</syntax_numbers>
+      <line_numbers>120, 120, 120, 255</line_numbers>
+    </text_editor>
+    
+    <!-- File Browser -->
+    <file_browser>
+      <back>6, 6, 6, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>11, 11, 11, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>16, 16, 16, 255</tab_active>
+      <tab_inactive>7, 7, 7, 255</tab_inactive>
+      <tab_back>4, 4, 4, 255</tab_back>
+      <tab_outline>32, 32, 32, 255</tab_outline>
+      <button>13, 13, 13, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>9, 9, 9, 255</navigation_bar>
+      <execution_buts>13, 13, 13, 255</execution_buts>
+      <panelcolors>
+        <header>13, 13, 13, 255</header>
+        <back>7, 7, 7, 255</back>
+        <sub_back>5, 5, 5, 255</sub_back>
+      </panelcolors>
+      <space_list>
+        <back>4, 4, 4, 255</back>
+        <title>200, 200, 200, 255</title>
+        <text>180, 180, 180, 255</text>
+        <text_hi>255, 255, 255, 255</text_hi>
+      </space_list>
+      
+      <!-- File Browser Specific -->
+      <selected_file>40, 40, 40, 255</selected_file>
+      <tiles>20, 20, 20, 255</tiles>
+      <scrollbar>30, 30, 30, 255</scrollbar>
+      <scroll_handle>50, 50, 50, 255</scroll_handle>
+      <active_file>60, 60, 60, 255</active_file>
+      <active_file_text>220, 220, 220, 255</active_file_text>
+    </file_browser>
+    
+    <!-- Image Editor -->
+    <image_editor>
+      <back>5, 5, 5, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>10, 10, 10, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>15, 15, 15, 255</tab_active>
+      <tab_inactive>6, 6, 6, 255</tab_inactive>
+      <tab_back>3, 3, 3, 255</tab_back>
+      <tab_outline>30, 30, 30, 255</tab_outline>
+      <button>12, 12, 12, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>8, 8, 8, 255</navigation_bar>
+      <execution_buts>12, 12, 12, 255</execution_buts>
+      <panelcolors>
+        <header>12, 12, 12, 255</header>
+        <back>6, 6, 6, 255</back>
+        <sub_back>4, 4, 4, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Image Editor Specific -->
+      <vertex>120, 120, 120, 255</vertex>
+      <vertex_select>200, 200, 200, 255</vertex_select>
+      <vertex_size>3</vertex_size>
+      <vertex_unreferenced>60, 60, 60, 255</vertex_unreferenced>
+      <face>80, 80, 80, 40</face>
+      <face_select>120, 120, 120, 60</face_select>
+      <face_dot>200, 200, 200, 255</face_dot>
+      <freestyle_face_mark>100, 100, 100, 255</freestyle_face_mark>
+      <editmesh_active>200, 200, 200, 128</editmesh_active>
+      <wire_edit>140, 140, 140, 255</wire_edit>
+      <edge_select>180, 180, 180, 255</edge_select>
+      <scope_back>20, 20, 20, 255</scope_back>
+      <preview_stitch_face>100, 100, 100, 30</preview_stitch_face>
+      <preview_stitch_edge>120, 120, 120, 255</preview_stitch_edge>
+      <preview_stitch_vert>140, 140, 140, 255</preview_stitch_vert>
+      <preview_stitch_stitchable>160, 160, 160, 255</preview_stitch_stitchable>
+      <preview_stitch_unstitchable>80, 80, 80, 255</preview_stitch_unstitchable>
+      <preview_stitch_active>200, 200, 200, 255</preview_stitch_active>
+      <uv_shadow>40, 40, 40, 100</uv_shadow>
+      <uv_others>60, 60, 60, 255</uv_others>
+      <frame_current>255, 255, 255, 255</frame_current>
+      <metadatabg>15, 15, 15, 255</metadatabg>
+      <metadatatext>180, 180, 180, 255</metadatatext>
+    </image_editor>
+    
+    <!-- Sequence Editor -->
+    <sequence_editor>
+      <back>4, 4, 4, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>9, 9, 9, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>14, 14, 14, 255</tab_active>
+      <tab_inactive>5, 5, 5, 255</tab_inactive>
+      <tab_back>2, 2, 2, 255</tab_back>
+      <tab_outline>28, 28, 28, 255</tab_outline>
+      <button>11, 11, 11, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>7, 7, 7, 255</navigation_bar>
+      <execution_buts>11, 11, 11, 255</execution_buts>
+      <panelcolors>
+        <header>11, 11, 11, 255</header>
+        <back>5, 5, 5, 255</back>
+        <sub_back>3, 3, 3, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Sequence Editor Specific -->
+      <grid>50, 50, 50, 255</grid>
+      <window_sliders>25, 25, 25, 255</window_sliders>
+      <movie_strip>100, 100, 100, 255</movie_strip>
+      <movieclip_strip>120, 120, 120, 255</movieclip_strip>
+      <image_strip>80, 80, 80, 255</image_strip>
+      <scene_strip>140, 140, 140, 255</scene_strip>
+      <audio_strip>60, 60, 60, 255</audio_strip>
+      <effect_strip>160, 160, 160, 255</effect_strip>
+      <transition_strip>180, 180, 180, 255</transition_strip>
+      <meta_strip>200, 200, 200, 255</meta_strip>
+      <text_strip>120, 120, 120, 255</text_strip>
+      <active_strip>220, 220, 220, 255</active_strip>
+      <selected_strip>180, 180, 180, 255</selected_strip>
+      <frame_current>255, 255, 255, 255</frame_current>
+      <time_scrub_background>15, 15, 15, 255</time_scrub_background>
+      <keyframe>200, 200, 200, 255</keyframe>
+      <draw_action>100, 100, 100, 255</draw_action>
+      <preview_back>8, 8, 8, 255</preview_back>
+      <metadatabg>12, 12, 12, 255</metadatabg>
+      <metadatatext>180, 180, 180, 255</metadatatext>
+    </sequence_editor>
+    
+    <!-- Preferences -->
+    <preferences>
+      <back>10, 10, 10, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>17, 17, 17, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>27, 27, 27, 255</tab_active>
+      <tab_inactive>14, 14, 14, 255</tab_inactive>
+      <tab_back>10, 10, 10, 255</tab_back>
+      <tab_outline>42, 42, 42, 255</tab_outline>
+      <button>22, 22, 22, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>14, 14, 14, 255</navigation_bar>
+      <execution_buts>20, 20, 20, 255</execution_buts>
+      <panelcolors>
+        <header>22, 22, 22, 255</header>
+        <back>14, 14, 14, 255</back>
+        <sub_back>12, 12, 12, 255</sub_back>
+      </panelcolors>
+    </preferences>
+    
+    <!-- Console -->
+    <console>
+      <back>1, 1, 1, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>220, 220, 220, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>6, 6, 6, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>11, 11, 11, 255</tab_active>
+      <tab_inactive>2, 2, 2, 255</tab_inactive>
+      <tab_back>0, 0, 0, 255</tab_back>
+      <tab_outline>22, 22, 22, 255</tab_outline>
+      <button>8, 8, 8, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>4, 4, 4, 255</navigation_bar>
+      <execution_buts>8, 8, 8, 255</execution_buts>
+      <panelcolors>
+        <header>8, 8, 8, 255</header>
+        <back>2, 2, 2, 255</back>
+        <sub_back>0, 0, 0, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Console Specific -->
+      <line_output>200, 200, 200, 255</line_output>
+      <line_input>240, 240, 240, 255</line_input>
+      <line_info>160, 160, 160, 255</line_info>
+      <line_error>120, 120, 120, 255</line_error>
+      <cursor>255, 255, 255, 255</cursor>
+      <select>40, 40, 40, 255</select>
+    </console>
+    
+    <!-- Info -->
+    <info>
+      <back>8, 8, 8, 255</back>
+      <title>200, 200, 200, 255</title>
+      <text>180, 180, 180, 255</text>
+      <text_hi>255, 255, 255, 255</text_hi>
+      <header>15, 15, 15, 255</header>
+      <header_text>180, 180, 180, 255</header_text>
+      <header_text_hi>255, 255, 255, 255</header_text_hi>
+      <tab_active>25, 25, 25, 255</tab_active>
+      <tab_inactive>10, 10, 10, 255</tab_inactive>
+      <tab_back>6, 6, 6, 255</tab_back>
+      <tab_outline>38, 38, 38, 255</tab_outline>
+      <button>18, 18, 18, 255</button>
+      <button_title>180, 180, 180, 255</button_title>
+      <button_text>200, 200, 200, 255</button_text>
+      <button_text_hi>255, 255, 255, 255</button_text_hi>
+      <navigation_bar>12, 12, 12, 255</navigation_bar>
+      <execution_buts>16, 16, 16, 255</execution_buts>
+      <panelcolors>
+        <header>18, 18, 18, 255</header>
+        <back>10, 10, 10, 255</back>
+        <sub_back>8, 8, 8, 255</sub_back>
+      </panelcolors>
+      
+      <!-- Info Header Specific -->
+      <info_selected>60, 60, 60, 255</info_selected>
+      <info_selected_text>220, 220, 220, 255</info_selected_text>
+      <info_error>40, 40, 40, 255</info_error>
+      <info_error_text>180, 180, 180, 255</info_error_text>
+      <info_warning>50, 50, 50, 255</info_warning>
+      <info_warning_text>200, 200, 200, 255</info_warning_text>
+      <info_info>35, 35, 35, 255</info_info>
+      <info_info_text>190, 190, 190, 255</info_info_text>
+      <info_debug>30, 30, 30, 255</info_debug>
+      <info_debug_text>160, 160, 160, 255</info_debug_text>
+      <info_property>45, 45, 45, 255</info_property>
+      <info_property_text>210, 210, 210, 255</info_property_text>
+      <info_operator>40, 40, 40, 255</info_operator>
+      <info_operator_text>170, 170, 170, 255</info_operator_text>
+    </info>
+    
+  </Theme>
+</bpy>

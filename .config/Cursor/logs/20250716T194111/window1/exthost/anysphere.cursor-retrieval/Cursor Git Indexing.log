@@ -1,0 +1,111 @@
+2025-07-16 19:41:19.045 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 19:41:19.045 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 19:41:19.463 [warning] No repository found: /home/blx/msg (candidates: )
+2025-07-16 19:41:20.161 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/msg" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-16 19:42:12.579 [info] MultiBranchIndexJob dispose
+2025-07-16 19:42:12.579 [info] Aborting multi-branch indexing job.
+2025-07-16 19:42:17.083 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 19:42:17.083 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 19:42:17.333 [info] Fetching repository at '/home/blx/projects/ASCII'...
+2025-07-16 19:42:17.757 [info] Doing a startup handshake for git indexing.
+2025-07-16 19:42:17.766 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 19:47:17.325 [info] doUpdate: Disposing completed index job...
+2025-07-16 19:47:17.325 [info] MultiBranchIndexJob dispose
+2025-07-16 19:47:17.325 [info] Aborting multi-branch indexing job.
+2025-07-16 19:47:17.333 [info] Doing a startup handshake for git indexing.
+2025-07-16 19:47:17.333 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 19:52:17.325 [info] doUpdate: Disposing completed index job...
+2025-07-16 19:52:17.325 [info] MultiBranchIndexJob dispose
+2025-07-16 19:52:17.325 [info] Aborting multi-branch indexing job.
+2025-07-16 19:52:17.332 [info] Doing a startup handshake for git indexing.
+2025-07-16 19:52:17.332 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 19:57:17.325 [info] doUpdate: Disposing completed index job...
+2025-07-16 19:57:17.325 [info] MultiBranchIndexJob dispose
+2025-07-16 19:57:17.325 [info] Aborting multi-branch indexing job.
+2025-07-16 19:57:17.331 [info] Doing a startup handshake for git indexing.
+2025-07-16 19:57:17.331 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:02:17.325 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:02:17.325 [info] MultiBranchIndexJob dispose
+2025-07-16 20:02:17.325 [info] Aborting multi-branch indexing job.
+2025-07-16 20:02:17.333 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:02:17.333 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:07:17.325 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:07:17.325 [info] MultiBranchIndexJob dispose
+2025-07-16 20:07:17.325 [info] Aborting multi-branch indexing job.
+2025-07-16 20:07:17.332 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:07:17.332 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:12:17.326 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:12:17.326 [info] MultiBranchIndexJob dispose
+2025-07-16 20:12:17.326 [info] Aborting multi-branch indexing job.
+2025-07-16 20:12:17.336 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:12:17.336 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:17:17.326 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:17:17.326 [info] MultiBranchIndexJob dispose
+2025-07-16 20:17:17.326 [info] Aborting multi-branch indexing job.
+2025-07-16 20:17:17.332 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:17:17.333 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:22:17.326 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:22:17.326 [info] MultiBranchIndexJob dispose
+2025-07-16 20:22:17.326 [info] Aborting multi-branch indexing job.
+2025-07-16 20:22:17.333 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:22:17.333 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:27:17.327 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:27:17.327 [info] MultiBranchIndexJob dispose
+2025-07-16 20:27:17.327 [info] Aborting multi-branch indexing job.
+2025-07-16 20:27:17.334 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:27:17.334 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:32:17.328 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:32:17.328 [info] MultiBranchIndexJob dispose
+2025-07-16 20:32:17.328 [info] Aborting multi-branch indexing job.
+2025-07-16 20:32:17.341 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:32:17.341 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:37:17.328 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:37:17.328 [info] MultiBranchIndexJob dispose
+2025-07-16 20:37:17.328 [info] Aborting multi-branch indexing job.
+2025-07-16 20:37:17.336 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:37:17.336 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:42:17.329 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:42:17.329 [info] MultiBranchIndexJob dispose
+2025-07-16 20:42:17.329 [info] Aborting multi-branch indexing job.
+2025-07-16 20:42:17.336 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:42:17.336 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:47:17.330 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:47:17.330 [info] MultiBranchIndexJob dispose
+2025-07-16 20:47:17.330 [info] Aborting multi-branch indexing job.
+2025-07-16 20:47:17.337 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:47:17.337 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:52:17.331 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:52:17.331 [info] MultiBranchIndexJob dispose
+2025-07-16 20:52:17.331 [info] Aborting multi-branch indexing job.
+2025-07-16 20:52:17.338 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:52:17.338 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 20:57:17.331 [info] doUpdate: Disposing completed index job...
+2025-07-16 20:57:17.331 [info] MultiBranchIndexJob dispose
+2025-07-16 20:57:17.331 [info] Aborting multi-branch indexing job.
+2025-07-16 20:57:17.338 [info] Doing a startup handshake for git indexing.
+2025-07-16 20:57:17.338 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 21:02:17.332 [info] doUpdate: Disposing completed index job...
+2025-07-16 21:02:17.332 [info] MultiBranchIndexJob dispose
+2025-07-16 21:02:17.332 [info] Aborting multi-branch indexing job.
+2025-07-16 21:02:17.338 [info] Doing a startup handshake for git indexing.
+2025-07-16 21:02:17.338 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 21:07:17.333 [info] doUpdate: Disposing completed index job...
+2025-07-16 21:07:17.333 [info] MultiBranchIndexJob dispose
+2025-07-16 21:07:17.333 [info] Aborting multi-branch indexing job.
+2025-07-16 21:07:17.342 [info] Doing a startup handshake for git indexing.
+2025-07-16 21:07:17.343 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 21:12:17.332 [info] doUpdate: Disposing completed index job...
+2025-07-16 21:12:17.332 [info] MultiBranchIndexJob dispose
+2025-07-16 21:12:17.332 [info] Aborting multi-branch indexing job.
+2025-07-16 21:12:17.342 [info] Doing a startup handshake for git indexing.
+2025-07-16 21:12:17.342 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 21:17:17.332 [info] doUpdate: Disposing completed index job...
+2025-07-16 21:17:17.332 [info] MultiBranchIndexJob dispose
+2025-07-16 21:17:17.332 [info] Aborting multi-branch indexing job.
+2025-07-16 21:17:17.342 [info] Doing a startup handshake for git indexing.
+2025-07-16 21:17:17.342 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 21:21:34.022 [info] MultiBranchIndexJob dispose
+2025-07-16 21:21:34.023 [info] Aborting multi-branch indexing job.

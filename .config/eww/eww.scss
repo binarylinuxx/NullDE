@@ -1,14 +1,12 @@
-/* Simple Volume Rectangle Styles */
+@import 'colors';
+@import 'end';
+@import 'styles/dock'
+@import 'styles/bar'
+@import 'styles/rightgroup'
+@import 'styles/centergroup'
+@import 'styles/leftgroup'
+@import 'styles/player'
+@import 'styles/pmenu'
+@import 'styles/fmenu'
 
-.container {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
 
-.volume-rect {
-  background-color: #ff4757;
-  border-radius: 5px;
-  transition: width 0.1s ease-out;
-}

@@ -1,0 +1,52 @@
+ ; <--- IMPORTANT: Include end.yuck here to get end-histories variable and end-history widget
+
+(defwindow floating-menu
+  :monitor 0
+  :geometry (geometry
+      :x "0px"
+      :y "-63px"
+      :width "20%"
+      :height "87%"
+      :anchor "top right")
+  :stacking "bottom"
+  :exclusive true
+  :focusable false
+  (box
+    :class "floating-menu-content" ; Give your main box a class for styling
+    :orientation "v"                ; Make it vertical to stack history items
+    :space-evenly false             ; Don't distribute space evenly
+    :halign "fill"                  ; Fill horizontally
+    :valign "fill"                  ; Fill vertically
+    :spacing 10                     ; Add some spacing between elements
+
+    ; Optional: Add a title for your history section
+    (label :text "Notification History"
+           :class "history-title"
+           :halign "center")
+
+    ; Optional: Add a button to clear history
+    (button :onclick "end-rs history clear"
+            :class "clear-history-button"
+            "Clear History")
+
+    ; Scrollable box for the notifications, useful if many notifications
+    (scroll
+          :width "100%"
+          :height "100%"
+          (box
+            :class "end-history-container" ; A container for styling the history list
+            :orientation "v"
+            :space-evenly false
+            :halign "fill"
+            :valign "start" ; Start from the top
+            :spacing 5      ; Spacing between individual history items
+            (for notification in end-histories
+              ; Use the end-history widget defined in end.yuck
+              ; CHANGE :notification to :history here!
+              (end-history :history notification)) ; <--- THIS IS THE FIX
+          )
+        )
+      )
+    )
+    
+

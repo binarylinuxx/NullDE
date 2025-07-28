@@ -1,0 +1,13 @@
+[Info  - 3:16:05 PM] basedpyright language server 1.29.4 starting
+[Info  - 3:16:05 PM] Server root directory: file:///home/blx/.cursor/extensions/anysphere.cursorpyright-1.0.5/dist
+[Info  - 3:16:05 PM] Starting service instance "BXL"
+Received pythonPath from Python extension: /bin/python
+[Info  - 3:16:05 PM] Setting pythonPath for service "BXL": "/bin/python"
+[Info  - 3:16:05 PM] No include entries specified; assuming /home/blx/BXL
+[Info  - 3:16:05 PM] Auto-excluding **/node_modules
+[Info  - 3:16:05 PM] Auto-excluding **/__pycache__
+[Info  - 3:16:05 PM] Auto-excluding **/.*
+[Info  - 3:16:05 PM] Assuming Python version 3.13.5.final.0
+[Info  - 3:16:05 PM] Found 1 source file
+[Info  - 3:16:05 PM] BG: Background analysis(1) root directory: file:///home/blx/.cursor/extensions/anysphere.cursorpyright-1.0.5/dist
+[Info  - 3:16:05 PM] BG: Background analysis(1) started

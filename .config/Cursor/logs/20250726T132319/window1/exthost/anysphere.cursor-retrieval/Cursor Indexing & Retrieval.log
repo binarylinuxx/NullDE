@@ -1,0 +1,75 @@
+2025-07-26 13:23:26.064 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-26 13:23:26.064 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-26 13:23:26.273 [info] Using existing keys for an index
+2025-07-26 13:23:26.273 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-26 13:23:26.392 [info] Setting global status from status tracker: synced
+2025-07-26 13:23:26.392 [info] Doing a startup handshake.
+2025-07-26 13:23:26.959 [info] Finished computing merkle tree in 68.98094499999934 ms.
+2025-07-26 13:23:26.988 [info] Doing the initial handshake with hash: 56c9b30b78a1a63898133f41e94a7b52f7577c87b202f0843a236b0bdaabd4b7
+2025-07-26 13:23:26.992 [info] Computed simhash vector of length: 256
+2025-07-26 13:23:26.992 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-26 13:23:26.992 [info] Handshake start
+2025-07-26 13:23:27.549 [info] Handshake timing: 558.299387, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-26 13:23:27.549 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-26 13:23:27.549 [info] Starting fast remote sync.
+2025-07-26 13:23:27.550 [info] Total num embeddable files: 6
+2025-07-26 13:23:27.551 [info] Root hash: 56c9b30b78a1a63898133f41e94a7b52f7577c87b202f0843a236b0bdaabd4b7
+2025-07-26 13:23:27.552 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-26 13:23:27.721 [info] Finished indexing repository.
+2025-07-26 13:23:27.721 [info] Indexing job successfully done or aborted.
+2025-07-26 13:26:07.257 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/blx/cppwal/.gitmodules')
+2025-07-26 13:28:44.386 [info] multiCodebaseIndexingJob dispose
+2025-07-26 13:28:44.386 [info] Aborting indexing job.
+2025-07-26 13:28:44.386 [info] Setting global status from status tracker: synced
+2025-07-26 13:28:44.386 [info] Doing a startup handshake.
+2025-07-26 13:28:44.390 [info] Finished computing merkle tree in 2.9096669999998994 ms.
+2025-07-26 13:28:44.391 [info] Doing the initial handshake with hash: 0d7326b0148b4f9160645470cf01dd7cd7e7a08035c3199cb3f91e3e6c9e95dc
+2025-07-26 13:28:44.392 [info] Computed simhash vector of length: 256
+2025-07-26 13:28:44.392 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-26 13:28:44.392 [info] Handshake start
+2025-07-26 13:28:44.568 [info] Handshake timing: 176.20014000002993, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-26 13:28:44.568 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-26 13:28:44.568 [info] Starting fast remote sync.
+2025-07-26 13:28:44.568 [info] Total num embeddable files: 6
+2025-07-26 13:28:44.569 [info] Root hash: 0d7326b0148b4f9160645470cf01dd7cd7e7a08035c3199cb3f91e3e6c9e95dc
+2025-07-26 13:28:44.569 [info] In the out of sync case.
+2025-07-26 13:28:44.570 [info] Waiting on semaphore to be released 1
+2025-07-26 13:28:44.770 [info] setting numJobsToGo to 1
+2025-07-26 13:28:44.770 [info] [startSync]: numJobs: 1
+2025-07-26 13:28:44.771 [info] Uploading 1 files.
+2025-07-26 13:28:44.771 [info] Total number of files to embed: 6
+2025-07-26 13:28:44.771 [info] Not aborted
+2025-07-26 13:28:44.771 [info] Starting while loop.
+2025-07-26 13:28:46.292 [info] Completed job successfully: 37e4a612-60f1-4f56-8690-8163f1a0cdd5 ./cppwal.cpp
+2025-07-26 13:28:46.470 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-26 13:28:46.946 [info] Finished indexing repository.
+2025-07-26 13:28:46.946 [info] Indexing job successfully done or aborted.
+2025-07-26 13:33:21.897 [info] Get user commits took 12.609175999998115ms for 10 commits
+2025-07-26 13:34:02.389 [info] multiCodebaseIndexingJob dispose
+2025-07-26 13:34:02.389 [info] Aborting indexing job.
+2025-07-26 13:34:02.389 [info] Setting global status from status tracker: synced
+2025-07-26 13:34:02.390 [info] Doing a startup handshake.
+2025-07-26 13:34:02.398 [info] Finished computing merkle tree in 4.6872150000417605 ms.
+2025-07-26 13:34:02.401 [info] Doing the initial handshake with hash: 2b0b23a69e183c00ebe325eeb2eac097bc18eb7db495f88461d5f42b85692307
+2025-07-26 13:34:02.407 [info] Computed simhash vector of length: 256
+2025-07-26 13:34:02.407 [info] Path key hash: 6d3e0c6adf4b584b67bf8fbcd8886fe0a44173b128cf66a82846d1cc4ec862d6
+2025-07-26 13:34:02.407 [info] Handshake start
+2025-07-26 13:34:02.582 [info] Handshake timing: 178.3860439999262, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-26 13:34:02.583 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"37e4a612-60f1-4f56-8690-8163f1a0cdd5","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-26 13:34:02.583 [info] Starting fast remote sync.
+2025-07-26 13:34:02.584 [info] Total num embeddable files: 6
+2025-07-26 13:34:02.585 [info] Root hash: 2b0b23a69e183c00ebe325eeb2eac097bc18eb7db495f88461d5f42b85692307
+2025-07-26 13:34:02.585 [info] In the out of sync case.
+2025-07-26 13:34:02.588 [info] Waiting on semaphore to be released 1
+2025-07-26 13:34:02.787 [info] setting numJobsToGo to 1
+2025-07-26 13:34:02.787 [info] [startSync]: numJobs: 1
+2025-07-26 13:34:02.787 [info] Uploading 1 files.
+2025-07-26 13:34:02.788 [info] Total number of files to embed: 6
+2025-07-26 13:34:02.788 [info] Not aborted
+2025-07-26 13:34:02.788 [info] Starting while loop.
+2025-07-26 13:34:04.796 [info] Completed job successfully: 37e4a612-60f1-4f56-8690-8163f1a0cdd5 ./cppwal.cpp
+2025-07-26 13:34:04.968 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-26 13:34:05.443 [info] Finished indexing repository.
+2025-07-26 13:34:05.443 [info] Indexing job successfully done or aborted.
+2025-07-26 13:35:01.992 [info] multiCodebaseIndexingJob dispose
+2025-07-26 13:35:01.992 [info] Aborting indexing job.

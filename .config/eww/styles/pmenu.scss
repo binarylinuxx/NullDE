@@ -1,0 +1,77 @@
+* {
+	font-family: Jetbrains Mono;
+}
+
+.pmenu {
+	background: $background;
+	border-top-right-radius: 2.1rem;
+	border-bottom-right-radius: 2.1rem;
+}
+
+.pmenu-button {
+	font-size: 5rem;
+	background: $on_primary;
+	margin: 5px;
+	border-radius: 2.1rem;
+	color: $background;
+}
+
+.reboot-button {
+	font-size: 5rem;
+	background: $on_primary;
+	padding-left: 20px;
+	margin: 5px;
+	border-radius: 2.1rem;
+	color: $background;
+}
+
+.shutdown-button {
+	font-size: 5rem;
+	background: $on_primary;
+	padding-right: 15px;
+	margin: 5px;
+	border-radius: 2.1rem;
+	color: $background;
+}
+.reboot-button:hover {
+	font-size: 5rem;
+	background: $on_primary_fixed;
+	padding-left: 20px;
+	margin: 5px;
+	border-radius: 10rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.shutdown-button:hover {
+	font-size: 5rem;
+	background: $on_primary_fixed;
+	padding-right: 15px;
+	margin: 5px;
+	border-radius: 10rem;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.pmenu-button:hover {
+	font-size: 5rem;
+	border-radius: 10rem;
+	background: $on_primary_fixed;
+	transition: all 0.3s ease-in-out;
+}
+
+.left-center-top {
+	background: radial-gradient(
+	    circle at top right,
+	    transparent 45px,
+	    $background 0
+	  );
+}
+
+
+.left-center-bottom {
+	background: radial-gradient(
+		    circle at bottom right,
+		    transparent 45px,
+		    $background 0
+		  );
+}

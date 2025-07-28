@@ -1,0 +1,125 @@
+#!/bin/bash
+
+# Much simpler and more reliable using playerctl
+# Install with: sudo pacman -S playerctl (Arch) or sudo apt install playerctl (Ubuntu)
+
+get_mpris_info_playerctl() {
+    # Check if playerctl is available
+    if ! command -v playerctl &> /dev/null; then
+        echo "PERCENT:0"
+        echo "DISPLAY_TEXT:playerctl not installed"
+        echo "TOOLTIP_TEXT:Install playerctl for MPRIS support"
+        echo "THUMBNAIL_PATH:"
+        return
+    fi
+
+    # Check if any player is available
+    if ! playerctl status &>/dev/null; then
+        echo "PERCENT:0"
+        echo "DISPLAY_TEXT:No media playing"
+        echo "TOOLTIP_TEXT:"
+        echo "THUMBNAIL_PATH:"
+        return
+    fi
+
+    # Get metadata easily
+    local title=$(playerctl metadata title 2>/dev/null || echo "Unknown Track")
+    local artist=$(playerctl metadata artist 2>/dev/null || echo "Unknown Artist")
+    local art_url=$(playerctl metadata mpris:artUrl 2>/dev/null || echo "")
+
+    # Get position and length
+    local position=$(playerctl position 2>/dev/null || echo "0")
+    local length=$(playerctl metadata mpris:length 2>/dev/null || echo "1")
+
+    # Convert position to microseconds to match length format
+    position=$(echo "$position * 1000000" | bc 2>/dev/null || echo "0")
+
+    # Calculate percentage
+    local percent=0
+    if [[ $length -gt 0 ]]; then
+        percent=$(echo "scale=0; $position * 100 / $length" | bc 2>/dev/null || echo "0")
+    fi
+
+    # Format display text
+    local display_text="$title - $artist"
+
+    # Format time
+    local pos_sec=$(echo "scale=0; $position / 1000000" | bc 2>/dev/null || echo "0")
+    local len_sec=$(echo "scale=0; $length / 1000000" | bc 2>/dev/null || echo "1")
+    local pos_min=$((pos_sec / 60))
+    local pos_sec_remainder=$((pos_sec % 60))
+    local len_min=$((len_sec / 60))
+    local len_sec_remainder=$((len_sec % 60))
+
+    local tooltip_text=$(printf "%d:%02d / %d:%02d" $pos_min $pos_sec_remainder $len_min $len_sec_remainder)
+
+    # Handle thumbnail (reuse function from previous script)
+    local thumbnail_path=""
+    if [[ -n "$art_url" ]]; then
+        thumbnail_path=$(get_thumbnail_path "$art_url")
+    fi
+
+    echo "PERCENT:$percent"
+    echo "DISPLAY_TEXT:$display_text"
+    echo "TOOLTIP_TEXT:$tooltip_text"
+    echo "THUMBNAIL_PATH:$thumbnail_path"
+}
+
+# Include thumbnail function from previous script
+get_thumbnail_path() {
+    local art_url="$1"
+    local CACHE_DIR="$HOME/.cache/eww/mpris_art"
+    mkdir -p "$CACHE_DIR"
+
+    if [[ -z "$art_url" ]]; then
+        echo ""
+        return
+    fi
+
+    # URL decode
+    art_url=$(python3 -c "import urllib.parse; print(urllib.parse.unquote('$art_url'))" 2>/dev/null || echo "$art_url")
+
+    # Handle file:// URLs
+    if [[ "$art_url" == file://* ]]; then
+        echo "${art_url#file://}"
+        return
+    fi
+
+    # Handle web URLs
+    if [[ "$art_url" == http://* ]] || [[ "$art_url" == https://* ]]; then
+        local ext="jpg"
+        if [[ "$art_url" == *.png* ]]; then ext="png"; fi
+        if [[ "$art_url" == *.gif* ]]; then ext="gif"; fi
+        if [[ "$art_url" == *.jpeg* ]]; then ext="jpeg"; fi
+
+        local cache_file="$CACHE_DIR/current_art.$ext"
+
+        if curl -s --max-time 2 -o "$cache_file" "$art_url" 2>/dev/null; then
+            echo "$cache_file"
+        else
+            echo ""
+        fi
+        return
+    fi
+
+    echo ""
+}
+
+# Main execution
+if [[ $# -gt 0 ]]; then
+    field=$(echo "$1" | tr '[:lower:]' '[:upper:]')
+    if [[ "$field" == "SIMPLE" ]]; then
+        # Just output title - artist for simple widget
+        if command -v playerctl &> /dev/null && playerctl status &>/dev/null; then
+            title=$(playerctl metadata title 2>/dev/null || echo "Unknown Track")
+            artist=$(playerctl metadata artist 2>/dev/null || echo "Unknown Artist")
+            echo "$title - $artist"
+        else
+            echo ""
+        fi
+    else
+        get_mpris_info_playerctl | grep "^$field:" | cut -d':' -f2-
+    fi
+else
+    get_mpris_info_playerctl
+fi

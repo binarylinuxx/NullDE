@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Получаем текущее состояние переменной
+current_theme=$(eww get theme_toggle)
+
+if [ "$current_theme" = "true" ]; then
+    # Переключаем на светлую тему
+    gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
+    gsettings set org.gnome.desktop.interface color-scheme "prefer-light"
+else
+    # Переключаем на тёмную тему  
+    gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+    gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+fi

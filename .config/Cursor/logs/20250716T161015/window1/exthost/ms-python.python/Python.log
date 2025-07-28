@@ -1,0 +1,161 @@
+2025-07-16 16:15:48.455 [info] Experiment 'pythonSurveyNotification' is active
+2025-07-16 16:15:48.455 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-16 16:15:48.455 [warning] Dir "/home/blx/hyprbar/.pixi/envs" is not watchable (directory does not exist)
+2025-07-16 16:15:48.501 [info] Starting Environment refresh
+2025-07-16 16:15:48.501 [info] Starting Environment refresh
+2025-07-16 16:15:48.531 [info] > hatch env show --json
+2025-07-16 16:15:48.531 [info] cwd: .
+2025-07-16 16:15:48.552 [info] Environments refresh finished (event): 52 milliseconds
+2025-07-16 16:15:48.552 [info] Environments refresh finished (event): 51 milliseconds
+2025-07-16 16:15:48.552 [info] Environments refresh paths discovered: 52 milliseconds
+2025-07-16 16:15:48.553 [info] Environments refresh paths discovered: 51 milliseconds
+2025-07-16 16:15:48.554 [info] Environment refresh took 53 milliseconds
+2025-07-16 16:15:48.554 [info] Environment refresh took 53 milliseconds
+2025-07-16 16:15:48.561 [info] > pyenv which python
+2025-07-16 16:15:48.561 [info] cwd: .
+2025-07-16 16:15:48.671 [info] Editor support is inactive since language server is set to None.
+2025-07-16 16:15:48.674 [info] Python interpreter path: /bin/python
+2025-07-16 16:17:17.114 [info] Discover tests for workspace name: hyprbar - uri: /home/blx/hyprbar/main.py
+2025-07-16 16:17:19.554 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:17:19.554 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:17:19.575 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:17:19.575 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:17:19.595 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:17:19.595 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:17:19.629 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:17:19.629 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:17:21.344 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:17:21.344 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:18:34.356 [info] Discover tests for workspace name: hyprbar - uri: /home/blx/hyprbar/widgets/systeminfo.py
+2025-07-16 16:18:37.910 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]',
+  version: {
+    raw: '3.13.5',
+    major: 3,
+    minor: 13,
+    patch: 5,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.13.5 64-bit',
+  detailedDisplayName: 'Python 3.13.5 64-bit',
+  type: undefined
+} /home/blx/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py /home/blx/hyprbar/requirements.txt
+2025-07-16 16:18:37.910 [info] > /bin/python ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-07-16 16:18:45.385 [info] Discover tests for workspace name: hyprbar - uri: /home/blx/hyprbar/main.py
+2025-07-16 16:19:20.621 [info] Experiment 'pythonSurveyNotification' is active
+2025-07-16 16:19:20.621 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-16 16:19:20.621 [warning] Dir "/home/blx/projects/hyprsettings/.pixi/envs" is not watchable (directory does not exist)
+2025-07-16 16:19:20.621 [info] Python interpreter path: /bin/python
+2025-07-16 16:19:20.635 [info] > pyenv which python
+2025-07-16 16:19:20.635 [info] cwd: .
+2025-07-16 16:19:21.545 [info] Editor support is inactive since language server is set to None.
+2025-07-16 16:23:01.744 [info] Discover tests for workspace name: hyprsettings - uri: /home/blx/projects/hyprsettings/hyprsettings.py
+2025-07-16 16:23:13.831 [info] Discover tests for workspace name: hyprsettings - uri: /home/blx/projects/hyprsettings/hyprsettings.py

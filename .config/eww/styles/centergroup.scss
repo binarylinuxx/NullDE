@@ -1,0 +1,19 @@
+.playerctl {
+	background: $on_primary;
+	padding: 3px 7px;
+	margin: 4px;
+	border-radius: 2rem;
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 15px;
+}
+
+eventbox:hover .playerctl {
+	background: $on_tertiary;
+	padding: 3px 7px;
+	margin: 4px;
+	border-radius: 2rem;
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 15px;
+}

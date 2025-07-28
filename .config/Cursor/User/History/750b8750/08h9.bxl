@@ -1,0 +1,51 @@
+>> Программа для тестирования всех возможностей языка
+func test_math() {
+  a.int = 10
+  b.float = 3.5
+  c = $a + $b
+  d = $a // 3
+  e = math.pow($a, 2)
+  f = math.sqrt($e)
+  out.str("a = $a, b = $b, c = $c, d = $d, e = $e, f = $f")
+}
+
+func test_compare() {
+  x.int = 7
+  y.int = 12
+  eq = $x == $y
+  neq = $x != $y
+  gte = $x >= $y
+  lte = $x <= $y
+  out.str("$x == $y: {eq}, $x != $y: {neq}, $x >= $y: {gte}, $x <= $y: {lte}")
+}
+
+func test_special_compare() {
+  first.int = 19
+  second.int = 24
+  less = $first compare.less comp.to $second
+  than = $first compare.than comp.to $second
+  glob = $first compare.glob comp.to $second
+  out.str("$first compare.less $second: {less}")
+  out.str("$first compare.than $second: {than}")
+  out.str("$first compare.glob $second: {glob}")
+}
+
+func test_conditionals() {
+  val.int = 5
+  if $val == 5 then out.str("val is five")
+  if $val != 5 then out.str("val is not five")
+}
+
+func circle_area() {
+  radius.float = 5.0
+  area = math.pi * math.pow($radius, 2)
+  out.str("Площадь круга с радиусом $radius: {math.round($area, 2)}")
+}
+
+main() {
+  test_math
+  test_compare
+  test_special_compare
+  test_conditionals
+  circle_area
+} 

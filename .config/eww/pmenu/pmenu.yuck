@@ -1,0 +1,55 @@
+(defwindow left-center-top
+  :monitor 0
+  :geometry (geometry
+    :x "0px"
+    :y "175px"
+    :width "45px"
+    :height "45px"
+    :anchor "top left")
+  :stacking "bottom"
+  :exclusive false
+  :focusable false
+  (box
+    :class "empty-block right"))
+
+(defwindow left-center-bottom
+  :monitor 0
+  :geometry (geometry
+    :x "0px"
+    :y "760px"
+    :width "45px"
+    :height "45px"
+    :anchor "top left")
+  :stacking "bottom"
+  :exclusive false
+  :focusable false
+  (box
+    :class "empty-block right"))
+
+;; power menu
+(defwindow pmenu
+  :monitor 0
+  :orientation "v"
+  :geometry (geometry
+    :x "0px"
+    :y "-50px"
+    :width "110px"
+    :height "50%"
+    :anchor "left center")
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  (box
+    :orientation "v"
+    :spacing "1px"
+    :class "pmenu"
+    (button :class "pmenu-button" :onclick "loginctl suspend"
+      (label :text ""))
+    (button :class "reboot-button" :onclick "loginctl reboot"
+      (label :text "  "))
+    (button :class "shutdown-button" :onclick "loginctl shutdown"
+      (label :text ""))
+    (button :class "pmenu-button" :onclick "hyprlock"
+      (label :text "󰌾"))
+    (button :class "pmenu-button" :onclick "eww close pmenu left-center-bottom left-center-top"
+      (label :text ""))))

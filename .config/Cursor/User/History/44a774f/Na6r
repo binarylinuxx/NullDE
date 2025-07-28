@@ -1,0 +1,28 @@
+# Build directory and CMake artifacts
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and object files
+*.o
+*.o.d
+*.out
+cppwal
+
+# CMake generated files (in any subdirectory)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary and log files
+*.log
+*.tmp
+*.marks
+*.yaml
+
+# Editor/OS files
+*~
+.DS_Store 

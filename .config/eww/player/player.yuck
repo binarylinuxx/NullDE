@@ -1,0 +1,68 @@
+(defpoll MPRIS :interval "1s" "~/.config/eww/scripts/playerctl SIMPLE || echo 'No media'")
+(defpoll MPRIS_TITLE :interval "1s" "~/.config/eww/scripts/playerctl SIMPLE | cut -d'-' -f1 | xargs || echo ''")
+(defpoll MPRIS_ARTIST :interval "1s" "~/.config/eww/scripts/playerctl SIMPLE | cut -d'-' -f2- | xargs || echo ''")
+(defpoll MPRIS_PERCENT :interval "0.5s" "~/.config/eww/scripts/playerctl PERCENT | cut -d':' -f2 | xargs || echo 0")
+(defpoll REMAIN_TIME :interval "1s" "~/.config/eww/scripts/playerctl TOOLTIP_TEXT ||echo '0:00 / 0:00'")
+(defpoll IMAGE :interval "5s" "~/.config/eww/scripts/playerctl THUMBNAIL_PATH || echo ''")
+(defpoll MPRIS_STATUS :interval "0.5s" "playerctl status 2>/dev/null || echo 'Stopped'")
+
+
+(defwindow player
+  :monitor 0
+  :geometry (geometry
+    :x "0px"
+    :y "5px"
+    :width "280px"
+    :height "140px"
+    :anchor "top center")
+  :stacking "fg"
+  :windowtype "normal"
+  :exclusive false
+  :focusable false
+  (box
+    :class "music-player"
+    :orientation "vertical"
+    :space-evenly false
+    :spacing 8
+    (box
+      :class "player-header"
+      :orientation "horizontal"
+      :space-evenly false
+      :halign "start"
+      (button
+        :class "player-prev"
+        :onclick "playerctl previous"
+        " ")
+      (button
+        :class "player-play"
+        :onclick "playerctl play-pause"
+        {MPRIS_STATUS == "Playing" ? " ⏸ " : "   "})
+      (button
+        :class "player-next"
+        :onclick "playerctl next"
+        "  ")
+      (box
+        :class "player-info"
+        :orientation "vertical"
+        :space-evenly false
+        :halign "start"
+        (label
+          :class "player-title"
+          :text {MPRIS_TITLE})
+        (label
+          :class "player-artist"
+          :text {MPRIS_ARTIST})))
+
+    ;; === СТАРТ БЛОКА ПРОГРЕСС-БАРА (используем CSS-переменную) ===
+
+    (box
+      :class "player-time"
+      (label
+        :text {REMAIN_TIME}))
+    (box
+      :class "player-art-container"
+      (image
+        :class "player-art"
+        :path {IMAGE}
+        :image-height 80
+        :image-width 80))))

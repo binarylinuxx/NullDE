@@ -1,0 +1,13 @@
+2025-07-26 13:15:22.889 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/233536eb75102cea8ff34be4b47008dd7d8cbbd2c603e096d684d9aef73c4cb7/stable
+2025-07-26 13:15:22.889 [info] update#setState idle
+2025-07-26 13:15:25.258 [error] vscode-file: Refused to load resource /tmp/.mount_CursorHWbPvG/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_CursorHWbPvG/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-07-26 13:15:52.288 [info] update#setState checking for updates
+2025-07-26 13:15:52.450 [info] update#setState ready
+2025-07-26 13:22:55.361 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2025-07-26 13:22:55.364 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 5535]: crashed with code 2 and reason 'killed'
+2025-07-26 13:22:55.370 [error] ptyHost terminated unexpectedly with code 2
+2025-07-26 13:22:55.372 [warning] [UtilityProcess type: ptyHost, pid: 5905]: unable to kill the process
+2025-07-26 13:22:55.384 [error] [UtilityProcess type: shared-process, pid: 5534]: crashed with code 2 and reason 'killed'
+2025-07-26 13:22:55.393 [info] Extension host with pid 5524 exited with code: 2, signal: unknown.
+2025-07-26 13:22:55.394 [error] [UtilityProcess id: 1, type: extensionHost, pid: 5524]: crashed with code 2 and reason 'killed'
+2025-07-26 13:22:55.527 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)

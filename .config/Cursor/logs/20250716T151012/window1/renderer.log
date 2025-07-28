@@ -1,0 +1,465 @@
+2025-07-16 15:10:15.437 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.437 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.438 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.438 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.438 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.438 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.438 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.439 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.439 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:10:15.469 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.469 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "mcpDisabledTools" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.470 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.471 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.472 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.473 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.473 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.473 [warning] Missing property "contextBankUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.473 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.473 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.474 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.474 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.474 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.474 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.474 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.475 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.475 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.475 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.475 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.475 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.476 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.477 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.478 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "autoCreateNewChatAfterTimeout" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.479 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.480 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.481 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.482 [warning] Missing property "hasClickedSlackConnect" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.483 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.485 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.486 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.486 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.486 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.486 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.486 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:10:15.549 [warning] Creation of workbench contribution 'workbench.contrib.textInputActionsProvider' took 24ms.
+2025-07-16 15:10:15.895 [info] Started local extension host with pid 12868.
+2025-07-16 15:10:15.950 [info] Started initializing default profile extensions in extensions installation folder. file:///home/blx/.cursor/extensions
+2025-07-16 15:10:16.243 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/blx/.cursor/extensions
+2025-07-16 15:10:19.535 [error] Error fetching user privacy mode: [unauthenticated] Error
+2025-07-16 15:10:19.540 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.fetchUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:49224)
+    at async oVi.refreshPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:48964) [unauthenticated] Error
+2025-07-16 15:10:19.547 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:68116) [unauthenticated] Error
+2025-07-16 15:10:19.556 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.fetchUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:49224)
+    at async oVi.refreshPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:48964) [unauthenticated] Error
+2025-07-16 15:10:19.641 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async dsn.C (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4223:7538) [unauthenticated] Error
+2025-07-16 15:10:19.693 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7061:54029) [unauthenticated] Error
+2025-07-16 15:10:19.695 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:21871) [unauthenticated] Error
+2025-07-16 15:10:19.701 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async kZs.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7017:11962)
+    at async kZs.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7034:17224) [unauthenticated] Error
+2025-07-16 15:10:19.709 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unauthenticated] Error
+2025-07-16 15:10:19.768 [info] [perf] Render performance baseline is 24ms
+2025-07-16 15:13:17.869 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.870 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.871 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.871 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:13:17.895 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.895 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.895 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.895 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.895 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.895 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.896 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.897 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:17.898 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:13:18.210 [info] Started local extension host with pid 13146.
+2025-07-16 15:13:19.242 [warning] No search provider registered for scheme: file, waiting
+2025-07-16 15:13:20.619 [info] [RepositoryTracker] Stored repository path: github.com/binarylinuxx/hyprsettings -> file:///home/blx/projects/hyprsettings
+2025-07-16 15:13:21.081 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.fetchUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:49224)
+    at async oVi.refreshPrivacyMode (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:48964) [unauthenticated] Error
+2025-07-16 15:13:21.104 [error] Error fetching user privacy mode: [unauthenticated] Error
+2025-07-16 15:13:21.111 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:68116) [unauthenticated] Error
+2025-07-16 15:13:21.113 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async kZs.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7017:11962)
+    at async kZs.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7034:17224) [unauthenticated] Error
+2025-07-16 15:13:21.209 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unauthenticated] Error
+2025-07-16 15:13:21.267 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async dsn.C (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4223:7538) [unauthenticated] Error
+2025-07-16 15:13:21.303 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7061:54029) [unauthenticated] Error
+2025-07-16 15:13:21.507 [info] [perf] Render performance baseline is 47ms
+2025-07-16 15:13:22.286 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_CursoraKmFEQ/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:21871) [unauthenticated] Error
+2025-07-16 15:13:45.612 [info] Starting polling for manual login link
+2025-07-16 15:13:45.813 [info] Manual login polling iteration
+2025-07-16 15:13:46.012 [info] Manual login polling iteration
+2025-07-16 15:13:46.212 [info] Manual login polling iteration
+2025-07-16 15:13:46.412 [info] Manual login polling iteration
+2025-07-16 15:13:46.612 [info] Manual login polling iteration
+2025-07-16 15:13:46.812 [info] Manual login polling iteration
+2025-07-16 15:13:47.012 [info] Manual login polling iteration
+2025-07-16 15:13:47.212 [info] Manual login polling iteration
+2025-07-16 15:13:47.412 [info] Manual login polling iteration
+2025-07-16 15:13:47.619 [info] Manual login polling iteration
+2025-07-16 15:13:47.812 [info] Manual login polling iteration
+2025-07-16 15:13:47.992 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 15:13:48.035 [info] Manual login polling iteration
+2025-07-16 15:13:48.212 [info] Manual login polling iteration
+2025-07-16 15:13:48.414 [info] Manual login polling iteration
+2025-07-16 15:13:48.613 [info] Manual login polling iteration
+2025-07-16 15:13:48.823 [info] Manual login polling iteration
+2025-07-16 15:13:49.012 [info] Manual login polling iteration
+2025-07-16 15:13:49.212 [info] Manual login polling iteration
+2025-07-16 15:13:49.412 [info] Manual login polling iteration
+2025-07-16 15:13:49.612 [info] Manual login polling iteration
+2025-07-16 15:13:49.812 [info] Manual login polling iteration
+2025-07-16 15:13:50.013 [info] Manual login polling iteration
+2025-07-16 15:13:50.212 [info] Manual login polling iteration
+2025-07-16 15:13:50.412 [info] Manual login polling iteration
+2025-07-16 15:13:50.612 [info] Manual login polling iteration
+2025-07-16 15:13:50.812 [info] Manual login polling iteration
+2025-07-16 15:13:51.012 [info] Manual login polling iteration
+2025-07-16 15:13:51.212 [info] Manual login polling iteration
+2025-07-16 15:13:51.412 [info] Manual login polling iteration
+2025-07-16 15:13:51.612 [info] Manual login polling iteration
+2025-07-16 15:13:51.812 [info] Manual login polling iteration
+2025-07-16 15:13:52.012 [info] Manual login polling iteration
+2025-07-16 15:13:52.212 [info] Manual login polling iteration
+2025-07-16 15:13:52.412 [info] Manual login polling iteration
+2025-07-16 15:13:52.613 [info] Manual login polling iteration
+2025-07-16 15:13:52.812 [info] Manual login polling iteration
+2025-07-16 15:13:53.017 [info] Manual login polling iteration
+2025-07-16 15:13:53.212 [info] Manual login polling iteration
+2025-07-16 15:13:53.412 [info] Manual login polling iteration
+2025-07-16 15:13:53.613 [info] Manual login polling iteration
+2025-07-16 15:13:53.637 [error] Failed to update VSCode profile: [unauthenticated] Error
+2025-07-16 15:13:53.813 [info] Manual login polling iteration
+2025-07-16 15:13:54.012 [info] Manual login polling iteration
+2025-07-16 15:13:54.212 [info] Manual login polling iteration
+2025-07-16 15:13:54.412 [info] Manual login polling iteration
+2025-07-16 15:13:54.612 [info] Manual login polling iteration
+2025-07-16 15:13:54.812 [info] Manual login polling iteration
+2025-07-16 15:13:55.012 [info] Manual login polling iteration
+2025-07-16 15:13:55.212 [info] Manual login polling iteration
+2025-07-16 15:13:55.413 [info] Manual login polling iteration
+2025-07-16 15:13:55.613 [info] Manual login polling iteration
+2025-07-16 15:13:55.813 [info] Manual login polling iteration
+2025-07-16 15:13:56.013 [info] Manual login polling iteration
+2025-07-16 15:13:56.213 [info] Manual login polling iteration
+2025-07-16 15:13:56.412 [info] Manual login polling iteration
+2025-07-16 15:13:56.612 [info] Manual login polling iteration
+2025-07-16 15:13:56.812 [info] Manual login polling iteration
+2025-07-16 15:13:57.012 [info] Manual login polling iteration
+2025-07-16 15:13:57.212 [info] Manual login polling iteration
+2025-07-16 15:13:57.413 [info] Manual login polling iteration
+2025-07-16 15:13:57.613 [info] Manual login polling iteration
+2025-07-16 15:13:57.813 [info] Manual login polling iteration
+2025-07-16 15:13:58.013 [info] Manual login polling iteration
+2025-07-16 15:13:58.213 [info] Manual login polling iteration
+2025-07-16 15:13:58.412 [info] Manual login polling iteration
+2025-07-16 15:13:58.613 [info] Manual login polling iteration
+2025-07-16 15:13:58.813 [info] Manual login polling iteration
+2025-07-16 15:13:59.012 [info] Manual login polling iteration
+2025-07-16 15:13:59.213 [info] Manual login polling iteration
+2025-07-16 15:13:59.413 [info] Manual login polling iteration
+2025-07-16 15:13:59.613 [info] Manual login polling iteration
+2025-07-16 15:13:59.814 [info] Manual login polling iteration
+2025-07-16 15:14:00.013 [info] Manual login polling iteration
+2025-07-16 15:14:00.214 [info] Manual login polling iteration
+2025-07-16 15:14:00.413 [info] Manual login polling iteration
+2025-07-16 15:14:00.613 [info] Manual login polling iteration
+2025-07-16 15:14:00.813 [info] Manual login polling iteration
+2025-07-16 15:14:01.013 [info] Manual login polling iteration
+2025-07-16 15:14:01.212 [info] Manual login polling iteration
+2025-07-16 15:14:01.413 [info] Manual login polling iteration
+2025-07-16 15:14:01.613 [info] Manual login polling iteration
+2025-07-16 15:14:01.813 [info] Manual login polling iteration
+2025-07-16 15:14:02.013 [info] Manual login polling iteration
+2025-07-16 15:14:02.213 [info] Manual login polling iteration
+2025-07-16 15:14:02.413 [info] Manual login polling iteration
+2025-07-16 15:14:02.613 [info] Manual login polling iteration
+2025-07-16 15:14:02.813 [info] Manual login polling iteration
+2025-07-16 15:14:03.013 [info] Manual login polling iteration
+2025-07-16 15:14:03.212 [info] Manual login polling iteration
+2025-07-16 15:14:03.412 [info] Manual login polling iteration
+2025-07-16 15:14:03.612 [info] Manual login polling iteration
+2025-07-16 15:14:03.813 [info] Manual login polling iteration
+2025-07-16 15:14:04.013 [info] Manual login polling iteration
+2025-07-16 15:14:04.213 [info] Manual login polling iteration
+2025-07-16 15:14:04.413 [info] Manual login polling iteration
+2025-07-16 15:14:04.613 [info] Manual login polling iteration
+2025-07-16 15:14:04.813 [info] Manual login polling iteration
+2025-07-16 15:14:05.013 [info] Manual login polling iteration
+2025-07-16 15:14:05.212 [info] Manual login polling iteration
+2025-07-16 15:14:05.412 [info] Manual login polling iteration
+2025-07-16 15:14:05.613 [info] Manual login polling iteration
+2025-07-16 15:14:05.814 [info] Manual login polling iteration
+2025-07-16 15:14:06.013 [info] Manual login polling iteration
+2025-07-16 15:14:06.212 [info] Manual login polling iteration
+2025-07-16 15:14:06.412 [info] Manual login polling iteration
+2025-07-16 15:14:06.612 [info] Manual login polling iteration
+2025-07-16 15:14:06.812 [info] Manual login polling iteration
+2025-07-16 15:14:07.012 [info] Manual login polling iteration
+2025-07-16 15:14:07.212 [info] Manual login polling iteration
+2025-07-16 15:14:07.412 [info] Manual login polling iteration
+2025-07-16 15:15:49.616 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.616 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.616 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.617 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:15:49.644 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.645 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.645 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.645 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.647 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.648 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.648 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.648 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.648 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.648 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.649 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.649 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.649 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.650 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.651 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.651 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:15:49.931 [info] Started local extension host with pid 13874.
+2025-07-16 15:15:50.289 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 15:15:51.012 [warning] No search provider registered for scheme: file, waiting
+2025-07-16 15:15:53.243 [info] [perf] Render performance baseline is 44ms
+2025-07-16 15:22:53.103 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.103 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.103 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.103 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:22:53.132 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.132 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.132 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.132 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.132 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.133 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.133 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.133 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.133 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.134 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.134 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.134 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.134 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.134 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.135 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:22:53.432 [info] Started local extension host with pid 14662.
+2025-07-16 15:22:53.780 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 15:22:56.734 [info] [perf] Render performance baseline is 39ms
+2025-07-16 15:44:37.477 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.workingCopyHistory
+2025-07-16 15:44:39.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 15:44:39.043 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.044 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.045 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.045 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.045 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 15:44:39.472 [info] Started local extension host with pid 21385.
+2025-07-16 15:44:39.793 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 15:44:40.438 [warning] No search provider registered for scheme: file, waiting
+2025-07-16 15:44:42.744 [info] [perf] Render performance baseline is 21ms
+2025-07-16 16:02:30.982 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.workingCopyHistory
+2025-07-16 16:02:34.495 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.495 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.495 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.496 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 16:02:34.521 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.522 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.522 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.522 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.522 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.522 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.523 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.524 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.525 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.525 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.525 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.525 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 16:02:34.803 [info] Started local extension host with pid 27656.
+2025-07-16 16:02:35.165 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 16:02:35.871 [warning] No search provider registered for scheme: file, waiting
+2025-07-16 16:02:38.119 [info] [perf] Render performance baseline is 49ms

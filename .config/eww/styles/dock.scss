@@ -1,0 +1,205 @@
+// Hyprland Auto-Hide Dock Styles for eww
+$round_ratio: 39px;
+
+* {
+  all: unset;
+}
+
+// Color scheme - adjust to your preference
+$bg-color: rgba(30, 30, 46, 0.9);
+$border-color: rgba(88, 91, 112, 0.4);
+$hover-color: rgba(137, 180, 250, 0.3);
+$active-color: rgba(137, 180, 250, 0.5);
+$text-color: rgba(205, 214, 244, 1);
+$indicator-color: rgba(137, 180, 250, 1);
+$trigger-color: rgba(137, 180, 250, 0.1);
+$dock-base-width: 400px;
+$dock-item-width: 56px; // ширина одной иконки с отступами
+$dock-padding: 24px;
+
+// Auto-hide dock container
+.auto-hide-dock {
+  .dock-trigger {
+    .trigger-area {
+      background-color: transparent;
+      border-radius: 0 8px 8px 0;
+      transition: all 0.2s ease-in-out;
+      min-width: 3px;
+      min-height: 200px;
+
+      &:hover {
+        background-color: $trigger-color;
+        min-width: 6px;
+      }
+    }
+  }
+
+  .dock-content {
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+    border-left: none;
+    border-radius: 0 12px 12px 0;
+    padding: 8px 8px;
+    margin: 0;
+    transition: all 0.3s ease-out;
+    min-height: 200px;
+
+    &.dock-hidden {
+      margin-left: -100px;
+      opacity: 0;
+    }
+
+    &.dock-visible {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.blox-left {
+  background: radial-gradient(
+    circle at top left,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+.blox-right {
+  background: radial-gradient(
+    circle at top right,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+// Horizontal auto-hide dock (bottom)
+.auto-hide-dock-horizontal {
+  .dock-trigger-horizontal {
+    .trigger-area-horizontal {
+      background-color: transparent;
+      border-radius: 8px 8px 0 0;
+      transition: all 0.2s ease-in-out;
+      min-width: 200px;
+      min-height: 3px;
+
+      &:hover {
+        background-color: $trigger-color;
+        min-height: 6px;
+      }
+    }
+  }
+
+  .dock-content-horizontal {
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    padding: 8px 12px;
+    margin: 0;
+    transition: all 0.3s ease-out;
+    min-width: 200px;
+
+    &.dock-hidden {
+      margin-bottom: -100px;
+      opacity: 0;
+    }
+
+    &.dock-visible {
+      margin-bottom: 0;
+      opacity: 1;
+    }
+  }
+}
+
+// App icon container
+.app-icon-container {
+  padding: 13px;
+  border-radius: 25px;
+
+  &:hover {
+    background-color: $on_tertiary;
+  }
+
+  &:active {
+    background-color: $active-color;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+
+// App icon box
+.app-icon-box {
+  background: $on_primary;
+  border-radius: 2rem;
+  padding: 2px 2px;
+}
+
+// App icon box
+
+.app-icon-box:hover {
+  background: $on_tertiary;
+  border-radius: 2rem;
+  padding: 0 2px;
+}
+
+// App icon image
+.app-icon {
+  border-radius: 80px;
+}// App icon image
+
+.app-icon:hover {
+  border-radius: 80px;
+  background: $on_primary_fixed;
+}
+
+// Window indicator
+.window-indicator {
+  font-size: 8px;
+  color: $indicator-color;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+// Static dock styles (for compatibility)
+.dock {
+  background-color: $background;
+  border-radius: 31px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 8px 2px;
+  margin: 0;
+
+  &.dock-vertical {
+    .dock-center {
+      margin: 8px 0;
+    }
+  }
+
+  .dock-center {
+    margin: 0 8px;
+  }
+}
+
+// Trigger visual feedback
+.trigger-area:hover,
+.trigger-area-horizontal:hover {
+  background-color: $trigger-color;
+}
+
+// Responsive sizing
+.app-icon-container {
+  &:hover {
+    .app-icon {
+      // Simulated scaling through padding adjustment
+      margin: -2px;
+      padding: 2px;
+    }
+  }
+}
+
+// Focus states for accessibility
+.app-icon-container:focus {
+  outline: 2px solid $indicator-color;
+  outline-offset: 2px;
+  border-radius: 10px;
+}

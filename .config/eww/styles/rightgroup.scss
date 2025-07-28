@@ -1,0 +1,30 @@
+$padding-h-ratio: 3px;
+
+/*
+* {
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 15px;
+}
+*/
+.audio {
+	background: $on_primary;
+	padding: $padding-h-ratio 7px;
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 15px;
+}
+
+.connection {
+	background: $on_primary;
+	padding: $padding-h-ratio 7px;
+	border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-right: 5px;
+    font-family: Jetbrains Mono;
+    font-weight: 900;
+    font-size: 15px;
+}
+

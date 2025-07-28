@@ -1,0 +1,16 @@
+2025-07-26 13:15:26.761 [info] Extension host with pid 5524 started
+2025-07-26 13:15:26.761 [info] Skipping acquiring lock for /home/blx/.config/Cursor/User/workspaceStorage/b94d5aaf28d33e69cf5955455fbaf5b6.
+2025-07-26 13:15:27.180 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-26 13:15:27.261 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-26 13:15:27.265 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-26 13:15:27.319 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-26 13:15:27.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-26 13:15:27.450 [info] Eager extensions activated
+2025-07-26 13:15:27.476 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:27.817 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:27.886 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:28.231 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:28.305 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:28.473 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:15:28.476 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-26 13:18:13.293 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

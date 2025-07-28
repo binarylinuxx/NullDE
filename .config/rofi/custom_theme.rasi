@@ -98,6 +98,7 @@ mode-switcher {
     orientation: vertical;
     width: 7.9em;
     padding:  2.5em 1.5em;
+    font-size: 2em;
     spacing: 1.5em;
     height: 1em;
     background-color: transparent;

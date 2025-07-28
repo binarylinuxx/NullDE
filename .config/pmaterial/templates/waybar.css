@@ -1,0 +1,29 @@
+/* Waybar CSS with Material Design 3 colors */
+
+@define-color background neutral-10 hex
+@define-color foreground neutral-90 hex
+@define-color primary primary-40 hex
+@define-color secondary secondary-40 hex
+@define-color alert error-40 hex
+
+* {
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background-color: @background;
+    color: @foreground;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @foreground;
+}
+
+#workspaces button.active {
+    background-color: @primary;
+    color: @background;
+}

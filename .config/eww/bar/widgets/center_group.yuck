@@ -1,0 +1,16 @@
+;; Добавляете переменную для состояния плеера
+(defvar player-visible false)
+
+(defpoll MPRIS_CENTER :interval "0.1s" "~/.config/eww/scripts/playerctl SIMPLE")
+
+(defwidget centergroup []
+  (box :orientation "h"
+       :space-evenly "true" 
+       :spacing 12
+    (eventbox 
+      :onclick "if [ $(eww get player-visible) = 'true' ]; then 
+                  eww update player-visible=false && eww close player
+                else 
+                  eww update player-visible=true && eww open player
+                fi"
+      (label :class "playerctl" :text {MPRIS_CENTER}))))

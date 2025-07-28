@@ -1,0 +1,58 @@
+2025-07-16 19:41:14.507 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.507 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.508 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.508 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.508 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.509 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.509 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.509 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.510 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:41:14.546 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.546 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.547 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.547 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.547 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.547 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.547 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.548 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.548 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.548 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:41:14.636 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 36ms.
+2025-07-16 19:41:15.295 [info] Started local extension host with pid 2520.
+2025-07-16 19:41:16.065 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 19:41:21.383 [info] [perf] Render performance baseline is 27ms
+2025-07-16 19:42:14.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 19:42:14.218 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.218 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.218 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.218 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.218 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.219 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.219 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.219 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.219 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.219 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.220 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.221 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.221 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.221 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.221 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.221 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-16 19:42:14.642 [info] Started local extension host with pid 3530.
+2025-07-16 19:42:15.032 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-07-16 19:42:15.892 [warning] No search provider registered for scheme: file, waiting
+2025-07-16 19:42:17.962 [info] [perf] Render performance baseline is 27ms

@@ -2,9 +2,9 @@ configuration {
     modi: "drun,run,window";
     show-icons: true;
     icon-theme: "Tela-circle-black";
-    display-drun: " 󰵆 Apps";
-    display-run: " Run";
-    display-window: " Windows";
+    display-drun: " 󰵆 ";
+    display-run: " ";
+    display-window: " ";
     drun-display-format: "{name}";
     sidebar-mode: false;
     location: 0;

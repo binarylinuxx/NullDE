@@ -1,0 +1,11 @@
+(deflisten CONNECTION :interval "5s" "~/.config/eww/scripts/network.sh")
+(deflisten AUDIO :interval "0.5s" "~/.config/eww/scripts/audio.py")
+
+(defwidget rightgroup []
+  (box :orientation "horizontal"
+       :space-evenly false
+       :spacing 0
+       :halign "end"
+       :valign "center"
+       (label :class "audio" :text {AUDIO})
+       (label :class "connection" :text {CONNECTION})))

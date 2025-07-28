@@ -1,0 +1,2 @@
+module QuickshellColors
+singleton Colors 1.0 Colors.qml

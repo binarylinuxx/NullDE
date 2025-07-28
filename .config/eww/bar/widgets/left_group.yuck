@@ -1,0 +1,11 @@
+(deflisten TIME :interval "1s" "~/.config/eww/scripts/clock.py")
+(deflisten KBLANG :interval "1s" "~/.config/eww/scripts/get_kblang")
+
+(defwidget leftrgroup []  
+  (box :orientation "h"
+       :space-evenly "false"
+       :spacing 0
+       :halign "start"
+       (button :class "ppmenu-button" :onclick "eww open pmenu && eww open left-center-top && eww open left-center-bottom" "")
+       (label :class "kblang" :text {KBLANG})
+       (label :class "clock" :text {TIME})))

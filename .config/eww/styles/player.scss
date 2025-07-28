@@ -1,0 +1,35 @@
+.player {
+	background: $background;
+	border-radius: 1.52rem;
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 13px;
+}
+
+.progress-container {
+  background-color: transparent;
+  margin: 8px 0;
+}
+
+.progress-background {
+  background-color: $on_primary;
+  border-radius: 2px;
+}
+
+.progress-fill {
+  background-color: $on_primary;
+  border-radius: 1rem;
+/*  min-width: 2px; */
+}
+
+.player-header {
+	background: $on_primary;
+	border-radius: 1.52rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	padding: 0 7px;
+}
+
+.player-art-container {
+	border-radius: 6px;
+}

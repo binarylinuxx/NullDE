@@ -1,0 +1,36 @@
+.floating-menu {
+	background: $background;
+	border-bottom-left-radius: 26px;
+}
+
+.history-title {
+    color: $on_surface;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.clear-history-button {
+    background-color: $error_container;
+    color: $on_error_container;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.clear-history-button:hover {
+    background-color: $error;
+    color: $on_error;
+}
+
+.end-history-container {
+}
+
+.end-history-box {
+    background-color: $surface_container_low; // Slightly different background for individual items
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px; // Space between history items
+    border: 1px solid $outline_variant;
+}

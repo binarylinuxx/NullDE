@@ -2,7 +2,7 @@
 
 [templates.eww]
 input_path = 'colors-eww.scss'
-output_path = '~/.config/ignis/colors.scss'
+output_path = '~/.config/eww/colors.scss'
 scheme = "dark"
 
 [templates.pywalfox]

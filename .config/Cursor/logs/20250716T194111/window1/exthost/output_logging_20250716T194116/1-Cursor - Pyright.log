@@ -1,0 +1,9 @@
+[Info  - 16:41:17.454] [pylance import] Already imported settings globally
+[Info  - 16:41:17.454] [pylance import] No remote authority found, skipping remote settings migration
+[Info  - 16:41:17.454] [pylance import] Already imported settings for workspace msg
+[Info  - 16:41:17.454] [pylance import] Already imported settings for workspace folder /home/blx/msg
+[Info  - 16:41:17.469] failed to find pyright executable, falling back to bundled:
+/bin/basedpyright-langserver
+[Info  - 16:41:17.469] using bundled pyright
+[Info  - 16:41:17.469] running node with args: --max-old-space-size=16384
+[Info  - 16:41:17.469] using default node executable

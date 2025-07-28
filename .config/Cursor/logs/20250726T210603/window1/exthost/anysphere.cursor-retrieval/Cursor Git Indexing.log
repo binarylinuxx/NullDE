@@ -1,0 +1,772 @@
+2025-07-26 21:06:09.285 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-26 21:06:09.285 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-26 21:06:09.547 [warning] No repository found: /home/blx/qnotifs (candidates: )
+2025-07-26 21:06:09.551 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:06:26.296 [info] MultiBranchIndexJob dispose
+2025-07-26 21:06:26.296 [info] Aborting multi-branch indexing job.
+2025-07-26 21:06:30.483 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-26 21:06:30.483 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-26 21:06:30.812 [warning] No repository found: /home/blx/.config/quickshell (candidates: )
+2025-07-26 21:06:31.133 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:11:30.813 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:11:30.813 [info] MultiBranchIndexJob dispose
+2025-07-26 21:11:30.813 [info] Aborting multi-branch indexing job.
+2025-07-26 21:11:30.816 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:16:30.814 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:16:30.814 [info] MultiBranchIndexJob dispose
+2025-07-26 21:16:30.814 [info] Aborting multi-branch indexing job.
+2025-07-26 21:16:30.817 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:21:30.814 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:21:30.814 [info] MultiBranchIndexJob dispose
+2025-07-26 21:21:30.814 [info] Aborting multi-branch indexing job.
+2025-07-26 21:21:30.816 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:26:30.821 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:26:30.821 [info] MultiBranchIndexJob dispose
+2025-07-26 21:26:30.821 [info] Aborting multi-branch indexing job.
+2025-07-26 21:26:30.822 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:31:30.822 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:31:30.822 [info] MultiBranchIndexJob dispose
+2025-07-26 21:31:30.822 [info] Aborting multi-branch indexing job.
+2025-07-26 21:31:30.825 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:36:30.822 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:36:30.822 [info] MultiBranchIndexJob dispose
+2025-07-26 21:36:30.822 [info] Aborting multi-branch indexing job.
+2025-07-26 21:36:30.823 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:41:30.822 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:41:30.822 [info] MultiBranchIndexJob dispose
+2025-07-26 21:41:30.822 [info] Aborting multi-branch indexing job.
+2025-07-26 21:41:30.823 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:46:30.822 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:46:30.822 [info] MultiBranchIndexJob dispose
+2025-07-26 21:46:30.822 [info] Aborting multi-branch indexing job.
+2025-07-26 21:46:30.823 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:51:30.823 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:51:30.823 [info] MultiBranchIndexJob dispose
+2025-07-26 21:51:30.823 [info] Aborting multi-branch indexing job.
+2025-07-26 21:51:30.826 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 21:56:30.823 [info] doUpdate: Disposing completed index job...
+2025-07-26 21:56:30.823 [info] MultiBranchIndexJob dispose
+2025-07-26 21:56:30.823 [info] Aborting multi-branch indexing job.
+2025-07-26 21:56:30.824 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:01:30.823 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:01:30.823 [info] MultiBranchIndexJob dispose
+2025-07-26 22:01:30.823 [info] Aborting multi-branch indexing job.
+2025-07-26 22:01:30.825 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:06:30.824 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:06:30.824 [info] MultiBranchIndexJob dispose
+2025-07-26 22:06:30.824 [info] Aborting multi-branch indexing job.
+2025-07-26 22:06:30.826 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:11:30.826 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:11:30.826 [info] MultiBranchIndexJob dispose
+2025-07-26 22:11:30.827 [info] Aborting multi-branch indexing job.
+2025-07-26 22:11:30.866 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:16:30.880 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:16:30.880 [info] MultiBranchIndexJob dispose
+2025-07-26 22:16:30.880 [info] Aborting multi-branch indexing job.
+2025-07-26 22:16:30.881 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:21:30.881 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:21:30.881 [info] MultiBranchIndexJob dispose
+2025-07-26 22:21:30.881 [info] Aborting multi-branch indexing job.
+2025-07-26 22:21:30.884 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:26:30.889 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:26:30.889 [info] MultiBranchIndexJob dispose
+2025-07-26 22:26:30.889 [info] Aborting multi-branch indexing job.
+2025-07-26 22:26:30.890 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:31:30.921 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:31:30.921 [info] MultiBranchIndexJob dispose
+2025-07-26 22:31:30.921 [info] Aborting multi-branch indexing job.
+2025-07-26 22:31:30.922 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:36:30.960 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:36:30.960 [info] MultiBranchIndexJob dispose
+2025-07-26 22:36:30.960 [info] Aborting multi-branch indexing job.
+2025-07-26 22:36:30.961 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:41:30.960 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:41:30.960 [info] MultiBranchIndexJob dispose
+2025-07-26 22:41:30.960 [info] Aborting multi-branch indexing job.
+2025-07-26 22:41:30.961 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:46:30.961 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:46:30.961 [info] MultiBranchIndexJob dispose
+2025-07-26 22:46:30.961 [info] Aborting multi-branch indexing job.
+2025-07-26 22:46:30.962 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:51:30.986 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:51:30.986 [info] MultiBranchIndexJob dispose
+2025-07-26 22:51:30.986 [info] Aborting multi-branch indexing job.
+2025-07-26 22:51:30.987 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 22:56:30.987 [info] doUpdate: Disposing completed index job...
+2025-07-26 22:56:30.987 [info] MultiBranchIndexJob dispose
+2025-07-26 22:56:30.987 [info] Aborting multi-branch indexing job.
+2025-07-26 22:56:30.990 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:01:30.986 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:01:30.986 [info] MultiBranchIndexJob dispose
+2025-07-26 23:01:30.986 [info] Aborting multi-branch indexing job.
+2025-07-26 23:01:30.987 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:06:30.987 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:06:30.988 [info] MultiBranchIndexJob dispose
+2025-07-26 23:06:30.988 [info] Aborting multi-branch indexing job.
+2025-07-26 23:06:30.990 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:11:30.988 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:11:30.988 [info] MultiBranchIndexJob dispose
+2025-07-26 23:11:30.988 [info] Aborting multi-branch indexing job.
+2025-07-26 23:11:30.990 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:16:30.988 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:16:30.988 [info] MultiBranchIndexJob dispose
+2025-07-26 23:16:30.988 [info] Aborting multi-branch indexing job.
+2025-07-26 23:16:30.991 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:21:30.988 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:21:30.988 [info] MultiBranchIndexJob dispose
+2025-07-26 23:21:30.988 [info] Aborting multi-branch indexing job.
+2025-07-26 23:21:30.991 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:26:30.989 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:26:30.990 [info] MultiBranchIndexJob dispose
+2025-07-26 23:26:30.990 [info] Aborting multi-branch indexing job.
+2025-07-26 23:26:30.992 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:31:30.990 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:31:30.990 [info] MultiBranchIndexJob dispose
+2025-07-26 23:31:30.990 [info] Aborting multi-branch indexing job.
+2025-07-26 23:31:30.993 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:36:30.990 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:36:30.990 [info] MultiBranchIndexJob dispose
+2025-07-26 23:36:30.990 [info] Aborting multi-branch indexing job.
+2025-07-26 23:36:30.993 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:41:30.989 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:41:30.989 [info] MultiBranchIndexJob dispose
+2025-07-26 23:41:30.989 [info] Aborting multi-branch indexing job.
+2025-07-26 23:41:30.990 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:46:30.990 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:46:30.990 [info] MultiBranchIndexJob dispose
+2025-07-26 23:46:30.990 [info] Aborting multi-branch indexing job.
+2025-07-26 23:46:30.993 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:51:30.991 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:51:30.992 [info] MultiBranchIndexJob dispose
+2025-07-26 23:51:30.992 [info] Aborting multi-branch indexing job.
+2025-07-26 23:51:30.994 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 23:56:30.991 [info] doUpdate: Disposing completed index job...
+2025-07-26 23:56:30.991 [info] MultiBranchIndexJob dispose
+2025-07-26 23:56:30.991 [info] Aborting multi-branch indexing job.
+2025-07-26 23:56:30.992 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:01:30.991 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:01:30.991 [info] MultiBranchIndexJob dispose
+2025-07-27 00:01:30.991 [info] Aborting multi-branch indexing job.
+2025-07-27 00:01:30.992 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:06:30.992 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:06:30.992 [info] MultiBranchIndexJob dispose
+2025-07-27 00:06:30.992 [info] Aborting multi-branch indexing job.
+2025-07-27 00:06:30.993 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:11:30.992 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:11:30.992 [info] MultiBranchIndexJob dispose
+2025-07-27 00:11:30.992 [info] Aborting multi-branch indexing job.
+2025-07-27 00:11:30.995 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:16:30.993 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:16:30.993 [info] MultiBranchIndexJob dispose
+2025-07-27 00:16:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:16:30.995 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:21:30.993 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:21:30.993 [info] MultiBranchIndexJob dispose
+2025-07-27 00:21:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:21:30.996 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:26:30.993 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:26:30.993 [info] MultiBranchIndexJob dispose
+2025-07-27 00:26:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:26:30.994 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:31:30.993 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:31:30.993 [info] MultiBranchIndexJob dispose
+2025-07-27 00:31:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:31:30.996 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:36:30.992 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:36:30.992 [info] MultiBranchIndexJob dispose
+2025-07-27 00:36:30.992 [info] Aborting multi-branch indexing job.
+2025-07-27 00:36:30.993 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:41:30.992 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:41:30.992 [info] MultiBranchIndexJob dispose
+2025-07-27 00:41:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:41:30.994 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:46:30.993 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:46:30.993 [info] MultiBranchIndexJob dispose
+2025-07-27 00:46:30.993 [info] Aborting multi-branch indexing job.
+2025-07-27 00:46:30.996 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:51:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:51:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 00:51:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 00:51:30.997 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 00:56:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 00:56:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 00:56:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 00:56:30.996 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:01:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:01:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 01:01:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 01:01:30.997 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:06:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:06:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 01:06:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 01:06:30.995 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:11:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:11:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 01:11:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 01:11:30.994 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:16:30.994 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:16:30.994 [info] MultiBranchIndexJob dispose
+2025-07-27 01:16:30.994 [info] Aborting multi-branch indexing job.
+2025-07-27 01:16:30.995 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:21:30.995 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:21:30.995 [info] MultiBranchIndexJob dispose
+2025-07-27 01:21:30.996 [info] Aborting multi-branch indexing job.
+2025-07-27 01:21:30.998 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:26:30.995 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:26:30.995 [info] MultiBranchIndexJob dispose
+2025-07-27 01:26:30.995 [info] Aborting multi-branch indexing job.
+2025-07-27 01:26:30.996 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:31:30.996 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:31:30.996 [info] MultiBranchIndexJob dispose
+2025-07-27 01:31:30.996 [info] Aborting multi-branch indexing job.
+2025-07-27 01:31:30.999 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:36:30.996 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:36:30.997 [info] MultiBranchIndexJob dispose
+2025-07-27 01:36:30.997 [info] Aborting multi-branch indexing job.
+2025-07-27 01:36:30.999 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:41:30.997 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:41:30.997 [info] MultiBranchIndexJob dispose
+2025-07-27 01:41:30.997 [info] Aborting multi-branch indexing job.
+2025-07-27 01:41:31.001 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:46:30.998 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:46:30.998 [info] MultiBranchIndexJob dispose
+2025-07-27 01:46:30.998 [info] Aborting multi-branch indexing job.
+2025-07-27 01:46:31.000 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:51:30.998 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:51:30.998 [info] MultiBranchIndexJob dispose
+2025-07-27 01:51:30.998 [info] Aborting multi-branch indexing job.
+2025-07-27 01:51:31.000 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 01:56:30.997 [info] doUpdate: Disposing completed index job...
+2025-07-27 01:56:30.998 [info] MultiBranchIndexJob dispose
+2025-07-27 01:56:30.998 [info] Aborting multi-branch indexing job.
+2025-07-27 01:56:31.000 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:01:30.998 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:01:30.998 [info] MultiBranchIndexJob dispose
+2025-07-27 02:01:30.998 [info] Aborting multi-branch indexing job.
+2025-07-27 02:01:30.999 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:06:30.998 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:06:30.998 [info] MultiBranchIndexJob dispose
+2025-07-27 02:06:30.998 [info] Aborting multi-branch indexing job.
+2025-07-27 02:06:31.001 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:11:31.002 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:11:31.002 [info] MultiBranchIndexJob dispose
+2025-07-27 02:11:31.002 [info] Aborting multi-branch indexing job.
+2025-07-27 02:11:31.003 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:16:31.003 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:16:31.003 [info] MultiBranchIndexJob dispose
+2025-07-27 02:16:31.003 [info] Aborting multi-branch indexing job.
+2025-07-27 02:16:31.004 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:21:31.003 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:21:31.003 [info] MultiBranchIndexJob dispose
+2025-07-27 02:21:31.003 [info] Aborting multi-branch indexing job.
+2025-07-27 02:21:31.006 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:26:31.003 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:26:31.003 [info] MultiBranchIndexJob dispose
+2025-07-27 02:26:31.003 [info] Aborting multi-branch indexing job.
+2025-07-27 02:26:31.006 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:31:31.003 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:31:31.003 [info] MultiBranchIndexJob dispose
+2025-07-27 02:31:31.003 [info] Aborting multi-branch indexing job.
+2025-07-27 02:31:31.006 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:36:31.004 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:36:31.004 [info] MultiBranchIndexJob dispose
+2025-07-27 02:36:31.004 [info] Aborting multi-branch indexing job.
+2025-07-27 02:36:31.005 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:41:31.004 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:41:31.005 [info] MultiBranchIndexJob dispose
+2025-07-27 02:41:31.005 [info] Aborting multi-branch indexing job.
+2025-07-27 02:41:31.007 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:46:31.005 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:46:31.005 [info] MultiBranchIndexJob dispose
+2025-07-27 02:46:31.005 [info] Aborting multi-branch indexing job.
+2025-07-27 02:46:31.007 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:51:31.005 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:51:31.005 [info] MultiBranchIndexJob dispose
+2025-07-27 02:51:31.005 [info] Aborting multi-branch indexing job.
+2025-07-27 02:51:31.008 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 02:56:31.006 [info] doUpdate: Disposing completed index job...
+2025-07-27 02:56:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 02:56:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 02:56:31.009 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:01:31.007 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:01:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:01:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:01:31.009 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:06:31.007 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:06:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:06:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:06:31.009 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:11:31.007 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:11:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:11:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:11:31.010 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:16:31.006 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:16:31.006 [info] MultiBranchIndexJob dispose
+2025-07-27 03:16:31.006 [info] Aborting multi-branch indexing job.
+2025-07-27 03:16:31.007 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:21:31.006 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:21:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:21:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:21:31.007 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:26:31.006 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:26:31.006 [info] MultiBranchIndexJob dispose
+2025-07-27 03:26:31.006 [info] Aborting multi-branch indexing job.
+2025-07-27 03:26:31.007 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:31:31.007 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:31:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:31:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:31:31.010 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:36:31.006 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:36:31.006 [info] MultiBranchIndexJob dispose
+2025-07-27 03:36:31.006 [info] Aborting multi-branch indexing job.
+2025-07-27 03:36:31.009 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:41:31.007 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:41:31.007 [info] MultiBranchIndexJob dispose
+2025-07-27 03:41:31.007 [info] Aborting multi-branch indexing job.
+2025-07-27 03:41:31.010 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:46:31.008 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:46:31.008 [info] MultiBranchIndexJob dispose
+2025-07-27 03:46:31.008 [info] Aborting multi-branch indexing job.
+2025-07-27 03:46:31.010 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:51:31.008 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:51:31.008 [info] MultiBranchIndexJob dispose
+2025-07-27 03:51:31.008 [info] Aborting multi-branch indexing job.
+2025-07-27 03:51:31.011 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 03:56:31.008 [info] doUpdate: Disposing completed index job...
+2025-07-27 03:56:31.008 [info] MultiBranchIndexJob dispose
+2025-07-27 03:56:31.008 [info] Aborting multi-branch indexing job.
+2025-07-27 03:56:31.011 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:01:31.008 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:01:31.008 [info] MultiBranchIndexJob dispose
+2025-07-27 04:01:31.008 [info] Aborting multi-branch indexing job.
+2025-07-27 04:01:31.010 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:06:31.009 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:06:31.009 [info] MultiBranchIndexJob dispose
+2025-07-27 04:06:31.009 [info] Aborting multi-branch indexing job.
+2025-07-27 04:06:31.012 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:11:31.010 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:11:31.010 [info] MultiBranchIndexJob dispose
+2025-07-27 04:11:31.010 [info] Aborting multi-branch indexing job.
+2025-07-27 04:11:31.013 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:16:31.011 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:16:31.011 [info] MultiBranchIndexJob dispose
+2025-07-27 04:16:31.011 [info] Aborting multi-branch indexing job.
+2025-07-27 04:16:31.012 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:21:31.011 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:21:31.011 [info] MultiBranchIndexJob dispose
+2025-07-27 04:21:31.011 [info] Aborting multi-branch indexing job.
+2025-07-27 04:21:31.014 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:26:31.012 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:26:31.012 [info] MultiBranchIndexJob dispose
+2025-07-27 04:26:31.012 [info] Aborting multi-branch indexing job.
+2025-07-27 04:26:31.014 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:31:31.012 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:31:31.012 [info] MultiBranchIndexJob dispose
+2025-07-27 04:31:31.012 [info] Aborting multi-branch indexing job.
+2025-07-27 04:31:31.014 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:36:31.011 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:36:31.011 [info] MultiBranchIndexJob dispose
+2025-07-27 04:36:31.011 [info] Aborting multi-branch indexing job.
+2025-07-27 04:36:31.012 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:41:31.013 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:41:31.013 [info] MultiBranchIndexJob dispose
+2025-07-27 04:41:31.013 [info] Aborting multi-branch indexing job.
+2025-07-27 04:41:31.015 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:46:31.013 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:46:31.013 [info] MultiBranchIndexJob dispose
+2025-07-27 04:46:31.014 [info] Aborting multi-branch indexing job.
+2025-07-27 04:46:31.016 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:51:31.014 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:51:31.014 [info] MultiBranchIndexJob dispose
+2025-07-27 04:51:31.014 [info] Aborting multi-branch indexing job.
+2025-07-27 04:51:31.017 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 04:56:31.015 [info] doUpdate: Disposing completed index job...
+2025-07-27 04:56:31.015 [info] MultiBranchIndexJob dispose
+2025-07-27 04:56:31.015 [info] Aborting multi-branch indexing job.
+2025-07-27 04:56:31.018 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:01:31.016 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:01:31.016 [info] MultiBranchIndexJob dispose
+2025-07-27 05:01:31.016 [info] Aborting multi-branch indexing job.
+2025-07-27 05:01:31.019 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:06:31.017 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:06:31.017 [info] MultiBranchIndexJob dispose
+2025-07-27 05:06:31.017 [info] Aborting multi-branch indexing job.
+2025-07-27 05:06:31.020 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:11:31.017 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:11:31.017 [info] MultiBranchIndexJob dispose
+2025-07-27 05:11:31.017 [info] Aborting multi-branch indexing job.
+2025-07-27 05:11:31.019 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:16:31.017 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:16:31.017 [info] MultiBranchIndexJob dispose
+2025-07-27 05:16:31.017 [info] Aborting multi-branch indexing job.
+2025-07-27 05:16:31.019 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:21:31.017 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:21:31.017 [info] MultiBranchIndexJob dispose
+2025-07-27 05:21:31.017 [info] Aborting multi-branch indexing job.
+2025-07-27 05:21:31.020 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:26:31.019 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:26:31.019 [info] MultiBranchIndexJob dispose
+2025-07-27 05:26:31.019 [info] Aborting multi-branch indexing job.
+2025-07-27 05:26:31.021 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:31:31.019 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:31:31.019 [info] MultiBranchIndexJob dispose
+2025-07-27 05:31:31.020 [info] Aborting multi-branch indexing job.
+2025-07-27 05:31:31.022 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:36:31.020 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:36:31.020 [info] MultiBranchIndexJob dispose
+2025-07-27 05:36:31.020 [info] Aborting multi-branch indexing job.
+2025-07-27 05:36:31.023 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:41:31.021 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:41:31.021 [info] MultiBranchIndexJob dispose
+2025-07-27 05:41:31.021 [info] Aborting multi-branch indexing job.
+2025-07-27 05:41:31.024 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:46:31.022 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:46:31.022 [info] MultiBranchIndexJob dispose
+2025-07-27 05:46:31.022 [info] Aborting multi-branch indexing job.
+2025-07-27 05:46:31.025 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:51:31.022 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:51:31.022 [info] MultiBranchIndexJob dispose
+2025-07-27 05:51:31.022 [info] Aborting multi-branch indexing job.
+2025-07-27 05:51:31.024 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 05:56:31.021 [info] doUpdate: Disposing completed index job...
+2025-07-27 05:56:31.021 [info] MultiBranchIndexJob dispose
+2025-07-27 05:56:31.021 [info] Aborting multi-branch indexing job.
+2025-07-27 05:56:31.024 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 06:01:31.022 [info] doUpdate: Disposing completed index job...
+2025-07-27 06:01:31.022 [info] MultiBranchIndexJob dispose
+2025-07-27 06:01:31.022 [info] Aborting multi-branch indexing job.
+2025-07-27 06:01:31.024 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-27 06:06:31.022 [info] doUpdate: Disposing completed index job...
+2025-07-27 06:06:31.023 [info] MultiBranchIndexJob dispose
+2025-07-27 06:06:31.023 [info] Aborting multi-branch indexing job.
+2025-07-27 06:06:31.025 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/.config/quickshell" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'

@@ -1,0 +1,34 @@
+2025-07-16 16:24:25.997 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:24:25.997 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:24:26.038 [info] Fetching repository at '/home/blx/projects/hyprsettings'...
+2025-07-16 16:24:26.808 [info] Doing a startup handshake for git indexing.
+2025-07-16 16:24:27.356 [warning] PR indexing denied by server: This feature is still rolling out and will be available soon.
+2025-07-16 16:24:27.356 [error] Error during indexing setup: This feature is still rolling out and will be available soon.
+2025-07-16 16:29:26.029 [info] doUpdate: Disposing completed index job...
+2025-07-16 16:29:26.029 [info] MultiBranchIndexJob dispose
+2025-07-16 16:29:26.029 [info] Aborting multi-branch indexing job.
+2025-07-16 16:29:26.039 [info] Doing a startup handshake for git indexing.
+2025-07-16 16:29:26.200 [warning] PR indexing denied by server: This feature is still rolling out and will be available soon.
+2025-07-16 16:29:26.203 [error] Error during indexing setup: This feature is still rolling out and will be available soon.
+2025-07-16 16:34:26.029 [info] doUpdate: Disposing completed index job...
+2025-07-16 16:34:26.029 [info] MultiBranchIndexJob dispose
+2025-07-16 16:34:26.029 [info] Aborting multi-branch indexing job.
+2025-07-16 16:34:26.035 [info] Doing a startup handshake for git indexing.
+2025-07-16 16:34:26.195 [warning] PR indexing denied by server: This feature is still rolling out and will be available soon.
+2025-07-16 16:34:26.198 [error] Error during indexing setup: This feature is still rolling out and will be available soon.
+2025-07-16 16:35:20.513 [info] MultiBranchIndexJob dispose
+2025-07-16 16:35:20.513 [info] Aborting multi-branch indexing job.
+2025-07-16 16:35:24.632 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:35:24.632 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:35:24.915 [warning] No repository found: /home/blx/msg (candidates: )
+2025-07-16 16:35:25.055 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/msg" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-16 16:40:24.916 [info] doUpdate: Disposing completed index job...
+2025-07-16 16:40:24.916 [info] MultiBranchIndexJob dispose
+2025-07-16 16:40:24.916 [info] Aborting multi-branch indexing job.
+2025-07-16 16:40:24.918 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/msg" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'

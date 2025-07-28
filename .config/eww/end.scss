@@ -1,0 +1,160 @@
+// Import your general color variables first
+@import "./colors.scss"; // Make sure the path to colors.scss is correct relative to end.scss
+
+// Define your component-specific variables using the imported material colors
+// You can pick whichever material color makes sense for each element.
+// I'm making some suggestions based on common usage, but feel free to adjust!
+
+$bar_bg: $surface_container; // A darker background for containers
+$bar_fg: $on_surface;      // Text color that contrasts well with the background
+$bar_border: $outline;     // A subtle border color
+$reply_hover: $surface_container_high; // Slightly lighter for hover effect
+$notification_critical_border: $error; // Using the error color for critical notifications
+$button_hover_bg: $primary_container; // A primary color for button hover
+$button_hover_fg: $on_primary_container; // Text color on primary container
+$hourcolor: $tertiary_fixed; // Using an arbitrary color for 'hourcolor' - check where this is used in your Eww setup
+
+.end-default-notification-box-low {
+    background-color: $bar_bg;
+    padding: 12px;
+    padding-left: 8px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 1px dashed $outline; // Changed from blue to outline for consistency
+}
+
+.end-default-notification-box-normal {
+    background-color: $bar_bg;
+    padding: 12px;
+    padding-left: 8px;
+    margin: 12px;
+    border-radius: 10px;
+    // No border for normal, as per original end.scss
+}
+
+.end-default-notification-box-critical {
+    background-color: $bar_bg;
+    padding: 12px;
+    padding-left: 8px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 2px solid $notification_critical_border; // Using the new critical border variable
+}
+
+.end-default-notification-title-bar {
+    background-color: $bar_bg;
+    margin: 3px;
+    border-bottom: 1px solid $bar_border;
+}
+
+.end-default-notification-appicon {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.end-default-notification-appname {
+    color: $bar_fg;
+    margin-right: 12px;
+    font-family: 'JetBrainsMono';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.end-default-notification-body-box {
+    margin-top: 12px;
+}
+
+.notification-text {
+    color: $bar_fg;
+    font-family: 'JetBrainsMono';
+}
+
+.notification-title {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.notification-content {
+    font-size: .8em;
+}
+
+.end-notification-buttons {
+    margin-top: 12px;
+}
+
+.end-notification-button {
+    background-color: $bar_bg;
+    color: $bar_fg;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+    border: 1px solid $bar_border;
+}
+
+.end-notification-reply {
+    background-color: $bar_bg;
+    color: $bar_fg;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+    border: 1px solid $bar_border;
+}
+
+.end-notification-reply:hover:focus {
+    background-color: $button_hover_bg; // Using a material color for reply hover
+    color: $button_hover_fg;         // Using material color for reply hover text
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+    border: 1px solid $bar_border;
+}
+
+.end-notification-button:hover {
+    background-color: $button_hover_bg; // Using a material color for button hover
+    color: $button_hover_fg;         // Using material color for button hover text
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+    border: 1px solid $bar_border;
+}
+
+.end-history-frame {
+    background-color: $bar_bg;
+    padding: 12px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+.end-history-box {
+    background-color: $bar_bg;
+    padding: 12px;
+    padding-left: 8px;
+    border: 1px solid $bar_border;
+}
+
+.end-history-title-bar {
+    background-color: $bar_bg;
+    margin: 1px;
+    border-bottom: 1px solid $bar_border;
+}
+
+.end-history-appicon {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.end-history-appname {
+    color: $bar_fg;
+    margin-right: 5px;
+    font-family: 'JetBrainsMono';
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.end-history-body-box {
+    margin-top: 3px;
+}
+
+.content-box {
+    margin-left: 12px;
+}

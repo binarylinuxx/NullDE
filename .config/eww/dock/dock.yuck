@@ -1,0 +1,144 @@
+;; Simplified Hyprland Dock Configuration for eww (No Hover)
+
+;; Variables
+(defvar apps-data '{"apps": [], "count": 0}')
+
+;; Polls - Fixed path consistency
+(defpoll apps
+  :interval "2s"
+  :initial '{"apps": [], "count": 0}'
+  :run-while true
+  `python3 ~/.config/eww/dock/scripts/get_apps.py list`)
+
+;; Widgets
+(defwidget app-icon [app]
+  (eventbox
+    :onclick "python3 ~/.config/eww/dock/scripts/get_apps.py focus ${app.class}"
+    :onrightclick "python3 ~/.config/eww/dock/scripts/get_apps.py ${app.is_pinned ? 'unpin' : 'pin'} ${app.class}"
+    :onmiddleclick "hyprctl dispatch killactive"
+    :tooltip "${app.name} (${app.window_count} windows)"
+    :class "app-icon-container"
+    (box
+      :class "app-icon-box"
+      :orientation "v"
+      :spacing 2
+      (image
+        :path "${app.icon}"
+        :image-width 43
+        :image-height 43
+        :class "app-icon"))))
+
+;; Simple static dock widgets
+(defwidget dock []
+  (centerbox
+    :class "dock"
+    :orientation "h"
+    (box
+      :class "dock-left"
+      :halign "start")
+    (box
+      :class "dock-center"
+      :halign "center"
+      :spacing 8
+      :orientation "h"
+      (for app in {apps.apps ?: []}
+        (app-icon :app app)))
+    (box
+      :class "dock-right"
+      :halign "end")))
+
+(defwidget dock-vertical []
+  (centerbox
+    :class "dock dock-vertical"
+    :orientation "v"
+    (box
+      :class "dock-top"
+      :valign "start")
+    (box
+      :class "dock-center"
+      :valign "center"
+      :spacing 8
+      :orientation "v"
+      (for app in {apps.apps ?: []}
+        (app-icon :app app)))
+    (box
+      :class "dock-bottom"
+      :valign "end")))
+
+;; Window definitions
+(defwindow dock-bottom
+  :monitor 0
+  :geometry (geometry
+    :x "0%"
+    :y "0px"
+    :width "10%"
+    :height "50px"
+    :anchor "bottom center")
+  :stacking "fg"
+  :exclusive true
+  :focusable false
+  :namespace "dock"
+  (dock))
+
+(defwindow dock-left
+  :monitor 0
+  :geometry (geometry
+    :x "0%"
+    :y "0%"
+    :width "50px"
+    :height "100%"
+    :anchor "left center")
+  :stacking "fg"
+  :exclusive true
+  :focusable false
+  :namespace "dock"
+  (dock-vertical))
+
+;; Simple dock without auto-hide for testing
+(defwindow dock-simple
+  :monitor 0
+  :geometry (geometry
+    :x "50%"
+    :y "95%"
+    :width "700px"
+    :height "60px"
+    :anchor "center")
+  :stacking "overlay"
+  :exclusive false
+  :focusable false
+  :namespace "dock"
+  (box
+    :class "simple-dock"
+    :orientation "h"
+    :spacing 8
+    :halign "center"
+    (for app in {apps.apps ?: []}
+      (app-icon :app app))))
+
+(defwindow blox-left
+  :monitor 0
+  :geometry (geometry
+    :x "741px"
+    :y "-50px"
+    :width "35px"
+    :height "40px"
+    :anchor "bottom left")
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  (box
+    :class "empty-block left"))  ;; Added 'left' class
+
+(defwindow blox-right
+  :monitor 0
+  :geometry (geometry
+    :x "741px"
+    :y "-50px"
+    :width "35px"
+    :height "40px"
+    :anchor "bottom right")
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  (box
+    :class "empty-block right"))  ;; Added 'right' class

@@ -1,0 +1,9 @@
+[package]
+name = "hyprsettings-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = { version = "0.7", features = ["v4_6"] }
+glib = "0.17"
+ini = "1.3"

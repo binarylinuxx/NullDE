@@ -1,0 +1,7 @@
+2025-07-16 19:41:17.643 [info] Experiment 'pythonSurveyNotification' is active
+2025-07-16 19:41:17.643 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-16 19:41:17.643 [warning] Dir "/home/blx/msg/.pixi/envs" is not watchable (directory does not exist)
+2025-07-16 19:41:17.643 [info] Python interpreter path: /bin/python
+2025-07-16 19:41:17.665 [info] > pyenv which python
+2025-07-16 19:41:17.665 [info] cwd: .
+2025-07-16 19:41:17.800 [info] Editor support is inactive since language server is set to None.

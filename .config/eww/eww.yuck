@@ -1,29 +1,9 @@
-;; Simple Volume Rectangle - EWW Configuration
-;; This creates a rectangle that changes width based on volume (0-100px)
-
-;; Poll current volume level
-(defpoll volume_level :interval "100ms"
-  `pamixer --get-volume`)
-
-;; Window definition
-(defwindow volume-rect
-  :monitor 0
-  :geometry (geometry :x "50%"
-                     :y "50%"
-                     :width "120px"
-                     :height "40px"
-                     :anchor "center")
-  :stacking "overlay"
-  :wm-ignore true
-  :focusable false
-  
-  (volume-rectangle))
-
-;; Simple rectangle widget
-(defwidget volume-rectangle []
-  (box :class "container"
-       :orientation "h"
-    
-    ;; The rectangle that changes width based on volume
-    (box :class "volume-rect"
-         :style `width: ${:volume_level}px; height: 20px;`)))
+(include "./end.yuck")
+(include "dock/dock.yuck")
+(include "bar/bar.yuck")
+(include "bar/widgets/right_group.yuck")
+(include "bar/widgets/center_group.yuck")
+(include "bar/widgets/left_group.yuck")
+(include "player/player.yuck")
+(include "pmenu/pmenu.yuck")
+(include "fmenu/fmenu.yuck")

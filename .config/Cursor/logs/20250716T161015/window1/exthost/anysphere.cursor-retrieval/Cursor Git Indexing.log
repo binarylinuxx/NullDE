@@ -1,0 +1,33 @@
+2025-07-16 16:10:22.252 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:10:22.252 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:10:22.530 [warning] No repository found: /home/blx/projects/grs (candidates: /home/blx/projects/grs/grs)
+2025-07-16 16:10:22.575 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/projects/grs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-16 16:10:30.681 [info] MultiBranchIndexJob dispose
+2025-07-16 16:10:30.681 [info] Aborting multi-branch indexing job.
+2025-07-16 16:10:34.331 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:10:34.331 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:10:34.610 [info] Fetching repository at '/home/blx/zwm'...
+2025-07-16 16:10:35.044 [info] Doing a startup handshake for git indexing.
+2025-07-16 16:10:35.044 [error] Error during indexing setup: Cannot perform handshake: Git repository information is not available.
+2025-07-16 16:14:32.103 [info] MultiBranchIndexJob dispose
+2025-07-16 16:14:32.103 [info] Aborting multi-branch indexing job.
+2025-07-16 16:14:35.947 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:14:35.947 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:14:36.264 [warning] No repository found: /home/blx/hyprbar (candidates: )
+2025-07-16 16:14:36.506 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/hyprbar" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-16 16:19:16.755 [info] MultiBranchIndexJob dispose
+2025-07-16 16:19:16.755 [info] Aborting multi-branch indexing job.
+2025-07-16 16:19:21.737 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-16 16:19:21.737 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-16 16:19:21.905 [info] Fetching repository at '/home/blx/projects/hyprsettings'...
+2025-07-16 16:19:22.642 [info] Doing a startup handshake for git indexing.
+2025-07-16 16:19:23.482 [warning] PR indexing denied by server: This feature is still rolling out and will be available soon.
+2025-07-16 16:19:23.483 [error] Error during indexing setup: This feature is still rolling out and will be available soon.
+2025-07-16 16:24:10.442 [info] MultiBranchIndexJob dispose
+2025-07-16 16:24:10.442 [info] Aborting multi-branch indexing job.

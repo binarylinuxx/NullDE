@@ -1,0 +1,45 @@
+2025-07-26 13:15:28.652 [error] Failed to check if file sync is enabled for user {}
+2025-07-26 13:15:28.652 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-26 13:15:28.652 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-26 13:15:28.827 [info] [registerEventListeners] Registering event listeners
+2025-07-26 13:15:30.166 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-26 13:15:30.385 [info] Fetched fsConfig in 216.79809400000067ms
+2025-07-26 13:15:30.385 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-26 13:15:30.747 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-26 13:15:31.384 [info] Fetched fsConfig in 636.311213ms
+2025-07-26 13:15:31.384 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-26 13:15:31.387 [info] File sync enabled status: true
+2025-07-26 13:15:31.387 [info] Starting sync of visible tabs
+2025-07-26 13:15:31.533 [info] Starting sync of visible tabs
+2025-07-26 13:15:31.617 [info] Uploaded file cppwal.cpp modelVersion=1 in 225.1205029999992ms
+2025-07-26 13:15:31.619 [info] Synced all visible tabs in 235.00236099999984ms
+2025-07-26 13:15:31.753 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-26 13:15:31.759 [info] Uploaded file cppwal.cpp modelVersion=1 in 223.24143800000002ms
+2025-07-26 13:15:31.759 [info] Synced all visible tabs in 227.97521300000062ms
+2025-07-26 13:15:31.970 [info] Fetched fsConfig in 216.85682700000052ms
+2025-07-26 13:15:31.970 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-26 13:16:08.266 [info] Handled visible editors change in 0.540049999995972ms
+2025-07-26 13:16:08.423 [info] Handled visible editors change in 0.16445499999827007ms
+2025-07-26 13:16:08.436 [info] Handled visible editors change in 0.28848699999798555ms
+2025-07-26 13:16:19.090 [info] Handled visible editors change in 0.32878599999821745ms
+2025-07-26 13:16:19.103 [info] Handled visible editors change in 0.5172400000010384ms
+2025-07-26 13:16:19.128 [info] Handled visible editors change in 0.3167490000050748ms
+2025-07-26 13:17:25.225 [info] Synced file cppwal.cpp modelVersion=2 in 283.42956299999787ms
+2025-07-26 13:17:25.927 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-26 13:17:26.137 [info] Fetched fsConfig in 209.79954200000793ms
+2025-07-26 13:17:26.137 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-26 13:17:26.138 [info] File sync enabled status: true
+2025-07-26 13:17:26.138 [info] Starting sync of visible tabs
+2025-07-26 13:17:26.138 [info] Synced all visible tabs in 0.33481499999470543ms
+2025-07-26 13:17:36.294 [info] Synced file cppwal.cpp modelVersion=4 in 200.8217719999957ms
+2025-07-26 13:17:40.942 [info] Synced file cppwal.cpp modelVersion=6 in 204.37804999999935ms
+2025-07-26 13:17:52.144 [info] Synced file cppwal.cpp modelVersion=8 in 202.8966220000002ms
+2025-07-26 13:17:57.453 [info] Synced file cppwal.cpp modelVersion=10 in 203.33299900000566ms
+2025-07-26 13:18:02.957 [info] Synced file cppwal.cpp modelVersion=12 in 202.65725399999064ms
+2025-07-26 13:18:37.463 [info] Synced file cppwal.cpp modelVersion=14 in 205.88789199999883ms
+2025-07-26 13:18:43.583 [info] Synced file cppwal.cpp modelVersion=16 in 203.62345699997968ms
+2025-07-26 13:18:49.539 [info] Synced file cppwal.cpp modelVersion=17 in 202.14118500001496ms
+2025-07-26 13:18:49.823 [info] Synced file cppwal.cpp modelVersion=18 in 204.84796100002131ms
+2025-07-26 13:19:09.172 [info] Synced file cppwal.cpp modelVersion=20 in 203.57062700000824ms
+2025-07-26 13:19:28.333 [info] Synced file cppwal.cpp modelVersion=21 in 207.10290200001327ms
+2025-07-26 13:19:28.633 [info] Synced file cppwal.cpp modelVersion=21 in 202.35506700002588ms

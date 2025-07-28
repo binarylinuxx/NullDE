@@ -1,0 +1,41 @@
+.Bar {
+	background: $background;
+}
+
+$round-ratio: 26px;
+
+.top-left {
+  background: radial-gradient(
+    circle at bottom right,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+.top-right {
+  background: radial-gradient(
+    circle at bottom left,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+.bottom-left-corner {
+  background: radial-gradient(
+    circle at top right,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+.bottom-right-corner {
+  background: radial-gradient(
+    circle at top left,
+    transparent $round_ratio,
+    $background 0
+  );
+}
+
+.bottom-center-gap,.left-center-gap,.right-center-gap {
+	background: $background;
+}

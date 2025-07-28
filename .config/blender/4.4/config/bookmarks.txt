@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/blx/Downloads/
+/tmp/
+/usr/share/fonts/jetbrains-mono/fonts/ttf/
+/home/blx/Downloads/water/
+/home/blx/Downloads/New Folder(1)/
+/home/blx/Downloads/New Folder/
+/home/blx/Downloads/smooke/data/
+/home/blx/Downloads/smooke/
+/home/blx/Downloads/liqiud_splash_in_circle_footage/
+/home/blx/Downloads/smoke_inside_box/

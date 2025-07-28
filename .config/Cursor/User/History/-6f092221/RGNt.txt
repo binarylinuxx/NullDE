@@ -1,0 +1,46 @@
+cmake_minimum_required(VERSION 3.10)
+project(cppwal)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Add optimization flags for faster performance
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG -march=native")
+
+# Find required packages
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(IMAGEMAGICK REQUIRED ImageMagick)
+
+# Check for ImageMagick
+find_program(IMAGEMAGICK_CONVERT convert)
+if(NOT IMAGEMAGICK_CONVERT)
+    message(FATAL_ERROR "ImageMagick convert command not found. Please install ImageMagick.")
+endif()
+
+# Compiler flags
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2")
+
+# Source files
+set(SOURCES
+    cppwal.cpp
+)
+
+# Create executable
+add_executable(cppwal cppwal.cpp)
+
+# Link libraries
+target_include_directories(cppwal PRIVATE ${IMAGEMAGICK_INCLUDE_DIRS})
+target_link_libraries(cppwal ${IMAGEMAGICK_LIBRARIES})
+
+# Set compiler flags
+target_compile_options(cppwal PRIVATE ${IMAGEMAGICK_CFLAGS_OTHER})
+
+# Installation
+install(TARGETS cppwal DESTINATION bin)
+
+# Print build information
+message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
+message(STATUS "C++ compiler: ${CMAKE_CXX_COMPILER}")
+message(STATUS "ImageMagick convert: ${IMAGEMAGICK_CONVERT}")

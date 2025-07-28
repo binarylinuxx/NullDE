@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true; do
+    # Проверяем раскладку и выводим RU/EN
+    hyprctl devices | grep 'active keymap' | sed -n '4p' | grep -q Russian && echo RU || echo EN
+    sleep 0.001  # Задержка, чтобы не нагружать систему
+done

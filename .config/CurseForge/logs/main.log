@@ -1,0 +1,240 @@
+[2025-05-31 18:16:28.118] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-05-31 18:16:28.124] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-05-31 18:16:28.136] [info]  [BackgroundController] App version: 1.278.0.25906.
+[2025-05-31 18:16:28.137] [info]  [BackgroundController] OS: linux.
+[2025-05-31 18:16:28.137] [info]  [BackgroundController] OS version: 6.12.30_1.
+[2025-05-31 18:16:28.137] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseF2Fhjse/curseforge.
+[2025-05-31 18:16:45.967] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-05-31 18:16:45.974] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-05-31 18:16:45.986] [info]  [BackgroundController] App version: 1.278.0.25906.
+[2025-05-31 18:16:45.987] [info]  [BackgroundController] OS: linux.
+[2025-05-31 18:16:45.987] [info]  [BackgroundController] OS version: 6.12.30_1.
+[2025-05-31 18:16:45.988] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFjaEjId/curseforge.
+[2025-05-31 18:18:38.089] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-05-31 18:18:38.096] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-05-31 18:18:38.109] [info]  [BackgroundController] App version: 1.278.0.25906.
+[2025-05-31 18:18:38.110] [info]  [BackgroundController] OS: linux.
+[2025-05-31 18:18:38.110] [info]  [BackgroundController] OS version: 6.12.30_1.
+[2025-05-31 18:18:38.110] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseF7Bq7pj/curseforge,--disable-gpu-sandbox,--no-sandbox,--disable-features=WaylandWindowDecorations,--enable-features=UseOzonePlatform,--ozone-platform=x11.
+[2025-05-31 19:33:50.723] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-05-31 19:33:50.730] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-05-31 19:33:50.741] [info]  [BackgroundController] App version: 1.278.0.25906.
+[2025-05-31 19:33:50.741] [info]  [BackgroundController] OS: linux.
+[2025-05-31 19:33:50.741] [info]  [BackgroundController] OS version: 6.12.30_1.
+[2025-05-31 19:33:50.742] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFuDRtP3/curseforge.
+[2025-05-31 19:33:52.162] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2025-05-31 19:33:52.164] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2025-05-31 19:33:52.590] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2025-05-31 19:33:52.592] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 19:33:52.593] [info]  Checking for update
+[2025-05-31 19:33:52.594] [info]  Electron Updater - Checking for application update
+[2025-05-31 19:33:52.598] [info]  Generated new staging user ID: 2a34af7c-e388-5354-8f79-bb786b1a4e0e
+[2025-05-31 19:33:52.941] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 19:33:52.942] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 19:33:52.944] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 19:33:53.672] [info]  [SessionStartedEventHandler] App session started.
+[2025-05-31 19:33:53.680] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service.
+[2025-05-31 19:33:53.680] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration.
+[2025-05-31 19:33:53.681] [info]  [LoginService] Logging out.
+[2025-05-31 19:33:53.692] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded.
+[2025-05-31 19:33:53.693] [info]  [LoggedOutEventHandler] User is logged out.
+[2025-05-31 19:33:53.693] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2025-05-31 19:33:53.695] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 19:33:53.695] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 19:33:53.696] [info]  Checking for update
+[2025-05-31 19:33:53.696] [info]  Electron Updater - Checking for application update
+[2025-05-31 19:33:53.767] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 19:33:53.768] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 19:33:53.768] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 19:33:53.768] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 19:33:53.812] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:33:53.883] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-05-31 19:33:54.037] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2025-05-31 19:33:54.039] [info]  [PluginProcessHost] Starting Mods Agent with ports range 64760-64780.
+[2025-05-31 19:33:54.040] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFuDRtP3/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=64760,--to-port=64780,--pid=2507,--appDataPath=/home/blx/.config/CurseForge,--clientId=Overwolf.
+[2025-05-31 19:33:54.140] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:33:54.144] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-05-31 19:33:54.513] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2025-05-31 19:33:54.872] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/blx/.config/CurseForge/agent.
+[2025-05-31 19:33:54.872] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/blx/.config/CurseForge/agent/logs.
+[2025-05-31 19:33:55.926] [info]  [PluginProcessHost] Agent stdout: 05/31/2025 19:33:55 [Info] Server started at ws://127.0.0.1:64760/CurseForge (actual port 64760) .
+[2025-05-31 19:33:55.926] [info]  [PluginProcessHost] Mods Agent started. pid: 3139, port: 64760.
+[2025-05-31 19:33:55.926] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 64760-64760.
+[2025-05-31 19:33:55.936] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 64760.
+[2025-05-31 19:33:55.981] [info]  [PluginWebSocket] Connected to mods agent.
+[2025-05-31 19:33:55.981] [info]  [PluginWebSocket] Connected to Mods Agent on port 64760.
+[2025-05-31 19:33:57.096] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2025-05-31 19:33:57.138] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2025-05-31 19:33:57.139] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2025-05-31 19:33:57.187] [info]  [AppConnectivityService] Reporting app connectivity.
+[2025-05-31 19:33:57.188] [info]  [AnalyticsService] Executing POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-05-31 19:33:57.819] [info]  [AnalyticsService] Executed POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code: 200.
+[2025-05-31 19:33:57.820] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-05-31 19:33:57.842] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D.
+[2025-05-31 19:33:57.925] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D. Status code: 200.
+[2025-05-31 19:33:57.927] [info]  [ElectronApplication] CRN Api is not available.
+[2025-05-31 19:33:57.947] [info]  [AppLaunchService] No install params to launch and install project.
+[2025-05-31 19:34:05.297] [info]  [ReleaseNotesApiImpl] Fetching /1.278.0.25906/release-notes/1 ....
+[2025-05-31 19:34:05.451] [info]  [CampaignApi] Executing GET request https://content.overwolf.com/curseforge/app/campaigns/config/campaign-config.json.
+[2025-05-31 19:34:05.452] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-05-31 19:34:05.668] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-05-31 19:34:05.669] [info]  [CampaignApi] Executed GET request https://content.overwolf.com/curseforge/app/campaigns/config/campaign-config.json. Status code: 200.
+[2025-05-31 19:34:05.782] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-05-31 19:34:05.849] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-05-31 19:34:08.096] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2025-05-31 19:34:08.099] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432}.
+[2025-05-31 19:34:08.102] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D.
+[2025-05-31 19:34:08.107] [info]  [MeasurementAppServiceImpl] starting measurement game-dau.
+[2025-05-31 19:34:08.171] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D. Status code: 200.
+[2025-05-31 19:34:08.465] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2025-05-31 19:34:08.469] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2025-05-31 19:34:08.472] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-05-31 19:34:08.712] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-05-31 19:34:15.950] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_top_navigation&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22direction%22%3A%22back%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D.
+[2025-05-31 19:34:15.976] [info]  [MeasurementAppServiceImpl] stopping active measurement game-dau.
+[2025-05-31 19:34:15.989] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-05-31 19:34:16.514] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_top_navigation&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22direction%22%3A%22back%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D. Status code: 200.
+[2025-05-31 19:34:16.612] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-05-31 19:34:29.837] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-05-31 19:34:29.851] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-05-31 19:34:29.859] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-05-31 19:34:30.095] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-05-31 19:34:30.097] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-05-31 19:34:30.106] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-05-31 19:34:30.743] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22SettingsPage%22%7D.
+[2025-05-31 19:34:30.810] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22SettingsPage%22%7D. Status code: 200.
+[2025-05-31 19:34:54.143] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:34:54.441] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:35:54.443] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:35:54.716] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:36:07.612] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_top_navigation&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22direction%22%3A%22back%22%2C%22currentAppPage%22%3A%22SettingsPage%22%7D.
+[2025-05-31 19:36:07.648] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-05-31 19:36:07.853] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-05-31 19:36:07.860] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_top_navigation&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22direction%22%3A%22back%22%2C%22currentAppPage%22%3A%22SettingsPage%22%7D. Status code: 200.
+[2025-05-31 19:36:09.136] [info]  [MeasurementAppServiceImpl] stopping active measurement game-dau.
+[2025-05-31 19:36:09.141] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D.
+[2025-05-31 19:36:09.157] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2025-05-31 19:36:09.160] [info]  [MeasurementAppServiceImpl] stopping active measurement game-dau.
+[2025-05-31 19:36:09.161] [info]  [MeasurementAppServiceImpl] starting measurement game-dau.
+[2025-05-31 19:36:09.161] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2025-05-31 19:36:09.190] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-05-31 19:36:09.219] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%7B%22app_ver%22%3A%221.278.0.25906%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D. Status code: 200.
+[2025-05-31 19:36:09.220] [info]  [ModpacksAppServiceImpl] Getting game 432 installed modpacks.
+[2025-05-31 19:36:19.180] [info]  [AnalyticsService] trackDailyUnique is unique: true.
+[2025-05-31 19:36:19.181] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%5B%7B%22Name%22%3A%22app_ver%22%2C%22Value%22%3A%221.278.0.25906%22%7D%2C%7B%22Name%22%3A%22os_ver%22%2C%22Value%22%3A%22linux%22%7D%2C%7B%22Name%22%3A%22app_type%22%2C%22Value%22%3A%22Electron%22%7D%2C%7B%22Name%22%3A%22game_id%22%2C%22Value%22%3A432%7D%2C%7B%22Name%22%3A%22gameId%22%2C%22Value%22%3A432%7D%5D.
+[2025-05-31 19:36:19.397] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game&MUID=233536eb-7510-2cea-8ff3-4be4b47008dd&MUIDV2=233536eb-7510-2cea-8ff3-4be4b47008dd&owver=34.5.5&Extra=%5B%7B%22Name%22%3A%22app_ver%22%2C%22Value%22%3A%221.278.0.25906%22%7D%2C%7B%22Name%22%3A%22os_ver%22%2C%22Value%22%3A%22linux%22%7D%2C%7B%22Name%22%3A%22app_type%22%2C%22Value%22%3A%22Electron%22%7D%2C%7B%22Name%22%3A%22game_id%22%2C%22Value%22%3A432%7D%2C%7B%22Name%22%3A%22gameId%22%2C%22Value%22%3A432%7D%5D. Status code: 200.
+[2025-05-31 19:36:54.717] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:36:55.004] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:37:55.006] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:37:55.275] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:38:55.278] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:38:55.550] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:39:55.552] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-05-31 19:39:55.827] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-05-31 19:48:53.833] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 19:48:53.834] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 19:48:53.834] [info]  Checking for update
+[2025-05-31 19:48:53.835] [info]  Electron Updater - Checking for application update
+[2025-05-31 19:48:54.168] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 19:48:54.168] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 19:48:54.169] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 19:48:54.169] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 20:03:54.201] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 20:03:54.202] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 20:03:54.203] [info]  Checking for update
+[2025-05-31 20:03:54.203] [info]  Electron Updater - Checking for application update
+[2025-05-31 20:03:54.545] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 20:03:54.546] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 20:03:54.546] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 20:03:54.547] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 20:18:54.581] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 20:18:54.582] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 20:18:54.583] [info]  Checking for update
+[2025-05-31 20:18:54.584] [info]  Electron Updater - Checking for application update
+[2025-05-31 20:18:54.933] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 20:18:54.934] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 20:18:54.935] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 20:18:54.935] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 20:33:55.332] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 20:33:55.333] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 20:33:55.333] [info]  Checking for update
+[2025-05-31 20:33:55.334] [info]  Electron Updater - Checking for application update
+[2025-05-31 20:33:55.713] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 20:33:55.714] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 20:33:55.715] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 20:33:55.716] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 20:48:55.744] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 20:48:55.745] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 20:48:55.745] [info]  Checking for update
+[2025-05-31 20:48:55.745] [info]  Electron Updater - Checking for application update
+[2025-05-31 20:48:56.858] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 20:48:56.858] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 20:48:56.858] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 20:48:56.859] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 21:03:56.886] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 21:03:56.887] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 21:03:56.887] [info]  Checking for update
+[2025-05-31 21:03:56.887] [info]  Electron Updater - Checking for application update
+[2025-05-31 21:03:57.222] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 21:03:57.222] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 21:03:57.222] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 21:03:57.222] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 21:18:57.249] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 21:18:57.249] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 21:18:57.250] [info]  Checking for update
+[2025-05-31 21:18:57.250] [info]  Electron Updater - Checking for application update
+[2025-05-31 21:18:57.599] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 21:18:57.600] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 21:18:57.600] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 21:18:57.601] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 21:33:57.609] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 21:33:57.610] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 21:33:57.610] [info]  Checking for update
+[2025-05-31 21:33:57.610] [info]  Electron Updater - Checking for application update
+[2025-05-31 21:33:57.957] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 21:33:57.957] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 21:33:57.957] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 21:33:57.958] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 21:48:57.983] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 21:48:57.983] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 21:48:57.983] [info]  Checking for update
+[2025-05-31 21:48:57.984] [info]  Electron Updater - Checking for application update
+[2025-05-31 21:48:58.317] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 21:48:58.317] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 21:48:58.317] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 21:48:58.318] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 22:03:58.325] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 22:03:58.326] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 22:03:58.326] [info]  Checking for update
+[2025-05-31 22:03:58.327] [info]  Electron Updater - Checking for application update
+[2025-05-31 22:03:58.671] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 22:03:58.672] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 22:03:58.672] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 22:03:58.673] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 22:18:58.700] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-05-31 22:18:58.701] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.278.0-25906.
+[2025-05-31 22:18:58.701] [info]  Checking for update
+[2025-05-31 22:18:58.701] [info]  Electron Updater - Checking for application update
+[2025-05-31 22:18:59.058] [info]  Update for version 1.278.0-25906 is not available (latest version: 1.278.0-25906, downgrade is disallowed).
+[2025-05-31 22:18:59.058] [info]  Electron Updater - App update is not available. Latest Version: 1.278.0-25906. Release Date: 2025-05-19T12:39:40.436Z
+[2025-05-31 22:18:59.058] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-05-31 22:18:59.058] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-05-31 22:20:11.134] [info]  [BackgroundController] Request to shutdown from tray ....
+[2025-05-31 22:20:11.136] [info]  [BackgroundController] Shutting down....
+[2025-05-31 22:20:11.136] [info]  [SessionsService] session ended.
+[2025-05-31 22:20:11.137] [info]  [CoreServiceImpl] Performing shutdown cleanup actions.
+[2025-05-31 22:20:11.137] [info]  [InstalledProjectsAppServiceImpl] Cleanup - committing deletion transactions.
+[2025-05-31 22:20:11.138] [info]  [InstalledProjectsAppServiceImpl] Flushing 0 projects which are pending deletion.
+[2025-05-31 22:20:11.138] [info]  [CoreServiceImpl] Shutdown cleanup actions complete.
+[2025-05-31 22:20:11.138] [info]  [PluginCommunication] Shutting down the Mods Agent.
+[2025-05-31 22:20:11.167] [info]  [PluginProcessHost] Mods Agent process closed. connected: false.
+[2025-05-31 22:20:11.168] [warn]  [PluginProcessHost] Agent process exited with exit code null.
+[2025-05-31 22:20:11.168] [info]  [PluginCommunication] Agent process disconnected with code: null.
+[2025-05-31 22:20:11.168] [info]  [PluginCommunication] Terminating any pending agent requests.
+[2025-05-31 22:20:11.169] [error] [DiscordServiceImpl] Failed to update Discord Rich Presence: plugin not connected.
+[2025-05-31 22:20:11.170] [error] [UserActivityAppServiceImpl] Failed clearUserActivity. Error: Failed to update Discord Rich Presence
+[2025-05-31 22:20:11.170] [info]  [BackgroundController] Destroying desktop window....
+[2025-05-31 22:20:11.183] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service.
+[2025-05-31 22:20:11.184] [info]  [BackgroundController] Shutdown complete. Exiting app....
+[2025-05-31 22:20:11.185] [info]  [PluginWebSocket] Websocket connection to agent was closed. Reason: , Code: 1006, Type: close. WasClean: false.
+[2025-05-31 22:20:11.185] [error] [PluginWebSocket] Websocket connection error. Error: undefined, Message: undefined, Type: undefined.

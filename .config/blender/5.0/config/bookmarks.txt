@@ -1,0 +1,13 @@
+[Bookmarks]
+[Recent]
+/home/blx/Downloads/
+/home/blx/NullDE/.config/hypr/
+/home/blx/blender_temp/
+/tmp/
+/usr/share/fonts/jetbrains-mono/fonts/ttf/
+/home/blx/Downloads/CirclePacking/
+/home/blx/Downloads/liqiud_splash_in_circle_footage/
+/home/blx/smallCampfire/smallCampfireVDB/
+/home/blx/Gasoline_Explosion_01/
+!Home
+/home/blx/

@@ -1,0 +1,449 @@
+2025-07-26 15:34:08.995 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-26 15:34:08.995 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-26 15:34:09.199 [info] Fetching repository at '/home/blx/cppwal'...
+2025-07-26 15:34:09.749 [info] Doing a startup handshake for git indexing.
+2025-07-26 15:34:10.250 [warning] PR indexing denied by server: This feature is still rolling out and will be available soon.
+2025-07-26 15:34:10.256 [error] Error during indexing setup: This feature is still rolling out and will be available soon.
+2025-07-26 15:34:19.365 [info] MultiBranchIndexJob dispose
+2025-07-26 15:34:19.365 [info] Aborting multi-branch indexing job.
+2025-07-26 15:34:22.328 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-26 15:34:22.328 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-26 15:34:22.557 [warning] No repository found: /home/blx/qnotifs (candidates: )
+2025-07-26 15:34:22.563 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 15:39:22.557 [info] doUpdate: Disposing completed index job...
+2025-07-26 15:39:22.557 [info] MultiBranchIndexJob dispose
+2025-07-26 15:39:22.557 [info] Aborting multi-branch indexing job.
+2025-07-26 15:39:22.558 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 15:44:22.558 [info] doUpdate: Disposing completed index job...
+2025-07-26 15:44:22.558 [info] MultiBranchIndexJob dispose
+2025-07-26 15:44:22.558 [info] Aborting multi-branch indexing job.
+2025-07-26 15:44:22.559 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 15:49:22.560 [info] doUpdate: Disposing completed index job...
+2025-07-26 15:49:22.560 [info] MultiBranchIndexJob dispose
+2025-07-26 15:49:22.560 [info] Aborting multi-branch indexing job.
+2025-07-26 15:49:22.563 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 15:54:22.559 [info] doUpdate: Disposing completed index job...
+2025-07-26 15:54:22.559 [info] MultiBranchIndexJob dispose
+2025-07-26 15:54:22.559 [info] Aborting multi-branch indexing job.
+2025-07-26 15:54:22.560 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 15:59:22.561 [info] doUpdate: Disposing completed index job...
+2025-07-26 15:59:22.561 [info] MultiBranchIndexJob dispose
+2025-07-26 15:59:22.561 [info] Aborting multi-branch indexing job.
+2025-07-26 15:59:22.564 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:04:22.561 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:04:22.561 [info] MultiBranchIndexJob dispose
+2025-07-26 16:04:22.561 [info] Aborting multi-branch indexing job.
+2025-07-26 16:04:22.564 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:09:22.561 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:09:22.561 [info] MultiBranchIndexJob dispose
+2025-07-26 16:09:22.561 [info] Aborting multi-branch indexing job.
+2025-07-26 16:09:22.561 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:14:22.562 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:14:22.562 [info] MultiBranchIndexJob dispose
+2025-07-26 16:14:22.562 [info] Aborting multi-branch indexing job.
+2025-07-26 16:14:22.565 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:19:22.563 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:19:22.563 [info] MultiBranchIndexJob dispose
+2025-07-26 16:19:22.563 [info] Aborting multi-branch indexing job.
+2025-07-26 16:19:22.566 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:24:22.563 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:24:22.564 [info] MultiBranchIndexJob dispose
+2025-07-26 16:24:22.564 [info] Aborting multi-branch indexing job.
+2025-07-26 16:24:22.565 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:29:22.564 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:29:22.564 [info] MultiBranchIndexJob dispose
+2025-07-26 16:29:22.564 [info] Aborting multi-branch indexing job.
+2025-07-26 16:29:22.566 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:34:22.564 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:34:22.564 [info] MultiBranchIndexJob dispose
+2025-07-26 16:34:22.564 [info] Aborting multi-branch indexing job.
+2025-07-26 16:34:22.566 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:39:22.564 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:39:22.564 [info] MultiBranchIndexJob dispose
+2025-07-26 16:39:22.564 [info] Aborting multi-branch indexing job.
+2025-07-26 16:39:22.567 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:44:22.565 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:44:22.565 [info] MultiBranchIndexJob dispose
+2025-07-26 16:44:22.565 [info] Aborting multi-branch indexing job.
+2025-07-26 16:44:22.567 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:49:22.566 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:49:22.566 [info] MultiBranchIndexJob dispose
+2025-07-26 16:49:22.566 [info] Aborting multi-branch indexing job.
+2025-07-26 16:49:22.568 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:54:22.566 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:54:22.566 [info] MultiBranchIndexJob dispose
+2025-07-26 16:54:22.566 [info] Aborting multi-branch indexing job.
+2025-07-26 16:54:22.567 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 16:59:22.567 [info] doUpdate: Disposing completed index job...
+2025-07-26 16:59:22.567 [info] MultiBranchIndexJob dispose
+2025-07-26 16:59:22.567 [info] Aborting multi-branch indexing job.
+2025-07-26 16:59:22.568 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:04:22.569 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:04:22.569 [info] MultiBranchIndexJob dispose
+2025-07-26 17:04:22.569 [info] Aborting multi-branch indexing job.
+2025-07-26 17:04:22.571 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:09:22.570 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:09:22.571 [info] MultiBranchIndexJob dispose
+2025-07-26 17:09:22.571 [info] Aborting multi-branch indexing job.
+2025-07-26 17:09:22.573 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:14:22.571 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:14:22.571 [info] MultiBranchIndexJob dispose
+2025-07-26 17:14:22.571 [info] Aborting multi-branch indexing job.
+2025-07-26 17:14:22.573 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:19:22.571 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:19:22.571 [info] MultiBranchIndexJob dispose
+2025-07-26 17:19:22.571 [info] Aborting multi-branch indexing job.
+2025-07-26 17:19:22.574 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:24:22.571 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:24:22.571 [info] MultiBranchIndexJob dispose
+2025-07-26 17:24:22.571 [info] Aborting multi-branch indexing job.
+2025-07-26 17:24:22.572 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:29:22.572 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:29:22.572 [info] MultiBranchIndexJob dispose
+2025-07-26 17:29:22.573 [info] Aborting multi-branch indexing job.
+2025-07-26 17:29:22.575 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:34:22.573 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:34:22.573 [info] MultiBranchIndexJob dispose
+2025-07-26 17:34:22.573 [info] Aborting multi-branch indexing job.
+2025-07-26 17:34:22.575 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:39:22.573 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:39:22.573 [info] MultiBranchIndexJob dispose
+2025-07-26 17:39:22.573 [info] Aborting multi-branch indexing job.
+2025-07-26 17:39:22.575 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:44:22.573 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:44:22.574 [info] MultiBranchIndexJob dispose
+2025-07-26 17:44:22.574 [info] Aborting multi-branch indexing job.
+2025-07-26 17:44:22.576 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:49:22.574 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:49:22.574 [info] MultiBranchIndexJob dispose
+2025-07-26 17:49:22.574 [info] Aborting multi-branch indexing job.
+2025-07-26 17:49:22.577 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:54:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:54:22.575 [info] MultiBranchIndexJob dispose
+2025-07-26 17:54:22.575 [info] Aborting multi-branch indexing job.
+2025-07-26 17:54:22.577 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 17:59:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 17:59:22.575 [info] MultiBranchIndexJob dispose
+2025-07-26 17:59:22.575 [info] Aborting multi-branch indexing job.
+2025-07-26 17:59:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:04:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:04:22.575 [info] MultiBranchIndexJob dispose
+2025-07-26 18:04:22.575 [info] Aborting multi-branch indexing job.
+2025-07-26 18:04:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:09:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:09:22.575 [info] MultiBranchIndexJob dispose
+2025-07-26 18:09:22.575 [info] Aborting multi-branch indexing job.
+2025-07-26 18:09:22.577 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:14:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:14:22.576 [info] MultiBranchIndexJob dispose
+2025-07-26 18:14:22.576 [info] Aborting multi-branch indexing job.
+2025-07-26 18:14:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:19:22.575 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:19:22.575 [info] MultiBranchIndexJob dispose
+2025-07-26 18:19:22.575 [info] Aborting multi-branch indexing job.
+2025-07-26 18:19:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:24:22.576 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:24:22.576 [info] MultiBranchIndexJob dispose
+2025-07-26 18:24:22.577 [info] Aborting multi-branch indexing job.
+2025-07-26 18:24:22.579 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:29:22.577 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:29:22.577 [info] MultiBranchIndexJob dispose
+2025-07-26 18:29:22.577 [info] Aborting multi-branch indexing job.
+2025-07-26 18:29:22.580 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:34:22.577 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:34:22.577 [info] MultiBranchIndexJob dispose
+2025-07-26 18:34:22.577 [info] Aborting multi-branch indexing job.
+2025-07-26 18:34:22.579 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:39:22.577 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:39:22.577 [info] MultiBranchIndexJob dispose
+2025-07-26 18:39:22.577 [info] Aborting multi-branch indexing job.
+2025-07-26 18:39:22.579 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:44:22.577 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:44:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 18:44:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 18:44:22.580 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:49:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:49:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 18:49:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 18:49:22.581 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:54:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:54:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 18:54:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 18:54:22.581 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 18:59:22.577 [info] doUpdate: Disposing completed index job...
+2025-07-26 18:59:22.577 [info] MultiBranchIndexJob dispose
+2025-07-26 18:59:22.577 [info] Aborting multi-branch indexing job.
+2025-07-26 18:59:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:04:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:04:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 19:04:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 19:04:22.578 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:09:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:09:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 19:09:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 19:09:22.580 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:14:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:14:22.579 [info] MultiBranchIndexJob dispose
+2025-07-26 19:14:22.579 [info] Aborting multi-branch indexing job.
+2025-07-26 19:14:22.581 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:19:22.578 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:19:22.578 [info] MultiBranchIndexJob dispose
+2025-07-26 19:19:22.578 [info] Aborting multi-branch indexing job.
+2025-07-26 19:19:22.580 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:24:22.579 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:24:22.580 [info] MultiBranchIndexJob dispose
+2025-07-26 19:24:22.580 [info] Aborting multi-branch indexing job.
+2025-07-26 19:24:22.582 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:29:22.581 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:29:22.581 [info] MultiBranchIndexJob dispose
+2025-07-26 19:29:22.581 [info] Aborting multi-branch indexing job.
+2025-07-26 19:29:22.583 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:34:22.581 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:34:22.581 [info] MultiBranchIndexJob dispose
+2025-07-26 19:34:22.581 [info] Aborting multi-branch indexing job.
+2025-07-26 19:34:22.584 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:39:22.582 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:39:22.582 [info] MultiBranchIndexJob dispose
+2025-07-26 19:39:22.582 [info] Aborting multi-branch indexing job.
+2025-07-26 19:39:22.583 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:44:22.583 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:44:22.583 [info] MultiBranchIndexJob dispose
+2025-07-26 19:44:22.583 [info] Aborting multi-branch indexing job.
+2025-07-26 19:44:22.584 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:49:22.585 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:49:22.585 [info] MultiBranchIndexJob dispose
+2025-07-26 19:49:22.585 [info] Aborting multi-branch indexing job.
+2025-07-26 19:49:22.588 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:54:22.585 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:54:22.585 [info] MultiBranchIndexJob dispose
+2025-07-26 19:54:22.585 [info] Aborting multi-branch indexing job.
+2025-07-26 19:54:22.588 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 19:59:22.585 [info] doUpdate: Disposing completed index job...
+2025-07-26 19:59:22.585 [info] MultiBranchIndexJob dispose
+2025-07-26 19:59:22.585 [info] Aborting multi-branch indexing job.
+2025-07-26 19:59:22.588 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:04:22.585 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:04:22.586 [info] MultiBranchIndexJob dispose
+2025-07-26 20:04:22.586 [info] Aborting multi-branch indexing job.
+2025-07-26 20:04:22.588 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:09:22.585 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:09:22.585 [info] MultiBranchIndexJob dispose
+2025-07-26 20:09:22.585 [info] Aborting multi-branch indexing job.
+2025-07-26 20:09:22.586 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:14:22.586 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:14:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:14:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:14:22.589 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:19:22.587 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:19:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:19:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:19:22.590 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:24:22.587 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:24:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:24:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:24:22.589 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:29:22.586 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:29:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:29:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:29:22.589 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:34:22.587 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:34:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:34:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:34:22.590 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:39:22.587 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:39:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:39:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:39:22.589 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-07-26 20:44:22.587 [info] doUpdate: Disposing completed index job...
+2025-07-26 20:44:22.587 [info] MultiBranchIndexJob dispose
+2025-07-26 20:44:22.587 [info] Aborting multi-branch indexing job.
+2025-07-26 20:44:22.588 [error] Git indexing job failed: Error: Error creating embedding client: "/home/blx/qnotifs" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'

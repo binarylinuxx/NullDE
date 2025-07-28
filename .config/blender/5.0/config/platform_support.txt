@@ -1,0 +1,7 @@
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.26_1)/4.6 (Core Profile) Mesa 24.3.4}=SUPPORTED
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.28_1)/4.6 (Core Profile) Mesa 24.3.4}=SUPPORTED
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.30_1)/4.6 (Core Profile) Mesa 24.3.4}=SUPPORTED
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.32_1)/4.6 (Core Profile) Mesa 24.3.4}=SUPPORTED
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.32_1)/4.6 (Core Profile) Mesa 25.1.3}=SUPPORTED
+{AMD/AMD Radeon RX 7600 (radeonsi, navi33, LLVM 19.1.4, DRM 3.61, 6.12.34_1)/4.6 (Core Profile) Mesa 25.1.3}=SUPPORTED
+{Advanced Micro Devices/AMD Radeon RX 7600 (RADV NAVI33)/radv Mesa 25.1.3}=SUPPORTED
