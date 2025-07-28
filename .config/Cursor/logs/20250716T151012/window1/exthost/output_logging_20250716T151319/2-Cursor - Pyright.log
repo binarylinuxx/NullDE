@@ -1,6 +1,0 @@
-[Info  - 12:13:48.816] [pylance import] No remote authority found, skipping remote settings migration
-[Info  - 12:13:48.857] failed to find pyright executable, falling back to bundled:
-basedpyright-langserver
-[Info  - 12:13:48.857] using bundled pyright
-[Info  - 12:13:48.857] running node with args: --max-old-space-size=16384
-[Info  - 12:13:48.857] using default node executable

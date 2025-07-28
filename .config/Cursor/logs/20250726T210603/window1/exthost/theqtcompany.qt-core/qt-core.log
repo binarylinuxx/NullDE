@@ -1,6 +1,0 @@
-2025-07-26 21:06:29.434 [info] [extension] Activating theqtcompany.qt-core
-2025-07-26 21:06:29.434 [info] [project] Creating project:"/home/blx/.config/quickshell"
-2025-07-26 21:06:29.434 [info] [vcpkg] vcpkg is not installed
-2025-07-26 21:06:29.434 [info] [project] Setting Qt installation root for /home/blx/.config/quickshell to: 
-2025-07-26 21:06:29.434 [info] [project] Setting additional Qt paths for /home/blx/.config/quickshell to: 
-2025-07-26 21:06:29.434 [info] [project] Config values initialized for:/home/blx/.config/quickshell

@@ -1,6 +1,0 @@
-README.md
-CMakeLists.txt
-.gitignore
-hot_reload.h
-cppwal.cpp
-install.sh
