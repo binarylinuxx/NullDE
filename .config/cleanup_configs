@@ -7,7 +7,7 @@ if [[ "$(basename $(pwd))" != ".config" ]]; then
 fi
 
 # List of folders to keep
-keep=("gtk-3.0" "gtk-4.0" "matugen" "cached" "hypr" "wlogout" "fastfetch" "eww" "rofi" "alacritty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
+keep=("gtk-3.0" "gtk-4.0" "matugen" "cached" "hypr" "wlogout" "fastfetch" "eww" "rofi" "kitty" "fish" "btop" "nvim" "eww" "swaync" "foot" "fuzzel" "wallust")
 
 deleted_count=0
 # Loop through all files and directories (excluding . and ..)
