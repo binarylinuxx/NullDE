@@ -1,5 +1,5 @@
 # Attention 
-project renamed and migrated to codeberg under new Name [Blx Shell](https://codeberg.org/blx/blx-shell.git)
+project renamed and won't be updated there anymore and migrated to codeberg under new Name [Blx Shell](https://codeberg.org/blx/blx-shell.git)
 
 # NullDE
 Minimal but useful Hypr-Environment.
