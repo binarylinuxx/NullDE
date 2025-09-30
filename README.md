@@ -1,3 +1,6 @@
+# Attention 
+project renamed and migrated to codeberg under new Name [Blx Shell](https://codeberg.org/blx/blx-shell.git)
+
 # NullDE
 Minimal but useful Hypr-Environment.
 NullDE is hardworked and well done by one person - myself.
